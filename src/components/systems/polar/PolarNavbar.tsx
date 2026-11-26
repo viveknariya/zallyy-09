@@ -8,7 +8,8 @@ const navLinks = [
   { href: "/design-systems", label: "All Systems" },
   { href: "/design-systems/polar/dashboard", label: "Dashboard" },
   { href: "/design-systems/polar/finance", label: "Finance" },
-  { href: "/design-systems/polar/onboarding", label: "Onboarding" },
+  { href: "/design-systems/polar/integrate", label: "Integrate" },
+  { href: "/design-systems/polar/settings", label: "Settings" },
   { href: "/design-systems/polar/components", label: "Components" },
 ];
 

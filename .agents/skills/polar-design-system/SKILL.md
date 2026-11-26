@@ -45,7 +45,7 @@ This skill governs all UI work under `/design-systems/polar` (`data-design-syste
 ## 4. Component Inventory (`src/components/systems/polar/`)
 
 - **Layout**: `PolarNavbar` (`"use client"`), `PolarFooter` (Server-safe)
-- **Sections**: `PolarHero` (Server-safe), `PolarFinance` (Server-safe), `PolarDashboard` (`"use client"`), `PolarAuthModal` (`"use client"`), `PolarComponentsShowcase` (`"use client"`)
+- **Sections**: `PolarHero` (Server-safe), `PolarFinance` (Server-safe), `PolarIntegration` (Server-safe), `PolarDashboard` (`"use client"`), `PolarSettings` (`"use client"`), `PolarAuthModal` (`"use client"`, `mode="login" | "signup"`), `PolarComponentsShowcase` (`"use client"`)
 
 ---
 

@@ -1,35 +1,45 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
+interface PolarAuthModalProps {
+  mode?: "login" | "signup";
+}
+
 /**
- * Polar dark obsidian OAuth + email sign-in card modeled after polar.sh/ login modal.
+ * Polar dark obsidian OAuth + email sign-in / sign-up card.
  */
-export function PolarAuthModal() {
+export function PolarAuthModal({ mode = "login" }: PolarAuthModalProps) {
   const [sent, setSent] = useState(false);
+  const isSignUp = mode === "signup";
 
   return (
     <section className="flex-1 bg-[#0A0A0B] py-20 px-6 text-white">
       <div className="mx-auto max-w-md rounded-2xl border border-[#27272A] bg-[#111113] p-8 space-y-6">
         <div className="flex items-center justify-between">
-          <span className="text-xs text-[#71717A]">Sign in</span>
+          <span className="text-xs text-[#71717A]">
+            {isSignUp ? "Create account" : "Sign in"}
+          </span>
           <span className="h-2 w-2 rounded-full bg-[#0062FF]" />
         </div>
 
-        <h1 className="text-2xl font-semibold tracking-tight">Sign in</h1>
+        <h1 className="text-2xl font-semibold tracking-tight">
+          {isSignUp ? "Get started with Polar" : "Sign in"}
+        </h1>
 
         <div className="space-y-2.5">
           <button
             type="button"
             className="w-full rounded-full bg-white py-2.5 text-sm font-medium text-black hover:bg-neutral-200 transition-colors cursor-pointer"
           >
-            Sign in with GitHub
+            {isSignUp ? "Continue with GitHub" : "Sign in with GitHub"}
           </button>
           <button
             type="button"
             className="w-full rounded-full border border-[#27272A] bg-[#18181B] py-2.5 text-sm font-medium text-white hover:bg-[#27272A] transition-colors cursor-pointer"
           >
-            Sign in with Google
+            {isSignUp ? "Continue with Google" : "Sign in with Google"}
           </button>
         </div>
 
@@ -61,13 +71,23 @@ export function PolarAuthModal() {
               type="submit"
               className="w-full rounded-full border border-[#27272A] bg-[#18181B] py-2.5 text-sm font-medium text-white hover:bg-[#27272A] transition-colors cursor-pointer"
             >
-              Sign in with email
+              {isSignUp ? "Sign up with email" : "Sign in with email"}
             </button>
           </form>
         )}
 
         <p className="text-center text-[11px] leading-relaxed text-[#71717A]">
-          By using Polar, you agree to our Terms of Service &amp; Privacy Policy.
+          {isSignUp ? "Already have an account? " : "New to Polar? "}
+          <Link
+            href={
+              isSignUp
+                ? "/design-systems/polar/login"
+                : "/design-systems/polar/signup"
+            }
+            className="text-white underline"
+          >
+            {isSignUp ? "Sign in" : "Create an account"}
+          </Link>
         </p>
       </div>
     </section>

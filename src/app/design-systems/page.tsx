@@ -133,7 +133,7 @@ export default function DesignSystemsIndexPage() {
                 </p>
               </div>
               <div className="mt-8 pt-4 border-t border-border flex items-center justify-between">
-                <span className="font-mono text-xs text-muted">6 routes</span>
+                <span className="font-mono text-xs text-muted">11 routes</span>
                 <Button href="/design-systems/polar" variant="primary" size="sm">
                   Explore <ArrowRight className="h-3.5 w-3.5" />
                 </Button>
