@@ -14,8 +14,9 @@ export interface SkillDocFile {
   id: "skill" | "by-class" | "by-component";
   label: string;
   filename: string;
-  raw: string;
-  blocks: MarkdownBlock[];
+  lineCount: number;
+  summary: string;
+  topics: string[];
 }
 
 export interface LoadedSkillDocs {
@@ -26,6 +27,23 @@ export interface LoadedSkillDocs {
 }
 
 const ALLOWED_SKILL_PATTERN = /^[a-z0-9-]+$/;
+
+const DEFAULT_SUMMARIES: Record<SkillDocFile["id"], string> = {
+  skill:
+    "Core design principles, scoped CSS variables, component inventory, route checklist, and visual screen references.",
+  "by-class":
+    "Token-to-component lookup rules specifying allowed and forbidden Tailwind classes for radii, surfaces, borders, and type.",
+  "by-component":
+    "Exact Tailwind class recipes, color states, and Do/Don't guardrails across all 23 standard UI components.",
+};
+
+function stripMarkdownSyntax(text: string): string {
+  return text
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/`([^`]+)`/g, "$1")
+    .replace(/\*\*([^*]+)\*\*/g, "$1")
+    .trim();
+}
 
 function parseFrontmatter(raw: string): {
   name?: string;
@@ -106,7 +124,6 @@ export function parseMarkdownBlocks(markdown: string): MarkdownBlock[] {
       continue;
     }
 
-    // Fenced code block
     if (trimmed.startsWith("```")) {
       const lang = trimmed.slice(3).trim();
       const codeLines: string[] = [];
@@ -115,19 +132,17 @@ export function parseMarkdownBlocks(markdown: string): MarkdownBlock[] {
         codeLines.push(lines[i]);
         i += 1;
       }
-      i += 1; // skip closing fence
+      i += 1;
       blocks.push({ type: "code", lang, code: codeLines.join("\n") });
       continue;
     }
 
-    // Horizontal rule
     if (/^(-{3,}|\*{3,}|_{3,})$/.test(trimmed)) {
       blocks.push({ type: "hr" });
       i += 1;
       continue;
     }
 
-    // Headings
     const headingMatch = trimmed.match(/^(#{1,4})\s+(.+)$/);
     if (headingMatch) {
       blocks.push({
@@ -139,7 +154,6 @@ export function parseMarkdownBlocks(markdown: string): MarkdownBlock[] {
       continue;
     }
 
-    // GFM Table
     if (
       trimmed.includes("|") &&
       i + 1 < lines.length &&
@@ -147,7 +161,7 @@ export function parseMarkdownBlocks(markdown: string): MarkdownBlock[] {
     ) {
       const headers = splitTableRow(trimmed);
       const rows: string[][] = [];
-      i += 2; // skip header & separator
+      i += 2;
       while (i < lines.length && lines[i].trim().includes("|")) {
         rows.push(splitTableRow(lines[i]));
         i += 1;
@@ -156,7 +170,6 @@ export function parseMarkdownBlocks(markdown: string): MarkdownBlock[] {
       continue;
     }
 
-    // Blockquote
     if (trimmed.startsWith(">")) {
       const quoteLines: string[] = [];
       while (i < lines.length && lines[i].trim().startsWith(">")) {
@@ -167,7 +180,6 @@ export function parseMarkdownBlocks(markdown: string): MarkdownBlock[] {
       continue;
     }
 
-    // Ordered or unordered list
     const isUnordered = /^[-*]\s+/.test(trimmed);
     const isOrdered = /^\d+\.\s+/.test(trimmed);
     if (isUnordered || isOrdered) {
@@ -180,7 +192,12 @@ export function parseMarkdownBlocks(markdown: string): MarkdownBlock[] {
         } else if (isOrdered && /^\d+\.\s+/.test(current)) {
           items.push(current.replace(/^\d+\.\s+/, ""));
           i += 1;
-        } else if (current && !/^(#{1,4}\s|```|---|\|)/.test(current) && items.length > 0 && /^\s{2,}/.test(lines[i])) {
+        } else if (
+          current &&
+          !/^(#{1,4}\s|```|---|\|)/.test(current) &&
+          items.length > 0 &&
+          /^\s{2,}/.test(lines[i])
+        ) {
           items[items.length - 1] += ` ${current}`;
           i += 1;
         } else {
@@ -191,7 +208,6 @@ export function parseMarkdownBlocks(markdown: string): MarkdownBlock[] {
       continue;
     }
 
-    // Paragraph
     const paraLines: string[] = [];
     while (i < lines.length) {
       const current = lines[i].trim();
@@ -220,8 +236,42 @@ export function parseMarkdownBlocks(markdown: string): MarkdownBlock[] {
   return blocks;
 }
 
+function buildFileBrief(
+  id: SkillDocFile["id"],
+  markdownBody: string,
+  raw: string
+): { lineCount: number; summary: string; topics: string[] } {
+  const blocks = parseMarkdownBlocks(markdownBody);
+  const lineCount = raw.split(/\r?\n/).length;
+
+  const h2Topics = blocks
+    .filter((b): b is Extract<MarkdownBlock, { type: "heading" }> => b.type === "heading" && b.level === 2)
+    .map((b) => stripMarkdownSyntax(b.text));
+
+  let topics = h2Topics;
+  if (topics.length === 0) {
+    const firstTable = blocks.find(
+      (b): b is Extract<MarkdownBlock, { type: "table" }> => b.type === "table"
+    );
+    if (firstTable) {
+      topics = firstTable.rows
+        .map((row) => stripMarkdownSyntax(row[0] ?? ""))
+        .filter(Boolean);
+    }
+  }
+
+  const firstPara = blocks.find(
+    (b): b is Extract<MarkdownBlock, { type: "paragraph" }> => b.type === "paragraph"
+  );
+  const summary = firstPara
+    ? stripMarkdownSyntax(firstPara.text)
+    : DEFAULT_SUMMARIES[id];
+
+  return { lineCount, summary, topics };
+}
+
 /**
- * Loads SKILL.md and reference guides for a design skill directory at build time.
+ * Loads concise file briefs for SKILL.md and reference guides at build time.
  */
 export function loadSkillDocs(skillId: string): LoadedSkillDocs | null {
   if (!ALLOWED_SKILL_PATTERN.test(skillId)) {
@@ -243,8 +293,7 @@ export function loadSkillDocs(skillId: string): LoadedSkillDocs | null {
       id: "skill",
       label: "SKILL.md",
       filename: "SKILL.md",
-      raw: skillRaw,
-      blocks: parseMarkdownBlocks(body),
+      ...buildFileBrief("skill", body, skillRaw),
     },
   ];
 
@@ -269,8 +318,7 @@ export function loadSkillDocs(skillId: string): LoadedSkillDocs | null {
         id: ref.id,
         label: ref.label,
         filename: ref.relPath,
-        raw,
-        blocks: parseMarkdownBlocks(raw),
+        ...buildFileBrief(ref.id, raw, raw),
       });
     }
   }

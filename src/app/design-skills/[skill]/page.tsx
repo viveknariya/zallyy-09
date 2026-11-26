@@ -121,10 +121,10 @@ async function SkillDetailContent({
         </div>
       </section>
 
-      {/* Interactive Skill Documentation Tabs */}
+      {/* Skill File Briefs */}
       <section className="bg-background py-16">
         <div className="mx-auto max-w-6xl px-6">
-          <SkillDocViewer files={docs.files} />
+          <SkillDocViewer skillId={skill.id} files={docs.files} />
         </div>
       </section>
     </>
