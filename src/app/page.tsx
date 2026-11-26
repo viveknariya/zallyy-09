@@ -1,4 +1,4 @@
-import { ArrowRight, Layers, Sparkles, Terminal } from "lucide-react";
+import { ArrowRight, Layers, Search, Workflow } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import {
@@ -25,24 +25,30 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
 };
 
-const ARCHITECTURE_PILLARS = [
+const FEATURED_BLOGS = [
   {
-    num: "01",
-    title: "Scoped CSS Tokens",
-    body: "Every design system mounts its own [data-design-system] palette and font scale in globals.css without leaking across routes.",
+    href: "/blogs/how-to-clone-site-using-antigravity-and-uxpilot",
+    category: "Workflow",
+    title: "How to Clone Any Website Using Antigravity & UXpilot",
+    excerpt:
+      "Turn client requirements into a visual PDF contract, then prompt Antigravity to build production code in minutes.",
+    icon: Workflow,
+  },
+  {
+    href: "/blogs/zero-upfront-software-development",
+    category: "Engineering Model",
+    title: "Why We Build Custom Software Before You Pay a Single Dollar",
+    excerpt:
+      "How the zero-upfront, pay-when-live engineering model aligns incentives and ships products on live staging sandboxes.",
     icon: Layers,
   },
   {
-    num: "02",
-    title: "Component-First UI Kits",
-    body: "Each brand ships typed Server and Client primitives, interactive playgrounds, and full App Router route coverage.",
-    icon: Sparkles,
-  },
-  {
-    num: "03",
-    title: "Portable Design Skills",
-    body: "Every system includes a SKILL.md plus bidirectional by-class and by-component reference guides hosted on GitHub.",
-    icon: Terminal,
+    href: "/blogs/how-to-do-seo-with-codex-and-agentic-seo-skill",
+    category: "SEO & Auditing",
+    title: "Trustworthy SEO Audits with Codex & Agentic Skills",
+    excerpt:
+      "Replace vague AI SEO advice with deterministic evidence checks, schema verification, and automated crawler reporting.",
+    icon: Search,
   },
 ];
 
@@ -70,14 +76,6 @@ export default function HomePage() {
                 <span className="font-mono text-sm text-foreground">SKILL.md</span>{" "}
                 agent specs.
               </p>
-              <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-                <Button href="/design-systems" variant="accent" size="lg">
-                  Browse Design Systems <ArrowRight className="h-4 w-4" />
-                </Button>
-                <Button href="/design-skills" variant="outline" size="lg">
-                  Explore Design Skills
-                </Button>
-              </div>
             </div>
           </div>
         </section>
@@ -138,35 +136,67 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* Architecture Overview */}
-        <section className="bg-surface py-20">
+        {/* Featured Blogs */}
+        <section id="blogs" className="bg-surface py-20">
           <div className="mx-auto max-w-6xl px-6">
-            <div>
-              <Badge tone="neutral">Architecture</Badge>
-              <h2 className="mt-4 font-display text-3xl font-normal tracking-tight text-foreground sm:text-4xl">
-                Built for Humans &amp; Coding Agents
-              </h2>
+            <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
+              <div>
+                <h2 className="font-display text-3xl font-normal tracking-tight text-foreground sm:text-4xl">
+                  Featured Blogs
+                </h2>
+                <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted">
+                  Concise engineering dispatches on autonomous workflows, live staging delivery, and deterministic SEO audits.
+                </p>
+              </div>
+              <Link
+                href="/blogs"
+                className="shrink-0 text-xs font-semibold uppercase tracking-[0.12em] text-foreground underline underline-offset-4 hover:text-accent-strong transition-colors"
+              >
+                View All
+              </Link>
             </div>
 
-            <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
-              {ARCHITECTURE_PILLARS.map((pillar) => {
-                const Icon = pillar.icon;
+            <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+              {FEATURED_BLOGS.map((blog) => {
+                const Icon = blog.icon;
                 return (
-                  <Card key={pillar.num} variant="subtle" className="bg-background">
-                    <div className="flex items-center justify-between">
-                      <div className="flex h-10 w-10 items-center justify-center rounded-full bg-accent text-foreground">
-                        <Icon className="h-5 w-5" />
+                  <Card
+                    key={blog.href}
+                    variant="bordered"
+                    className="bg-background flex flex-col justify-between"
+                  >
+                    <div>
+                      <div className="flex items-center justify-between gap-3">
+                        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-accent text-foreground">
+                          <Icon className="h-5 w-5" />
+                        </div>
+                        <Badge tone="accent">{blog.category}</Badge>
                       </div>
-                      <span className="font-display text-2xl font-light text-muted">
-                        {pillar.num}
-                      </span>
+                      <h3 className="mt-6 font-display text-2xl font-normal text-foreground">
+                        <Link
+                          href={blog.href}
+                          className="hover:text-accent-strong transition-colors"
+                        >
+                          {blog.title}
+                        </Link>
+                      </h3>
+                      <p className="mt-2 text-sm leading-relaxed text-muted">
+                        {blog.excerpt}
+                      </p>
                     </div>
-                    <h3 className="mt-6 font-display text-xl font-medium text-foreground">
-                      {pillar.title}
-                    </h3>
-                    <p className="mt-2 text-sm leading-relaxed text-muted">
-                      {pillar.body}
-                    </p>
+                    <div className="mt-8 pt-4 border-t border-border flex items-center justify-between gap-3">
+                      <span className="font-mono text-xs text-muted truncate">
+                        {blog.href}
+                      </span>
+                      <Button
+                        href={blog.href}
+                        variant="primary"
+                        size="sm"
+                        className="shrink-0"
+                      >
+                        Open <ArrowRight className="h-3.5 w-3.5" />
+                      </Button>
+                    </div>
                   </Card>
                 );
               })}

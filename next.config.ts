@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const legacyTildaRoutes = [
+  { source: "/blog", destination: "/blogs" },
+  { source: "/blog/:slug", destination: "/blogs/:slug" },
   { source: "/design-system", destination: "/design-systems/tilda/components" },
   { source: "/colors", destination: "/design-systems/tilda/colors" },
   { source: "/pricing", destination: "/design-systems/tilda/pricing" },

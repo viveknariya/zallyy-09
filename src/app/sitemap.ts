@@ -4,6 +4,16 @@ import { SITE_URL } from "@/lib/site";
 
 const staticRoutes = [
   { path: "/", priority: 1.0 },
+  { path: "/blogs", priority: 0.9 },
+  {
+    path: "/blogs/how-to-clone-site-using-antigravity-and-uxpilot",
+    priority: 0.8,
+  },
+  { path: "/blogs/zero-upfront-software-development", priority: 0.8 },
+  {
+    path: "/blogs/how-to-do-seo-with-codex-and-agentic-seo-skill",
+    priority: 0.8,
+  },
   { path: "/design-systems", priority: 0.9 },
   { path: "/design-skills", priority: 0.9 },
   ...DIRECTORY_SKILLS.map((skill) => ({

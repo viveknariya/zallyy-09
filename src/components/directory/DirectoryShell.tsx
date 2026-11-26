@@ -67,6 +67,12 @@ export function DirectoryHeader() {
           >
             Skills
           </Link>
+          <Link
+            href="/blogs"
+            className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground/80 hover:text-foreground transition-colors"
+          >
+            Blogs
+          </Link>
           <a
             href={REPO_URL}
             target="_blank"
@@ -90,7 +96,7 @@ export function DirectoryFooter({ variant = "surface" }: { variant?: "surface" |
   return (
     <footer className={`mt-auto border-t border-border ${bgClass}`}>
       <div className="mx-auto max-w-6xl px-6 py-14">
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-4">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-5">
           <div>
             <Link
               href="/"
@@ -153,6 +159,46 @@ export function DirectoryFooter({ variant = "surface" }: { variant?: "surface" |
                   </Link>
                 </li>
               ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground">
+              Blogs
+            </h3>
+            <ul className="mt-4 space-y-2.5">
+              <li>
+                <Link
+                  href="/blogs"
+                  className="text-sm font-medium text-foreground hover:text-accent-strong transition-colors"
+                >
+                  All Articles
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/blogs/how-to-clone-site-using-antigravity-and-uxpilot"
+                  className="text-sm text-muted hover:text-foreground transition-colors"
+                >
+                  Clone Sites with Antigravity &amp; UXpilot
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/blogs/zero-upfront-software-development"
+                  className="text-sm text-muted hover:text-foreground transition-colors"
+                >
+                  Zero-Upfront Engineering Model
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/blogs/how-to-do-seo-with-codex-and-agentic-seo-skill"
+                  className="text-sm text-muted hover:text-foreground transition-colors"
+                >
+                  SEO Audits with Codex Skills
+                </Link>
+              </li>
             </ul>
           </div>
 
