@@ -1,0 +1,1595 @@
+{
+  "total": 50,
+  "fonts": [
+    "Arial",
+    "Futura PT",
+    "Georgia",
+    "Helvetica",
+    "Helvetica Neue",
+    "None",
+    "Roboto",
+    "Tilda Sans"
+  ],
+  "top_colors": [
+    [
+      "#F3F3F3",
+      8
+    ],
+    [
+      "#747474",
+      7
+    ],
+    [
+      "#7C7C7C",
+      5
+    ],
+    [
+      "#EFEFEF",
+      4
+    ],
+    [
+      "#6C6C6C",
+      4
+    ],
+    [
+      "#F4F4F4",
+      4
+    ],
+    [
+      "#2B2B2B",
+      3
+    ],
+    [
+      "#EA977D",
+      3
+    ],
+    [
+      "#EEAE83",
+      3
+    ],
+    [
+      "#ECECEC",
+      3
+    ],
+    [
+      "#141414",
+      3
+    ],
+    [
+      "#8E8E8E",
+      2
+    ],
+    [
+      "#1B1B1B",
+      2
+    ],
+    [
+      "#EDAC83",
+      2
+    ],
+    [
+      "#CC7F5B",
+      2
+    ],
+    [
+      "#FB8565",
+      2
+    ],
+    [
+      "#050505",
+      2
+    ],
+    [
+      "#1A1A1A",
+      2
+    ],
+    [
+      "#F4F4F3",
+      2
+    ],
+    [
+      "#040404",
+      2
+    ],
+    [
+      "#BB5449",
+      1
+    ],
+    [
+      "#E99C7A",
+      1
+    ],
+    [
+      "#131313",
+      1
+    ],
+    [
+      "#C06553",
+      1
+    ],
+    [
+      "#333333",
+      1
+    ]
+  ],
+  "screens": [
+    {
+      "uuid": "1a30ae73-0cf0-4d3d-b708-02fd6b438366",
+      "page_url": "https://answers.tilda.cc/en/#2",
+      "page_types": [],
+      "hex_colors": [
+        "0x2B2B2B",
+        "0xEFEFEF",
+        "0x747474",
+        "0x8E8E8E",
+        "0x6C6C6C"
+      ],
+      "fonts": [
+        "Roboto",
+        "Tilda Sans"
+      ],
+      "ui_elements": [
+        "Dropdown",
+        "Navigation Bar",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Footer",
+        "Icon"
+      ],
+      "ux_patterns": [
+        "FAQ"
+      ],
+      "refero_url": "https://refero.design/pages/1a30ae73-0cf0-4d3d-b708-02fd6b438366",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/50e22fb5-080e-463c-9715-cc8a68cca8d8_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-1a30ae73.jpg"
+    },
+    {
+      "uuid": "2e65a543-a567-4805-90ef-80da484a9c37",
+      "page_url": "https://tilda.cc/page/?pageid=31142752",
+      "page_types": [
+        "Settings"
+      ],
+      "hex_colors": [
+        "0xBB5449",
+        "0xE99C7A",
+        "0x131313",
+        "0xF4F4F4",
+        "0xC06553"
+      ],
+      "fonts": [
+        null,
+        "Helvetica Neue",
+        "Helvetica",
+        "Arial",
+        "Roboto",
+        "Futura PT",
+        "Georgia"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Checkbox & Radio",
+        "Text Field",
+        "Dialog & Modal Window",
+        "Gradient"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/2e65a543-a567-4805-90ef-80da484a9c37",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/17be3d15-dfac-4c53-839a-c044720c45ad_preview.jpg",
+      "local_image": "design-references/tilda/images/settings-2e65a543.jpg"
+    },
+    {
+      "uuid": "3a85b154-40d6-4c99-a4fa-6bcdabf7904d",
+      "page_url": "https://answers.tilda.cc/en/",
+      "page_types": [],
+      "hex_colors": [
+        "0x2B2B2B",
+        "0xEFEFEF",
+        "0x747474",
+        "0x8E8E8E",
+        "0x6C6C6C"
+      ],
+      "fonts": [
+        "Roboto",
+        "Tilda Sans"
+      ],
+      "ui_elements": [
+        "List",
+        "Dropdown",
+        "Navigation Bar",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Footer",
+        "Icon"
+      ],
+      "ux_patterns": [
+        "FAQ"
+      ],
+      "refero_url": "https://refero.design/pages/3a85b154-40d6-4c99-a4fa-6bcdabf7904d",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/547d93dd-6232-4eda-befd-b87b084eef1b_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-3a85b154.jpg"
+    },
+    {
+      "uuid": "5262cf26-bce0-4666-9664-57f5a0f90795",
+      "page_url": "https://help.tilda.cc/#developers",
+      "page_types": [
+        "Support & Help"
+      ],
+      "hex_colors": [
+        "0xEFEFEF",
+        "0x0C0C0C",
+        "0xFB8563",
+        "0x1A2AA3",
+        "0x8B8D90"
+      ],
+      "fonts": [
+        "Arial",
+        "Tilda Sans"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Search Field",
+        "Footer",
+        "Icon",
+        "Illustration",
+        "Hero Image",
+        "Thumbnail"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/5262cf26-bce0-4666-9664-57f5a0f90795",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/25c41e77-c331-4def-9f46-774249c6f285_preview.jpg",
+      "local_image": "design-references/tilda/images/support-help-5262cf26.jpg"
+    },
+    {
+      "uuid": "5a591188-3b1c-463c-b964-8ce10438d3d3",
+      "page_url": "https://tilda.cc/login/recover/",
+      "page_types": [
+        "Reset Password"
+      ],
+      "hex_colors": [
+        "0xF7F7F6",
+        "0xF46C54",
+        "0xF38F62",
+        "0x282A2F",
+        "0xF47754"
+      ],
+      "fonts": [
+        null,
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Gradient"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/5a591188-3b1c-463c-b964-8ce10438d3d3",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/f5d2b908-bd2d-4085-b3c8-0b20630fbf36_preview.jpg",
+      "local_image": "design-references/tilda/images/reset-password-5a591188.jpg"
+    },
+    {
+      "uuid": "5a619eed-ebb0-430d-aaa9-40fc76c473fe",
+      "page_url": "https://members.tilda.cc/5779709/#/groups/523117",
+      "page_types": [
+        "Settings"
+      ],
+      "hex_colors": [
+        "0xEA977D",
+        "0xF3F3F3",
+        "0x2D2D2D",
+        "0xEEAE83",
+        "0xBE816B"
+      ],
+      "fonts": [
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Table",
+        "Button",
+        "Dropdown",
+        "Checkbox & Radio",
+        "Text Field",
+        "Dialog & Modal Window",
+        "Icon",
+        "Avatar",
+        "Gradient"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/5a619eed-ebb0-430d-aaa9-40fc76c473fe",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/67f0f4bd-bd5c-4e29-a106-44711cca57d8_preview.jpg",
+      "local_image": "design-references/tilda/images/settings-5a619eed.jpg"
+    },
+    {
+      "uuid": "6eca3b68-cb52-4ad6-8257-e2d79daf40d0",
+      "page_url": "https://tilda.cc/login/",
+      "page_types": [
+        "Log In"
+      ],
+      "hex_colors": [
+        "0xF48454",
+        "0xF37654",
+        "0xF49064",
+        "0xFBEBCA",
+        "0xF26C52"
+      ],
+      "fonts": [
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Gradient"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/6eca3b68-cb52-4ad6-8257-e2d79daf40d0",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/b9c6ccfa-5da6-4edd-a825-6857accaa8d3_preview.jpg",
+      "local_image": "design-references/tilda/images/log-in-6eca3b68.jpg"
+    },
+    {
+      "uuid": "c341ad72-b030-4c8f-8225-1aa066ccef00",
+      "page_url": "https://tilda.cc/identity/plan/",
+      "page_types": [],
+      "hex_colors": [
+        "0xEDECEA",
+        "0xF98662",
+        "0xC49487",
+        "0x585858",
+        "0x7C7C7C"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Floating Button",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Currency"
+      ],
+      "ux_patterns": [
+        "FAQ",
+        "Trial & Freemium",
+        "Billing & Plans"
+      ],
+      "refero_url": "https://refero.design/pages/c341ad72-b030-4c8f-8225-1aa066ccef00",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/3b947fa2-bff1-4154-ab50-f7dce20aa5f3_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-c341ad72.jpg"
+    },
+    {
+      "uuid": "c9a50aee-9b89-4f03-bc7f-8835f0902472",
+      "page_url": "https://answers.tilda.cc/en/a/many-domains-en",
+      "page_types": [],
+      "hex_colors": [
+        "0x242424",
+        "0xEFEFEF",
+        "0x909090",
+        "0x747474",
+        "0x6C6C6C"
+      ],
+      "fonts": [
+        "Roboto",
+        "Tilda Sans"
+      ],
+      "ui_elements": [
+        "Dropdown",
+        "Breadcrumb",
+        "Navigation Bar",
+        "Search Field",
+        "Footer",
+        "Icon"
+      ],
+      "ux_patterns": [
+        "FAQ",
+        "Like & Reactions",
+        "Article & Text"
+      ],
+      "refero_url": "https://refero.design/pages/c9a50aee-9b89-4f03-bc7f-8835f0902472",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/b270737f-5a24-40a4-824c-faa0e9bd28e1_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-c9a50aee.jpg"
+    },
+    {
+      "uuid": "de9d1f32-6c4b-4569-a7df-daf7654c910a",
+      "page_url": "https://crm.tilda.cc/contacts/",
+      "page_types": [
+        "Contacts"
+      ],
+      "hex_colors": [
+        "0xEB957B",
+        "0xF4F4F3",
+        "0x1B1B1B",
+        "0xEDAC83",
+        "0xCC7F5B"
+      ],
+      "fonts": [
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dialog & Modal Window",
+        "Gradient"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/de9d1f32-6c4b-4569-a7df-daf7654c910a",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/c2b5c179-4ec6-4fb4-920f-494f2f473a33_preview.jpg",
+      "local_image": "design-references/tilda/images/contacts-de9d1f32.jpg"
+    },
+    {
+      "uuid": "04c616ea-2238-4880-b5fc-62cec131c461",
+      "page_url": "https://tilda.cc/projects/projecttransfer/?projectid=5779709",
+      "page_types": [
+        "Settings"
+      ],
+      "hex_colors": [
+        "0x060606",
+        "0xFB8565",
+        "0x949698",
+        "0xE59C8C",
+        "0xB9403F"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Floating Button",
+        "Text Field",
+        "Breadcrumb",
+        "Navigation Bar"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/04c616ea-2238-4880-b5fc-62cec131c461",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/f6f4ecae-779c-48dd-9e00-9dad4e3aa963_preview.jpg",
+      "local_image": "design-references/tilda/images/settings-04c616ea.jpg"
+    },
+    {
+      "uuid": "192b92b4-30f0-4e73-a6cd-f07ed66bd534",
+      "page_url": "https://crm.tilda.cc/lists/?listid=5153110953",
+      "page_types": [],
+      "hex_colors": [
+        "0x202020",
+        "0xE99279",
+        "0xF4F4F4",
+        "0xEBA77E",
+        "0xCC7F5B"
+      ],
+      "fonts": [
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Checkbox & Radio",
+        "Dialog & Modal Window",
+        "Gradient"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/192b92b4-30f0-4e73-a6cd-f07ed66bd534",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/523657d7-e12e-45f2-b990-e9691749d720_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-192b92b4.jpg"
+    },
+    {
+      "uuid": "29d6d854-aaf9-42d3-967f-8bc5701a742b",
+      "page_url": "https://members.tilda.cc/5779709/#/groups/523117",
+      "page_types": [
+        "Settings"
+      ],
+      "hex_colors": [
+        "0xEA967D",
+        "0xF3F3F3",
+        "0x1D1C1D",
+        "0xEEAE83",
+        "0xD18F64"
+      ],
+      "fonts": [
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Checkbox & Radio",
+        "Dialog & Modal Window",
+        "Gradient"
+      ],
+      "ux_patterns": [
+        "Upload & Download"
+      ],
+      "refero_url": "https://refero.design/pages/29d6d854-aaf9-42d3-967f-8bc5701a742b",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/678a666c-282e-4f5f-9f77-4851fbd3f8e6_preview.jpg",
+      "local_image": "design-references/tilda/images/settings-29d6d854.jpg"
+    },
+    {
+      "uuid": "577bed50-ab95-4883-8c45-f1c9443b576a",
+      "page_url": "https://members.tilda.cc/5779709/#/",
+      "page_types": [],
+      "hex_colors": [
+        "0xEA977D",
+        "0xF4F3F4",
+        "0x2B2B2B",
+        "0xDB4364",
+        "0xEDAE83"
+      ],
+      "fonts": [
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Checkbox & Radio",
+        "Text Field",
+        "Dialog & Modal Window",
+        "Gradient"
+      ],
+      "ux_patterns": [
+        "Error"
+      ],
+      "refero_url": "https://refero.design/pages/577bed50-ab95-4883-8c45-f1c9443b576a",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/8b73237a-2970-498d-b53d-bff364935b83_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-577bed50.jpg"
+    },
+    {
+      "uuid": "7f8475dd-809d-4e2a-b172-3a2fd686435c",
+      "page_url": "https://tilda.cc/registration/",
+      "page_types": [
+        "Sign Up"
+      ],
+      "hex_colors": [
+        "0xD9DCDF",
+        "0x595048",
+        "0x0D0D0B",
+        "0x758382",
+        "0x96918C"
+      ],
+      "fonts": [
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Photo",
+        "Icon"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/7f8475dd-809d-4e2a-b172-3a2fd686435c",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/1f46c7ff-2f76-4f17-b7ee-854215e56ec9_preview.jpg",
+      "local_image": "design-references/tilda/images/sign-up-7f8475dd.jpg"
+    },
+    {
+      "uuid": "84fce133-be68-4d55-bc83-5098e314450c",
+      "page_url": "https://tilda.cc/projects/favicons/?projectid=5779709",
+      "page_types": [],
+      "hex_colors": [
+        "0x636363",
+        "0xFB8565",
+        "0xE3E2E1",
+        "0x050505",
+        "0x643C2C"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dialog & Modal Window",
+        "Icon"
+      ],
+      "ux_patterns": [
+        "Upload & Download"
+      ],
+      "refero_url": "https://refero.design/pages/84fce133-be68-4d55-bc83-5098e314450c",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/899ecd85-4ed2-4c29-bbef-496dea85a771_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-84fce133.jpg"
+    },
+    {
+      "uuid": "9c5d2e98-7957-4137-90d1-91effbaf501d",
+      "page_url": "https://tilda.cc/identity/promocode/",
+      "page_types": [],
+      "hex_colors": [
+        "0xFB0505",
+        "0xEA9079",
+        "0xEFEDEA",
+        "0x7C7C7C",
+        "0x595959"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Floating Button",
+        "Text Field",
+        "Breadcrumb",
+        "Navigation Bar"
+      ],
+      "ux_patterns": [
+        "Error",
+        "Promo Code"
+      ],
+      "refero_url": "https://refero.design/pages/9c5d2e98-7957-4137-90d1-91effbaf501d",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/b8f1d6b0-b00c-441f-aec8-be21547ffc01_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-9c5d2e98.jpg"
+    },
+    {
+      "uuid": "cee92aac-c0e2-43d5-9645-6e579201bac6",
+      "page_url": "https://members.tilda.cc/5779709/#/groups/523113",
+      "page_types": [
+        "Settings"
+      ],
+      "hex_colors": [
+        "0xEA977D",
+        "0x363636",
+        "0xF3F3F3",
+        "0xEEAE83",
+        "0x898989"
+      ],
+      "fonts": [
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Checkbox & Radio",
+        "Text Field",
+        "Dialog & Modal Window",
+        "Gradient"
+      ],
+      "ux_patterns": [
+        "Edit"
+      ],
+      "refero_url": "https://refero.design/pages/cee92aac-c0e2-43d5-9645-6e579201bac6",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/91fca291-2be3-4ce1-8bfb-3242272c4263_preview.jpg",
+      "local_image": "design-references/tilda/images/settings-cee92aac.jpg"
+    },
+    {
+      "uuid": "dcf9a636-d1d7-449f-9d7d-c8e3b61c48fb",
+      "page_url": "https://crm.tilda.cc/lists/?listid=5153110953",
+      "page_types": [],
+      "hex_colors": [
+        "0x1B1B1B",
+        "0xEB947B",
+        "0xF4F3F3",
+        "0xEDAC83",
+        "0xCC805B"
+      ],
+      "fonts": [
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dialog & Modal Window",
+        "Icon",
+        "Gradient"
+      ],
+      "ux_patterns": [
+        "Success"
+      ],
+      "refero_url": "https://refero.design/pages/dcf9a636-d1d7-449f-9d7d-c8e3b61c48fb",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/177c027e-ba31-4d04-b448-ea8865d3d2e2_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-dcf9a636.jpg"
+    },
+    {
+      "uuid": "e6db411d-a306-49e1-888d-3704c990e54a",
+      "page_url": "https://crm.tilda.cc/lists/?listid=8704946373&tab=3",
+      "page_types": [],
+      "hex_colors": [
+        "0xECECEC",
+        "0xEA8C6C",
+        "0x1A1A1A",
+        "0xEDAA84",
+        "0xECA576"
+      ],
+      "fonts": [
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Checkbox & Radio",
+        "Text Field",
+        "Dialog & Modal Window",
+        "Gradient"
+      ],
+      "ux_patterns": [
+        "Edit"
+      ],
+      "refero_url": "https://refero.design/pages/e6db411d-a306-49e1-888d-3704c990e54a",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/c502814d-421d-4dd5-a6ac-d69b206b6883_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-e6db411d.jpg"
+    },
+    {
+      "uuid": "09c4823c-d6db-4b1a-9677-46fb332ae070",
+      "page_url": "https://tilda.cc/mediakit/",
+      "page_types": [
+        "Contacts",
+        "Media Kit"
+      ],
+      "hex_colors": [
+        "0x6C6C6C",
+        "0x1A1A1A",
+        "0xF4F4F4",
+        "0x8F8F8F",
+        "0x4C4C4C"
+      ],
+      "fonts": [
+        "Arial",
+        "Tilda Sans"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Navigation Bar",
+        "Footer",
+        "Photo",
+        "Icon",
+        "Thumbnail",
+        "Product Image"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/09c4823c-d6db-4b1a-9677-46fb332ae070",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/6863d5f6-fdc1-46e3-8685-415112fd8c1d_preview.jpg",
+      "local_image": "design-references/tilda/images/contacts-media-kit-09c4823c.jpg"
+    },
+    {
+      "uuid": "12ab7c27-7db9-400b-9d67-1239eab631cd",
+      "page_url": "https://tilda.cc/colors/#gradients",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [
+        "0xFB5E1D",
+        "0xDBCFEE",
+        "0x949BE1",
+        "0x6EE14D",
+        "0x5DA6E9"
+      ],
+      "fonts": [
+        "Arial",
+        "Tilda Sans"
+      ],
+      "ui_elements": [
+        "Media Gallery",
+        "Tabs",
+        "Icon",
+        "Thumbnail",
+        "Gradient"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/12ab7c27-7db9-400b-9d67-1239eab631cd",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/40d2f717-8421-475e-a4de-39b4fb1baadc_preview.jpg",
+      "local_image": "design-references/tilda/images/product-page-landing-12ab7c27.jpg"
+    },
+    {
+      "uuid": "407e4fb2-e0f6-45ee-89d7-2defdb70be84",
+      "page_url": "https://tilda.cc/pricing/#!/tab/186881131-1",
+      "page_types": [
+        "Paywall & Subscription"
+      ],
+      "hex_colors": [
+        "0xFBA484",
+        "0x090808",
+        "0xF1F0EE",
+        "0x999594",
+        "0x747474"
+      ],
+      "fonts": [
+        "Arial",
+        "Tilda Sans"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Tabs",
+        "Page Control & Pagination",
+        "Navigation Bar",
+        "Footer",
+        "Illustration",
+        "Currency"
+      ],
+      "ux_patterns": [
+        "FAQ",
+        "Testimonials"
+      ],
+      "refero_url": "https://refero.design/pages/407e4fb2-e0f6-45ee-89d7-2defdb70be84",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/3958a0d0-a270-4aba-9364-1ac8cbe1c94d_preview.jpg",
+      "local_image": "design-references/tilda/images/paywall-subscription-407e4fb2.jpg"
+    },
+    {
+      "uuid": "89f708d1-e4cc-498f-9f00-294eefb80f37",
+      "page_url": "https://crm.tilda.cc/lists/?listid=5153110953",
+      "page_types": [],
+      "hex_colors": [
+        "0x040404",
+        "0xFA856B",
+        "0xF3F3F3",
+        "0xE4E4E4",
+        "0x747474"
+      ],
+      "fonts": [
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Table",
+        "Cards & Tiles",
+        "Button",
+        "Dropdown",
+        "Switch & Toggle",
+        "Notifications & Toast",
+        "Navigation Bar",
+        "Icon"
+      ],
+      "ux_patterns": [
+        "Success",
+        "Trash & Archive"
+      ],
+      "refero_url": "https://refero.design/pages/89f708d1-e4cc-498f-9f00-294eefb80f37",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/9041a241-4b8b-4c1d-a51d-73a2e5ea63b1_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-89f708d1.jpg"
+    },
+    {
+      "uuid": "95696428-e470-47ec-a0e4-91a4c730dafb",
+      "page_url": "https://tilda.cc/privacy/",
+      "page_types": [
+        "Privacy Policy"
+      ],
+      "hex_colors": [
+        "0xF5F5F4",
+        "0x848484",
+        "0x545454",
+        "0x8C8C8C",
+        "0x949494"
+      ],
+      "fonts": [
+        "Arial",
+        "Tilda Sans"
+      ],
+      "ui_elements": [
+        "Navigation Bar",
+        "Footer"
+      ],
+      "ux_patterns": [
+        "Article & Text"
+      ],
+      "refero_url": "https://refero.design/pages/95696428-e470-47ec-a0e4-91a4c730dafb",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/8963386c-d83f-4cbc-bf01-977777b187f1_preview.jpg",
+      "local_image": "design-references/tilda/images/privacy-policy-95696428.jpg"
+    },
+    {
+      "uuid": "96ad2c22-f87e-4c93-befb-b83a27fd3860",
+      "page_url": "https://tilda.cc/pric",
+      "page_types": [
+        "404 Page"
+      ],
+      "hex_colors": [
+        "0xC4C4C4",
+        "0x9C9C9C",
+        "0xA4A4A4",
+        "0x5F5F5F",
+        "0xACACAC"
+      ],
+      "fonts": [],
+      "ui_elements": [
+        "Icon"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/96ad2c22-f87e-4c93-befb-b83a27fd3860",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/aa2fd177-4335-47d4-be20-8d26a5d259b5_preview.jpg",
+      "local_image": "design-references/tilda/images/404-page-96ad2c22.jpg"
+    },
+    {
+      "uuid": "ae9e68a5-8a1f-4c3c-9bea-e0b31af09289",
+      "page_url": "https://crm.tilda.cc/lists/?listid=8704946373&tab=3",
+      "page_types": [
+        "Settings"
+      ],
+      "hex_colors": [
+        "0xEB937B",
+        "0x212121",
+        "0xF4F4F4",
+        "0xECA881",
+        "0xD08B61"
+      ],
+      "fonts": [
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "List",
+        "Button",
+        "Tabs",
+        "Text Field",
+        "Dialog & Modal Window",
+        "Icon",
+        "Gradient"
+      ],
+      "ux_patterns": [
+        "Edit"
+      ],
+      "refero_url": "https://refero.design/pages/ae9e68a5-8a1f-4c3c-9bea-e0b31af09289",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/c4d6f718-aa3d-461a-a86f-a99925610dfe_preview.jpg",
+      "local_image": "design-references/tilda/images/settings-ae9e68a5.jpg"
+    },
+    {
+      "uuid": "b5190f40-12d6-4854-92e1-ff72c9df7565",
+      "page_url": "https://tilda.cc/projects/?projectid=6228039",
+      "page_types": [],
+      "hex_colors": [
+        "0x262626",
+        "0xFA8667",
+        "0x747474",
+        "0xA6A6A6",
+        "0xF1F0F0"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "Futura PT",
+        "Georgia"
+      ],
+      "ui_elements": [
+        "Button",
+        "Floating Button",
+        "Tabs",
+        "Text Field",
+        "Dialog & Modal Window"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/b5190f40-12d6-4854-92e1-ff72c9df7565",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/ae892cd3-bfd0-4528-b599-2a04dd508855_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-b5190f40.jpg"
+    },
+    {
+      "uuid": "b726904c-c58c-47fd-b811-c248eb8a356b",
+      "page_url": "https://tilda.cc/projects/",
+      "page_types": [
+        "Support & Help"
+      ],
+      "hex_colors": [
+        "0x050505",
+        "0xF58468",
+        "0xF3F3F3",
+        "0x747474",
+        "0x939393"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "Futura PT",
+        "Tilda Sans"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "List",
+        "Button",
+        "Navigation Bar",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "ux_patterns": [
+        "Searching"
+      ],
+      "refero_url": "https://refero.design/pages/b726904c-c58c-47fd-b811-c248eb8a356b",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/c7ec652c-0599-4f53-9096-48f582d84015_preview.jpg",
+      "local_image": "design-references/tilda/images/support-help-b726904c.jpg"
+    },
+    {
+      "uuid": "fff6cd76-1f0f-4965-bdb2-66cc68ab3871",
+      "page_url": "https://tilda.cc/colors/#gradients",
+      "page_types": [],
+      "hex_colors": [
+        "0xACC9C4",
+        "0xECECC1",
+        "0xE4F0D7",
+        "0xDAF6EB",
+        "0xE4ECCB"
+      ],
+      "fonts": [
+        "Arial",
+        "Tilda Sans"
+      ],
+      "ui_elements": [
+        "Media Gallery",
+        "Button",
+        "Page Control & Pagination",
+        "Full-Screen Overlay",
+        "Gradient"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/fff6cd76-1f0f-4965-bdb2-66cc68ab3871",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/e77aad09-5f4a-412d-bfab-de798c4636b0_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-fff6cd76.jpg"
+    },
+    {
+      "uuid": "3c1ffe63-3f74-4daa-9ca0-45ff9c421886",
+      "page_url": "https://tilda.cc/projects/",
+      "page_types": [],
+      "hex_colors": [
+        "0x333333",
+        "0xEB927B",
+        "0xF4F4F3",
+        "0xEBA77E",
+        "0xD08B61"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Floating Button",
+        "Dialog & Modal Window",
+        "Icon",
+        "Gradient"
+      ],
+      "ux_patterns": [
+        "Ads & Promo Offer"
+      ],
+      "refero_url": "https://refero.design/pages/3c1ffe63-3f74-4daa-9ca0-45ff9c421886",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/276cb7fd-8568-4e01-ab46-19b5864d1088_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-3c1ffe63.jpg"
+    },
+    {
+      "uuid": "53070151-cb50-47ad-8008-865a3d80b854",
+      "page_url": "https://tilda.cc/?lang=en",
+      "page_types": [
+        "Product Page & Landing",
+        "Home Page"
+      ],
+      "hex_colors": [
+        "0xEBEBEB",
+        "0xF88A68",
+        "0x080707",
+        "0x8A8A8A",
+        "0x95553B"
+      ],
+      "fonts": [
+        "Arial",
+        "Tilda Sans"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Page Control & Pagination",
+        "Navigation Bar",
+        "Footer",
+        "Photo",
+        "Icon",
+        "Illustration",
+        "Logo Wall",
+        "Hero Image",
+        "Product Image"
+      ],
+      "ux_patterns": [
+        "Testimonials"
+      ],
+      "refero_url": "https://refero.design/pages/53070151-cb50-47ad-8008-865a3d80b854",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/8c4495fb-23ef-4dab-bbe2-e53f44c89f83_preview.jpg",
+      "local_image": "design-references/tilda/images/product-page-landing-home-page-53070151.jpg"
+    },
+    {
+      "uuid": "56ea4826-14a6-43e3-a58c-973b1f66d36c",
+      "page_url": "https://members.tilda.cc/5779709/#/groups/523125",
+      "page_types": [],
+      "hex_colors": [
+        "0xF4F3F3",
+        "0xEB9373",
+        "0x323232",
+        "0xECAC7B",
+        "0xDB4362"
+      ],
+      "fonts": [
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Dialog & Modal Window",
+        "Gradient"
+      ],
+      "ux_patterns": [
+        "Confirmation",
+        "Error",
+        "Delete"
+      ],
+      "refero_url": "https://refero.design/pages/56ea4826-14a6-43e3-a58c-973b1f66d36c",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/f737c881-ea00-4331-9ed3-2bacd5499ab8_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-56ea4826.jpg"
+    },
+    {
+      "uuid": "7a150acc-7b96-4a96-b79a-d3b6b337949b",
+      "page_url": "https://tilda.cc/projects/collaborators/upgrade/?projectid=5779709",
+      "page_types": [
+        "Settings"
+      ],
+      "hex_colors": [
+        "0xE3E1E0",
+        "0xFA8767",
+        "0x565656",
+        "0x9C9594",
+        "0x7C7C7C"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Floating Button",
+        "Dropdown",
+        "Breadcrumb",
+        "Navigation Bar",
+        "Icon"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/7a150acc-7b96-4a96-b79a-d3b6b337949b",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/e8b28944-0689-45c8-84ac-6c675aabbd7a_preview.jpg",
+      "local_image": "design-references/tilda/images/settings-7a150acc.jpg"
+    },
+    {
+      "uuid": "8d829251-3407-4346-87aa-b054ad2e5f96",
+      "page_url": "https://crm.tilda.cc/",
+      "page_types": [],
+      "hex_colors": [
+        "0x040404",
+        "0xCD0A12",
+        "0xFB8966",
+        "0x08B3E2",
+        "0xF3F3F3"
+      ],
+      "fonts": [
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Navigation Bar",
+        "Icon",
+        "Illustration"
+      ],
+      "ux_patterns": [
+        "Empty State"
+      ],
+      "refero_url": "https://refero.design/pages/8d829251-3407-4346-87aa-b054ad2e5f96",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/c0f8bd8c-f98b-48ef-8195-b0f5c5816227_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-8d829251.jpg"
+    },
+    {
+      "uuid": "9e183b33-32c3-4974-9026-51226d0173c0",
+      "page_url": "https://crm.tilda.cc/lists/?listid=5153110953",
+      "page_types": [],
+      "hex_colors": [
+        "0x040404",
+        "0xFA856B",
+        "0xF3F3F3",
+        "0x9F9F9F",
+        "0x837C7A"
+      ],
+      "fonts": [
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Table",
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Navigation Bar"
+      ],
+      "ux_patterns": [
+        "Empty State"
+      ],
+      "refero_url": "https://refero.design/pages/9e183b33-32c3-4974-9026-51226d0173c0",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/900e99bd-2b7c-40a5-a758-a94b3a410dcd_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-9e183b33.jpg"
+    },
+    {
+      "uuid": "e42bcd9e-a12d-4ab0-aca3-33415026512f",
+      "page_url": "https://members.tilda.cc/5779709/#/groups/523117",
+      "page_types": [
+        "Settings"
+      ],
+      "hex_colors": [
+        "0x232323",
+        "0xE98A6B",
+        "0xF4F4F3",
+        "0xE36C63",
+        "0xEB9F73"
+      ],
+      "fonts": [
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Text Field",
+        "Color Picker",
+        "Dialog & Modal Window",
+        "Gradient"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/e42bcd9e-a12d-4ab0-aca3-33415026512f",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/083c20d9-a774-4630-a6f0-e1158ae9b4c0_preview.jpg",
+      "local_image": "design-references/tilda/images/settings-e42bcd9e.jpg"
+    },
+    {
+      "uuid": "e985508a-951a-4014-b0f6-7321dee8fdd4",
+      "page_url": "https://tilda.cc/projects/?projectid=5779709",
+      "page_types": [],
+      "hex_colors": [
+        "0x949494",
+        "0x181818",
+        "0xF8947B",
+        "0xECECEC",
+        "0xFB8462"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "Futura PT",
+        "Georgia"
+      ],
+      "ui_elements": [
+        "Button",
+        "Floating Button",
+        "Dialog & Modal Window"
+      ],
+      "ux_patterns": [
+        "Success"
+      ],
+      "refero_url": "https://refero.design/pages/e985508a-951a-4014-b0f6-7321dee8fdd4",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/da79fb43-a130-478b-8ee6-9e909ae5901d_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-e985508a.jpg"
+    },
+    {
+      "uuid": "ed544d71-18d8-4949-a0d0-a3404a16a73b",
+      "page_url": "https://tilda.cc/projects/leads/?projectid=5779709",
+      "page_types": [],
+      "hex_colors": [
+        "0xE8E8E8",
+        "0xCD9588",
+        "0xA8847C",
+        "0x575757",
+        "0x7C7C7C"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Floating Button",
+        "Dropdown",
+        "Breadcrumb",
+        "Navigation Bar",
+        "Icon"
+      ],
+      "ux_patterns": [
+        "Empty State"
+      ],
+      "refero_url": "https://refero.design/pages/ed544d71-18d8-4949-a0d0-a3404a16a73b",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/b5251f2e-7f22-4c94-8cd3-bc5c1c7cdbc8_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-ed544d71.jpg"
+    },
+    {
+      "uuid": "f92d745e-1822-4555-ab48-e4bc0b0c3a47",
+      "page_url": "https://tilda.cc/page/?pageid=31142752",
+      "page_types": [],
+      "hex_colors": [
+        "0xFB855D",
+        "0x0B0B0C",
+        "0x5B585D",
+        "0xA06957",
+        "0x8F898C"
+      ],
+      "fonts": [
+        null,
+        "Helvetica Neue",
+        "Roboto",
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Sidebar & Drawer"
+      ],
+      "ux_patterns": [
+        "Edit"
+      ],
+      "refero_url": "https://refero.design/pages/f92d745e-1822-4555-ab48-e4bc0b0c3a47",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/a7a05e0a-3f63-423c-bdfd-47f2a7cf54bc_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-f92d745e.jpg"
+    },
+    {
+      "uuid": "0693693d-a934-40bf-a244-395d92b9ee42",
+      "page_url": "https://tilda.cc/abuse/",
+      "page_types": [],
+      "hex_colors": [
+        "0x141414",
+        "0xE0E0E0",
+        "0x848484",
+        "0x616161",
+        "0x7C7C7C"
+      ],
+      "fonts": [
+        "Arial",
+        "Tilda Sans"
+      ],
+      "ui_elements": [
+        "Button",
+        "Checkbox & Radio",
+        "Text Field",
+        "Navigation Bar",
+        "Footer"
+      ],
+      "ux_patterns": [
+        "Flag & Report"
+      ],
+      "refero_url": "https://refero.design/pages/0693693d-a934-40bf-a244-395d92b9ee42",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/236f6c81-8115-4810-9951-39276a5ac92e_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-0693693d.jpg"
+    },
+    {
+      "uuid": "1b6e4c9d-d14b-4920-af60-0a0851c84532",
+      "page_url": "https://tilda.cc/projects/",
+      "page_types": [],
+      "hex_colors": [
+        "0x111111",
+        "0xF7866B",
+        "0xF3F3F3",
+        "0x929292",
+        "0x737473"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Dropdown Menu",
+        "Popover"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/1b6e4c9d-d14b-4920-af60-0a0851c84532",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/dde453b6-0675-4a0d-bfa0-f60cc36f4198_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-1b6e4c9d.jpg"
+    },
+    {
+      "uuid": "24ddc178-2192-453f-91d3-be50edd22ed4",
+      "page_url": "https://help.tilda.cc/online-store-payments/promo-codes",
+      "page_types": [
+        "Support & Help"
+      ],
+      "hex_colors": [
+        "0xFB8464",
+        "0x272727",
+        "0xF2F2F2",
+        "0x939393",
+        "0xF7100E"
+      ],
+      "fonts": [
+        null,
+        "Arial",
+        "Tilda Sans"
+      ],
+      "ui_elements": [
+        "Button",
+        "Product Image"
+      ],
+      "ux_patterns": [
+        "Article & Text"
+      ],
+      "refero_url": "https://refero.design/pages/24ddc178-2192-453f-91d3-be50edd22ed4",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/6cfca8b2-d1fc-484f-8eda-13063b6b0979_preview.jpg",
+      "local_image": "design-references/tilda/images/support-help-24ddc178.jpg"
+    },
+    {
+      "uuid": "315c6f76-941f-48fc-afce-1d4489b11125",
+      "page_url": "https://tilda.cc/free-icons/",
+      "page_types": [],
+      "hex_colors": [
+        "0x242424",
+        "0x646464",
+        "0xECB19E",
+        "0x2C2C2C",
+        "0x0D0D0D"
+      ],
+      "fonts": [
+        null,
+        "Arial",
+        "Futura PT",
+        "Tilda Sans"
+      ],
+      "ui_elements": [
+        "Button",
+        "Sidebar & Drawer",
+        "Side Sheet"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/315c6f76-941f-48fc-afce-1d4489b11125",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/a04bb5d0-0444-43ff-abc5-7c87d6534d8a_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-315c6f76.jpg"
+    },
+    {
+      "uuid": "3c06db6d-4ce4-4eca-a99e-bc467420fca4",
+      "page_url": "https://tilda.cc/identity/referrals/",
+      "page_types": [
+        "Profile & Account"
+      ],
+      "hex_colors": [
+        "0xE8E3E1",
+        "0x141414",
+        "0xD88D7C",
+        "0x62605F",
+        "0xE46E53"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Floating Button",
+        "Text Field",
+        "Breadcrumb",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Illustration"
+      ],
+      "ux_patterns": [
+        "Ads & Promo Offer"
+      ],
+      "refero_url": "https://refero.design/pages/3c06db6d-4ce4-4eca-a99e-bc467420fca4",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/d98c8311-f233-440b-8486-b4ecc1dfac42_preview.jpg",
+      "local_image": "design-references/tilda/images/profile-account-3c06db6d.jpg"
+    },
+    {
+      "uuid": "62c52a5f-3848-4a4c-8e3a-80f6e6746ad6",
+      "page_url": "https://tilda.cc/utm/",
+      "page_types": [
+        "Settings"
+      ],
+      "hex_colors": [
+        "0x141414",
+        "0xECECEC",
+        "0xF78767",
+        "0x8C8D8F",
+        "0x5F6062"
+      ],
+      "fonts": [
+        "Tilda Sans"
+      ],
+      "ui_elements": [
+        "Dropdown",
+        "Tabs",
+        "Checkbox & Radio",
+        "Text Field",
+        "Footer",
+        "Icon"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/62c52a5f-3848-4a4c-8e3a-80f6e6746ad6",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/f7045d63-3fb0-46d4-a17d-ed1179b30850_preview.jpg",
+      "local_image": "design-references/tilda/images/settings-62c52a5f.jpg"
+    },
+    {
+      "uuid": "7c07c25c-253f-44ec-a679-4b950150c434",
+      "page_url": "https://tilda.cc/madeontilda/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [
+        "0x313136",
+        "0xC9B765",
+        "0x979C97",
+        "0x876C54",
+        "0x655E51"
+      ],
+      "fonts": [
+        "Arial",
+        "Tilda Sans"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Thumbnail",
+        "Product Image"
+      ],
+      "ux_patterns": [
+        "FAQ"
+      ],
+      "refero_url": "https://refero.design/pages/7c07c25c-253f-44ec-a679-4b950150c434",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/5079e7dc-ab2a-4819-88f0-0ac565ef93ca_preview.jpg",
+      "local_image": "design-references/tilda/images/product-page-landing-7c07c25c.jpg"
+    },
+    {
+      "uuid": "c0cf4067-e1e8-4b51-97d3-0b9b5174e036",
+      "page_url": "https://tilda.cc/identity/plan/",
+      "page_types": [],
+      "hex_colors": [
+        "0xF6F6F5",
+        "0xFA8563",
+        "0xF9F6DC",
+        "0xE4927E",
+        "0xB3B3B3"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "Futura PT"
+      ],
+      "ui_elements": [
+        "Button",
+        "Floating Button",
+        "Dialog & Modal Window"
+      ],
+      "ux_patterns": [
+        "Success"
+      ],
+      "refero_url": "https://refero.design/pages/c0cf4067-e1e8-4b51-97d3-0b9b5174e036",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/8c5ccef1-2798-4ed0-b763-603c86f1faed_preview.jpg",
+      "local_image": "design-references/tilda/images/screen-c0cf4067.jpg"
+    },
+    {
+      "uuid": "f58a36da-e6a2-40ce-9e94-4f049891e177",
+      "page_url": "https://tilda.cc/terms/#agreement",
+      "page_types": [
+        "Terms & Conditions"
+      ],
+      "hex_colors": [
+        "0x3C3C3C",
+        "0xF8F7F5",
+        "0x7E7E7E",
+        "0xC49B90",
+        "0x5B5B5B"
+      ],
+      "fonts": [
+        null,
+        "Arial",
+        "Tilda Sans"
+      ],
+      "ui_elements": [
+        "Dropdown",
+        "Navigation Bar"
+      ],
+      "ux_patterns": [
+        "Article & Text"
+      ],
+      "refero_url": "https://refero.design/pages/f58a36da-e6a2-40ce-9e94-4f049891e177",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/1f546cce-d5a5-4e53-8b9f-624f8a7f77fc_preview.jpg",
+      "local_image": "design-references/tilda/images/terms-conditions-f58a36da.jpg"
+    },
+    {
+      "uuid": "fcd8912f-787a-40ad-82e9-073e4a3505c1",
+      "page_url": "https://tilda.cc/lp/crm/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [
+        "0xCC6B56",
+        "0x0E0D0D",
+        "0xECECEC",
+        "0xF8886A",
+        "0xF08C7A"
+      ],
+      "fonts": [
+        null,
+        "Arial",
+        "Tilda Sans"
+      ],
+      "ui_elements": [
+        "Accordion & Collapse",
+        "Button",
+        "Icon",
+        "Illustration",
+        "Product Image"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/fcd8912f-787a-40ad-82e9-073e4a3505c1",
+      "preview_url": "https://images.refero.design/screenshots/tilda.cc/desktop/056c0562-527e-4135-affb-0dbe8a929703_preview.jpg",
+      "local_image": "design-references/tilda/images/product-page-landing-fcd8912f.jpg"
+    }
+  ]
+}
