@@ -39,8 +39,8 @@ export const DIRECTORY_SYSTEMS: DirectorySystem[] = [
     catalogTitle: "Tilda Design System",
     domain: "tilda.cc",
     href: "/design-systems/tilda",
-    screensCount: 50,
-    routesCount: 10,
+    screensCount: 86,
+    routesCount: 18,
     description:
       "High-contrast editorial minimalism with warm coral accents (#FA8A64), sharp 2px ink borders, and Jost display type.",
     iconKey: "palette",

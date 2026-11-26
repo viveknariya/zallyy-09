@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { ProjectsDashboard } from "@/components/sections/ProjectsDashboard";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
+import { TildaProjects } from "@/components/systems/tilda/TildaProjects";
 
 export const metadata: Metadata = {
-  title: "Tilda Projects & CRM Table Pattern",
+  title: "Tilda Projects & CRM Leads",
   description:
-    "Starter workspace projects grid and CRM leads table inspired by tilda.cc/projects and crm.tilda.cc.",
+    "Workspace projects grid and recent CRM leads table modeled after tilda.cc/projects.",
   alternates: { canonical: "/design-systems/tilda/projects" },
 };
 
@@ -20,9 +20,7 @@ export default function TildaProjectsPage() {
           { label: "Projects", href: "/design-systems/tilda/projects" },
         ]}
       />
-      <div className="flex-1 bg-surface">
-        <ProjectsDashboard />
-      </div>
+      <TildaProjects />
     </>
   );
 }

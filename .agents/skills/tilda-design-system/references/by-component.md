@@ -46,7 +46,7 @@ Exact Tailwind classes, tokens, and Do/Don't rules for **23 standard UI componen
 - **Classes**: List `inline-flex border-b border-border`; Active `px-6 py-3 text-sm font-medium border-b-2 border-foreground text-foreground -mb-px`; Inactive `border-transparent text-muted hover:text-foreground`
 - **Do**: Wrap in a `"use client"` parent. **Don't**: Use pill-style `bg-surface` tab backgrounds.
 
-## 9. Navbar (`src/components/layout/Navbar.tsx`)
+## 9. Navbar (`src/components/systems/tilda/TildaNavbar.tsx`)
 - **Classes**: `sticky top-0 z-40 h-16 border-b border-border bg-background/95 backdrop-blur`; Brand `font-display text-lg font-semibold`; Links `text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground/80 hover:text-foreground`
 - **Do**: Keep primary CTA as `Button variant="outline" size="sm"`. **Don't**: Add search bars or heavy shadows to the navbar.
 
@@ -54,11 +54,11 @@ Exact Tailwind classes, tokens, and Do/Don't rules for **23 standard UI componen
 - **Classes**: Container `w-64 shrink-0 border-r border-border bg-background p-6`; Group Title `text-[11px] font-semibold uppercase tracking-[0.14em] text-muted mb-3`; Item `flex items-center gap-3 px-3 py-2 text-sm` (Active: `bg-surface font-semibold text-foreground border-l-2 border-accent-strong`; Inactive: `text-muted hover:text-foreground hover:bg-surface/60`)
 - **Do**: Use `border-l-2 border-accent-strong` for active state. **Don't**: Use `rounded-md` pill highlights.
 
-## 11. Footer (`src/components/layout/Footer.tsx`)
+## 11. Footer (`src/components/systems/tilda/TildaFooter.tsx`)
 - **Classes**: `mt-auto border-t border-border bg-surface py-14`; Column Title `text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground`; Link `text-sm text-muted hover:text-foreground`
 - **Do**: Use `bg-surface` to ground the bottom of every page. **Don't**: Use dark-mode black footers.
 
-## 12. Modal / Dialog
+## 12. Modal / Dialog (`src/components/systems/tilda/TildaContacts.tsx`)
 - **Classes**: Backdrop `fixed inset-0 z-50 bg-foreground/40 flex items-center justify-center p-6`; Panel `w-full max-w-lg bg-background border-2 border-foreground p-8`; Header `font-display text-2xl font-normal text-foreground`; Close `text-muted hover:text-foreground`
 - **Do**: Use `border-2 border-foreground` instead of `shadow-xl`. **Don't**: Round modal corners.
 
@@ -66,11 +66,11 @@ Exact Tailwind classes, tokens, and Do/Don't rules for **23 standard UI componen
 - **Classes**: Backdrop `fixed inset-0 z-50 bg-foreground/40`; Panel `fixed inset-y-0 right-0 w-full max-w-md bg-background border-l-2 border-foreground p-8 flex flex-col justify-between`
 - **Do**: Use `border-l-2 border-foreground`. **Don't**: Add `shadow-2xl`.
 
-## 14. Table (`src/components/sections/ProjectsDashboard.tsx`)
+## 14. Table (`src/components/systems/tilda/TildaProjects.tsx`, `TildaContacts.tsx`, `TildaPricing.tsx`)
 - **Classes**: Wrapper `overflow-x-auto border border-border bg-background`; `thead` `border-b border-border bg-surface text-[11px] font-semibold uppercase tracking-[0.12em] text-muted`; `tbody` `divide-y divide-border`; Row `hover:bg-surface/60`; Cell `px-6 py-4 text-sm` (`font-mono text-xs text-muted` for emails/IDs)
-- **Do**: Keep `thead` in `bg-surface` and rows in `bg-background`. **Don't**: Use zebra-striping (`even:bg-surface`).
+- **Do**: Keep `thead` in `bg-surface` and rows in `bg-background` (or subtle alternating rows for Compare Plans matrices). **Don't**: Add `rounded-*` or `shadow-*`.
 
-## 15. Calendar / DatePicker
+## 15. Calendar / DatePicker (`src/components/systems/tilda/TildaDashboard.tsx`)
 - **Classes**:
   - Container: `w-80 border-2 border-foreground bg-background p-5`
   - Header (Month/Year + Prev/Next): `flex items-center justify-between pb-4 border-b border-border`; Title `font-display text-base font-medium text-foreground`; Nav buttons `h-8 w-8 border border-border flex items-center justify-center hover:border-foreground`

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { AuthCard } from "@/components/sections/AuthCard";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
+import { TildaAuthCard } from "@/components/systems/tilda/TildaAuthCard";
 
 export const metadata: Metadata = {
   title: "Tilda Log In Pattern",
@@ -20,7 +20,7 @@ export default function TildaLoginPage() {
         ]}
       />
       <div className="flex-1 bg-surface">
-        <AuthCard mode="login" />
+        <TildaAuthCard mode="login" />
       </div>
     </>
   );

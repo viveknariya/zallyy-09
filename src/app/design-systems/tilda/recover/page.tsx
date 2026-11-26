@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { AuthCard } from "@/components/sections/AuthCard";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
+import { TildaAuthCard } from "@/components/systems/tilda/TildaAuthCard";
 
 export const metadata: Metadata = {
   title: "Tilda Reset Password Pattern",
@@ -21,7 +21,7 @@ export default function TildaRecoverPage() {
         ]}
       />
       <div className="flex-1 bg-surface">
-        <AuthCard mode="recover" />
+        <TildaAuthCard mode="recover" />
       </div>
     </>
   );

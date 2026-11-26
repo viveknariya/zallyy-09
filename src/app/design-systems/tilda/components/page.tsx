@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { TildaComponentsShowcase } from "@/components/sections/TildaComponentsShowcase";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
+import { TildaComponentsShowcase } from "@/components/systems/tilda/TildaComponentsShowcase";
 
 export const metadata: Metadata = {
   title: "Tilda Components & Tokens",
   description:
-    "Interactive showcase of Tilda UI primitives: buttons, bordered cards, underline tabs, badges, inputs, and color tokens.",
+    "Interactive showcase of Tilda UI primitives: buttons, bordered cards, underline tabs, badges, inputs, switches, alerts, and color tokens.",
   alternates: { canonical: "/design-systems/tilda/components" },
 };
 

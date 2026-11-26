@@ -1,18 +1,18 @@
 import type { Metadata } from "next";
-import { FeatureGrid } from "@/components/sections/FeatureGrid";
-import { HeroSection } from "@/components/sections/HeroSection";
-import { PricingSection } from "@/components/sections/PricingSection";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
+import { TildaFeatureGrid } from "@/components/systems/tilda/TildaFeatureGrid";
+import { TildaHero } from "@/components/systems/tilda/TildaHero";
+import { TildaPricing } from "@/components/systems/tilda/TildaPricing";
 
 export const metadata: Metadata = {
   title: "Tilda Design System — Editorial UI Kit & Next.js Starter",
   description:
-    "Tilda.cc-inspired design system featuring warm coral accents, sharp geometric cards, Jost display typography, and 10 ready-to-use Next.js pages.",
+    "Tilda.cc-inspired design system featuring warm coral accents, sharp 0px geometric cards, Jost display typography, and 17 Next.js App Router pages.",
   alternates: { canonical: "/design-systems/tilda" },
   openGraph: {
     title: "Tilda Design System — Editorial UI Kit & Next.js Starter",
     description:
-      "Tilda.cc-inspired design system with tokens, reusable components, and Next.js App Router pages.",
+      "Tilda.cc-inspired design system with scoped tokens, reusable components, and Next.js App Router pages.",
     url: "/design-systems/tilda",
   },
 };
@@ -27,9 +27,9 @@ export default function TildaHubPage() {
           { label: "Tilda", href: "/design-systems/tilda" },
         ]}
       />
-      <HeroSection />
-      <FeatureGrid />
-      <PricingSection />
+      <TildaHero />
+      <TildaFeatureGrid />
+      <TildaPricing />
     </>
   );
 }
