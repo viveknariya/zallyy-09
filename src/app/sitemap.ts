@@ -35,6 +35,12 @@ const staticRoutes = [
   { path: "/design-systems/polar/privacy", priority: 0.4 },
   { path: "/design-systems/polar/terms", priority: 0.4 },
   { path: "/design-systems/polar/components", priority: 0.8 },
+  { path: "/design-systems/cron", priority: 0.9 },
+  { path: "/design-systems/cron/settings", priority: 0.7 },
+  { path: "/design-systems/cron/download", priority: 0.8 },
+  { path: "/design-systems/cron/changelog", priority: 0.7 },
+  { path: "/design-systems/cron/search", priority: 0.6 },
+  { path: "/design-systems/cron/components", priority: 0.8 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

@@ -55,6 +55,20 @@
   --muted: #71717a;
 }
 
+/* Scoped theme tokens for /design-systems/cron */
+[data-design-system="cron"] {
+  --background: #18181a;
+  --foreground: #f4f4f5;
+  --surface: #1e1e21;
+  --surface-muted: #26262a;
+  --border: #2e2e32;
+  --border-strong: #52525b;
+  --accent: #ff5416;
+  --accent-strong: #e0440c;
+  --accent-soft: #3a2018;
+  --muted: #a1a1aa;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

@@ -1,0 +1,1122 @@
+{
+  "brand": "cron",
+  "total": 30,
+  "fonts": [
+    "Helvetica Neue",
+    "SF",
+    "UI Monospace",
+    "UI Sans Serif"
+  ],
+  "top_colors": [
+    [
+      "#F4F4F4",
+      12
+    ],
+    [
+      "#F8FC100",
+      4
+    ],
+    [
+      "#EBEBEB",
+      3
+    ],
+    [
+      "#222222",
+      3
+    ],
+    [
+      "#242424",
+      3
+    ],
+    [
+      "#3FA3DB",
+      3
+    ],
+    [
+      "#F1F1F1",
+      2
+    ],
+    [
+      "#F34C1C",
+      2
+    ],
+    [
+      "#FCFCFC",
+      2
+    ],
+    [
+      "#ECECEC",
+      2
+    ],
+    [
+      "#2C454D",
+      2
+    ],
+    [
+      "#6B2B23",
+      2
+    ],
+    [
+      "#46423A",
+      2
+    ],
+    [
+      "#272727",
+      2
+    ],
+    [
+      "#BEC4BF",
+      2
+    ],
+    [
+      "#CEDAD1",
+      2
+    ],
+    [
+      "#E3FAFB",
+      2
+    ],
+    [
+      "#2C444F",
+      2
+    ],
+    [
+      "#E4FBFB",
+      2
+    ],
+    [
+      "#34A3E3",
+      2
+    ],
+    [
+      "#9BA8AE",
+      2
+    ],
+    [
+      "#F8470A",
+      1
+    ],
+    [
+      "#FCF9F9",
+      1
+    ],
+    [
+      "#636363",
+      1
+    ],
+    [
+      "#948482",
+      1
+    ]
+  ],
+  "top_ui_elements": [
+    [
+      "Button",
+      17
+    ],
+    [
+      "Text Field",
+      16
+    ],
+    [
+      "Dropdown",
+      16
+    ],
+    [
+      "Search Field",
+      13
+    ],
+    [
+      "Page Control & Pagination",
+      12
+    ],
+    [
+      "Sidebar & Drawer",
+      12
+    ],
+    [
+      "Avatar",
+      12
+    ],
+    [
+      "Side Sheet",
+      12
+    ],
+    [
+      "Icon",
+      5
+    ],
+    [
+      "Action Sheet",
+      5
+    ],
+    [
+      "Stepper",
+      4
+    ],
+    [
+      "Dialog & Modal Window",
+      3
+    ],
+    [
+      "Date & Time Picker",
+      3
+    ],
+    [
+      "Switch & Toggle",
+      3
+    ],
+    [
+      "Animation",
+      2
+    ],
+    [
+      "Dropdown Menu",
+      2
+    ],
+    [
+      "Notifications & Toast",
+      1
+    ],
+    [
+      "Product Image",
+      1
+    ],
+    [
+      "QR Code",
+      1
+    ],
+    [
+      "List",
+      1
+    ]
+  ],
+  "top_ux_patterns": [
+    [
+      "Date & Time",
+      12
+    ],
+    [
+      "Calendar",
+      12
+    ],
+    [
+      "Dark Mode",
+      5
+    ],
+    [
+      "Upload & Download",
+      3
+    ],
+    [
+      "Empty State",
+      3
+    ],
+    [
+      "Shortcuts",
+      2
+    ],
+    [
+      "Loading & Connecting",
+      2
+    ],
+    [
+      "Feedback & Survey",
+      1
+    ],
+    [
+      "Permission",
+      1
+    ],
+    [
+      "Article & Text",
+      1
+    ],
+    [
+      "Timeline & History",
+      1
+    ],
+    [
+      "User Menu",
+      1
+    ],
+    [
+      "Searching",
+      1
+    ]
+  ],
+  "screens": [
+    {
+      "uuid": "131ddd41-454f-4155-ae8d-9b6445006dcf",
+      "page_url": "https://cron.com/download/windows",
+      "page_types": [],
+      "hex_colors": [
+        "0xF1F1F1",
+        "0xF8470A",
+        "0xFCF9F9",
+        "0x636363",
+        "0x948482"
+      ],
+      "fonts": [
+        "Helvetica Neue"
+      ],
+      "ui_elements": [
+        "Button"
+      ],
+      "ux_patterns": [
+        "Upload & Download"
+      ],
+      "refero_url": "https://refero.design/pages/131ddd41-454f-4155-ae8d-9b6445006dcf",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/e9cfc0be-c5a6-4ba0-85ac-d5585b8f4f60_preview.jpg",
+      "local_image": "design-references/cron/images/screen-131ddd41.jpg"
+    },
+    {
+      "uuid": "24eb2d2e-bf82-4920-834d-7a406718f2d8",
+      "page_url": "https://calendar.cron.com/feedback",
+      "page_types": [],
+      "hex_colors": [
+        "0xF64F0C",
+        "0xEBEBEB",
+        "0x363636",
+        "0x8F8F8F",
+        "0xBBBBBB"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Icon"
+      ],
+      "ux_patterns": [
+        "Feedback & Survey"
+      ],
+      "refero_url": "https://refero.design/pages/24eb2d2e-bf82-4920-834d-7a406718f2d8",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/d30329ff-19af-421d-ad86-728e859fc3ee_preview.jpg",
+      "local_image": "design-references/cron/images/screen-24eb2d2e.jpg"
+    },
+    {
+      "uuid": "347055a2-d7ce-41d6-bf59-61aa3cb60664",
+      "page_url": "https://calendar.cron.com/",
+      "page_types": [],
+      "hex_colors": [
+        "0xF5500E",
+        "0x282828",
+        "0x969696",
+        "0xF4F4F4",
+        "0x6A6F6B"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dialog & Modal Window"
+      ],
+      "ux_patterns": [
+        "Permission"
+      ],
+      "refero_url": "https://refero.design/pages/347055a2-d7ce-41d6-bf59-61aa3cb60664",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/c1723009-3994-4da9-a2dd-9b3b749480f9_preview.jpg",
+      "local_image": "design-references/cron/images/screen-347055a2.jpg"
+    },
+    {
+      "uuid": "56e6ec96-0c71-450e-bf66-78a1100d55be",
+      "page_url": "https://calendar.cron.com/",
+      "page_types": [],
+      "hex_colors": [
+        "0x242524",
+        "0xF4F4F4",
+        "0x979798",
+        "0xF34C1C",
+        "0x69706B"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Dropdown",
+        "Page Control & Pagination",
+        "Date & Time Picker",
+        "Notifications & Toast",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Avatar",
+        "Side Sheet"
+      ],
+      "ux_patterns": [
+        "Empty State",
+        "Date & Time",
+        "Calendar",
+        "Shortcuts"
+      ],
+      "refero_url": "https://refero.design/pages/56e6ec96-0c71-450e-bf66-78a1100d55be",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/73179189-47e2-482d-a322-114e26f1abac_preview.jpg",
+      "local_image": "design-references/cron/images/screen-56e6ec96.jpg"
+    },
+    {
+      "uuid": "59dbd528-f70b-412c-97f7-fc12583b88c2",
+      "page_url": "https://calendar.cron.com/",
+      "page_types": [],
+      "hex_colors": [
+        "0xFCFCFC",
+        "0xF4F4F4",
+        "0xECECEC",
+        "0xF8FC100",
+        "0xF8FC100"
+      ],
+      "fonts": [
+        "UI Sans Serif"
+      ],
+      "ui_elements": [
+        "Animation"
+      ],
+      "ux_patterns": [
+        "Loading & Connecting"
+      ],
+      "refero_url": "https://refero.design/pages/59dbd528-f70b-412c-97f7-fc12583b88c2",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/291e4729-bcba-495e-8b07-8d5f7af702e4_preview.jpg",
+      "local_image": "design-references/cron/images/calendar-splash-59dbd528.jpg"
+    },
+    {
+      "uuid": "5d30fb11-d369-4d01-8ca6-21dd3542acea",
+      "page_url": "https://cron.com/changelog",
+      "page_types": [],
+      "hex_colors": [
+        "0x222222",
+        "0xF45B2D",
+        "0xEAE7E4",
+        "0x83756F",
+        "0xA2A4A5"
+      ],
+      "fonts": [
+        "Helvetica Neue"
+      ],
+      "ui_elements": [
+        "Icon",
+        "Product Image"
+      ],
+      "ux_patterns": [
+        "Article & Text",
+        "Timeline & History"
+      ],
+      "refero_url": "https://refero.design/pages/5d30fb11-d369-4d01-8ca6-21dd3542acea",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/3ebb6139-0d45-412f-8df4-cbda4f41ee14_preview.jpg",
+      "local_image": "design-references/cron/images/changelog-5d30fb11.jpg"
+    },
+    {
+      "uuid": "73dce20e-c1af-4a8b-badb-298e730af21f",
+      "page_url": "https://calendar.cron.com/day/2023/12/25",
+      "page_types": [],
+      "hex_colors": [
+        "0x2C454D",
+        "0x464239",
+        "0x242424",
+        "0xD0D0CE",
+        "0x6B2B23"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Page Control & Pagination",
+        "Text Field",
+        "Search Field",
+        "Avatar",
+        "Stepper",
+        "Side Sheet"
+      ],
+      "ux_patterns": [
+        "Dark Mode",
+        "Date & Time",
+        "Calendar"
+      ],
+      "refero_url": "https://refero.design/pages/73dce20e-c1af-4a8b-badb-298e730af21f",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/beaf18e5-03fb-47d3-a8d0-daaef5cedb74_preview.jpg",
+      "local_image": "design-references/cron/images/screen-73dce20e.jpg"
+    },
+    {
+      "uuid": "c03600b6-144d-4f5d-a087-c1f7727c8a81",
+      "page_url": "https://calendar.cron.com/",
+      "page_types": [],
+      "hex_colors": [
+        "0xFCFCFC",
+        "0xF4F4F4",
+        "0xECECEC",
+        "0xF8FC100",
+        "0xF8FC100"
+      ],
+      "fonts": [
+        "UI Sans Serif"
+      ],
+      "ui_elements": [
+        "Animation"
+      ],
+      "ux_patterns": [
+        "Loading & Connecting"
+      ],
+      "refero_url": "https://refero.design/pages/c03600b6-144d-4f5d-a087-c1f7727c8a81",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/2c5c2b33-3258-45f2-99c2-92d17d62a3fa_preview.jpg",
+      "local_image": "design-references/cron/images/screen-c03600b6.jpg"
+    },
+    {
+      "uuid": "e2eb1065-9e23-49ce-b171-e43884a9f5be",
+      "page_url": "https://cron.com/download/ios",
+      "page_types": [],
+      "hex_colors": [
+        "0xF2F2F2",
+        "0x0D0D0D",
+        "0xF7480D",
+        "0x929292",
+        "0xEE8568"
+      ],
+      "fonts": [
+        "Helvetica Neue"
+      ],
+      "ui_elements": [
+        "Button",
+        "QR Code"
+      ],
+      "ux_patterns": [
+        "Upload & Download"
+      ],
+      "refero_url": "https://refero.design/pages/e2eb1065-9e23-49ce-b171-e43884a9f5be",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/a55d24a2-579e-4d7e-ab9f-05bf6ad30973_preview.jpg",
+      "local_image": "design-references/cron/images/screen-e2eb1065.jpg"
+    },
+    {
+      "uuid": "fa7026db-50c9-46ac-8d7c-8e2414636b0e",
+      "page_url": "https://cron.com/download/macos",
+      "page_types": [],
+      "hex_colors": [
+        "0xF6480E",
+        "0xF1F1F1",
+        "0xFCFAFA",
+        "0x646464",
+        "0xE17054"
+      ],
+      "fonts": [
+        "Helvetica Neue"
+      ],
+      "ui_elements": [
+        "Button"
+      ],
+      "ux_patterns": [
+        "Upload & Download"
+      ],
+      "refero_url": "https://refero.design/pages/fa7026db-50c9-46ac-8d7c-8e2414636b0e",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/c948b5fb-603a-4c33-b698-de1466357ae0_preview.jpg",
+      "local_image": "design-references/cron/images/download-macos-fa7026db.jpg"
+    },
+    {
+      "uuid": "12fdcad2-0e65-4b2c-93bf-2d859d8d3d79",
+      "page_url": "https://calendar.cron.com/",
+      "page_types": [],
+      "hex_colors": [
+        "0x343434",
+        "0xE8F8F5",
+        "0xF5E0BE",
+        "0x8E6658",
+        "0x3DA3DC"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "List",
+        "Text Field",
+        "Action Sheet"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/12fdcad2-0e65-4b2c-93bf-2d859d8d3d79",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/bbda127c-dbf5-4914-9ec9-f5affab6c6b8_preview.jpg",
+      "local_image": "design-references/cron/images/screen-12fdcad2.jpg"
+    },
+    {
+      "uuid": "170de9fd-8f1e-4310-80bf-3a65c71bf10a",
+      "page_url": "https://calendar.cron.com/day/2023/12/25",
+      "page_types": [],
+      "hex_colors": [
+        "0xD1D0CE",
+        "0x222222",
+        "0x6A2C24",
+        "0x2C454D",
+        "0x46423A"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Page Control & Pagination",
+        "Text Field",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Avatar",
+        "Stepper",
+        "Side Sheet"
+      ],
+      "ux_patterns": [
+        "Dark Mode",
+        "Date & Time",
+        "Calendar"
+      ],
+      "refero_url": "https://refero.design/pages/170de9fd-8f1e-4310-80bf-3a65c71bf10a",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/2094fcec-a859-4a35-a14b-26c90dafe297_preview.jpg",
+      "local_image": "design-references/cron/images/screen-170de9fd.jpg"
+    },
+    {
+      "uuid": "54f9685b-085f-4f06-a82a-14ce99cdccd8",
+      "page_url": "https://calendar.cron.com/",
+      "page_types": [],
+      "hex_colors": [
+        "0xF4F4F4",
+        "0x272727",
+        "0xF34C1C",
+        "0x9A9A9B",
+        "0x48A4D0"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Dropdown",
+        "Page Control & Pagination",
+        "Date & Time Picker",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Avatar",
+        "Side Sheet"
+      ],
+      "ux_patterns": [
+        "Empty State",
+        "Date & Time",
+        "Calendar",
+        "Shortcuts"
+      ],
+      "refero_url": "https://refero.design/pages/54f9685b-085f-4f06-a82a-14ce99cdccd8",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/d25842c2-ae15-4910-9378-681f35431a65_preview.jpg",
+      "local_image": "design-references/cron/images/screen-54f9685b.jpg"
+    },
+    {
+      "uuid": "789589e0-23ce-4cf2-af66-fbb5ae54d271",
+      "page_url": "https://calendar.cron.com/settings",
+      "page_types": [
+        "Settings"
+      ],
+      "hex_colors": [
+        "0xEBEBEB",
+        "0x272927",
+        "0x989999",
+        "0xBEC4BF",
+        "0xCEDAD1"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Checkbox & Radio",
+        "Dialog & Modal Window",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/789589e0-23ce-4cf2-af66-fbb5ae54d271",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/49fbfd80-b1ae-4930-8835-9ca07abf707d_preview.jpg",
+      "local_image": "design-references/cron/images/settings-789589e0.jpg"
+    },
+    {
+      "uuid": "7ab41162-93a5-4628-b671-308bb0d2d174",
+      "page_url": "https://calendar.cron.com/day",
+      "page_types": [],
+      "hex_colors": [
+        "0x292929",
+        "0x47A2D5",
+        "0xF4F4F4",
+        "0xD14E25",
+        "0x98A2A6"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Page Control & Pagination",
+        "Text Field",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Avatar",
+        "Stepper",
+        "Side Sheet"
+      ],
+      "ux_patterns": [
+        "Date & Time",
+        "Calendar"
+      ],
+      "refero_url": "https://refero.design/pages/7ab41162-93a5-4628-b671-308bb0d2d174",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/6bfc10d2-120a-486d-85fb-2d81a2dddd5b_preview.jpg",
+      "local_image": "design-references/cron/images/screen-7ab41162.jpg"
+    },
+    {
+      "uuid": "9df755a4-d611-4b93-9298-c04e70ceac1d",
+      "page_url": "https://calendar.cron.com/settings/calendars",
+      "page_types": [
+        "Settings"
+      ],
+      "hex_colors": [
+        "0xEBEBEB",
+        "0x262827",
+        "0x999A9A",
+        "0xBEC4BF",
+        "0xCEDAD1"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Dialog & Modal Window",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/9df755a4-d611-4b93-9298-c04e70ceac1d",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/d5258721-7fd4-4127-9d0a-f0ac00f1ca6e_preview.jpg",
+      "local_image": "design-references/cron/images/settings-calendars-9df755a4.jpg"
+    },
+    {
+      "uuid": "b4ef254d-cb0a-46b3-b492-67c3cf304ca6",
+      "page_url": "https://calendar.cron.com/",
+      "page_types": [],
+      "hex_colors": [
+        "0x2F2F2F",
+        "0xF5D2C5",
+        "0x3FA3DB",
+        "0xE3FAFB",
+        "0x909AA0"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Text Field",
+        "Action Sheet"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/b4ef254d-cb0a-46b3-b492-67c3cf304ca6",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/7af49f66-baab-479c-912f-5633f73d7b3d_preview.jpg",
+      "local_image": "design-references/cron/images/screen-b4ef254d.jpg"
+    },
+    {
+      "uuid": "c2313996-bcf2-4d83-9f3f-d54f8498aa2b",
+      "page_url": "https://calendar.cron.com/day/2023/12/25",
+      "page_types": [],
+      "hex_colors": [
+        "0xD2CDCA",
+        "0x6B2C24",
+        "0x242424",
+        "0x2C444F",
+        "0x48453E"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Text Field",
+        "Action Sheet"
+      ],
+      "ux_patterns": [
+        "Dark Mode"
+      ],
+      "refero_url": "https://refero.design/pages/c2313996-bcf2-4d83-9f3f-d54f8498aa2b",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/59e7e741-c983-42d6-b878-fcb4b2f02b09_preview.jpg",
+      "local_image": "design-references/cron/images/screen-c2313996.jpg"
+    },
+    {
+      "uuid": "c7c3fed4-4f99-4cc7-bdab-b3a58c6573dc",
+      "page_url": "https://calendar.cron.com/event/create",
+      "page_types": [],
+      "hex_colors": [
+        "0x34A3E2",
+        "0xED5013",
+        "0x1D1D1C",
+        "0xF4F4F4",
+        "0xFBE3C0"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "SF",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Page Control & Pagination",
+        "Text Field",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Avatar",
+        "Side Sheet"
+      ],
+      "ux_patterns": [
+        "Date & Time",
+        "Calendar"
+      ],
+      "refero_url": "https://refero.design/pages/c7c3fed4-4f99-4cc7-bdab-b3a58c6573dc",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/4a6cf5c9-0a4c-41fa-8b52-0bfcf7d2c14a_preview.jpg",
+      "local_image": "design-references/cron/images/event-create-c7c3fed4.jpg"
+    },
+    {
+      "uuid": "f8aa8f71-67bd-4518-a5de-bc480f551182",
+      "page_url": "https://calendar.cron.com/day/2023/12/25",
+      "page_types": [],
+      "hex_colors": [
+        "0x242424",
+        "0x46423A",
+        "0xDDDEDC",
+        "0x2C444F",
+        "0x6B2B23"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Text Field",
+        "Action Sheet"
+      ],
+      "ux_patterns": [
+        "Dark Mode"
+      ],
+      "refero_url": "https://refero.design/pages/f8aa8f71-67bd-4518-a5de-bc480f551182",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/5ee65021-c8b1-4ad1-9a54-fc2e25a722ef_preview.jpg",
+      "local_image": "design-references/cron/images/screen-f8aa8f71.jpg"
+    },
+    {
+      "uuid": "1eecd48e-d7fd-424a-bb5f-910638c85ded",
+      "page_url": "https://calendar.cron.com/week",
+      "page_types": [],
+      "hex_colors": [
+        "0x222222",
+        "0xD1D2D0",
+        "0x6D5954",
+        "0x60A8CD",
+        "0x2D4745"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Page Control & Pagination",
+        "Text Field",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Avatar",
+        "Stepper",
+        "Side Sheet"
+      ],
+      "ux_patterns": [
+        "Dark Mode",
+        "Date & Time",
+        "Calendar"
+      ],
+      "refero_url": "https://refero.design/pages/1eecd48e-d7fd-424a-bb5f-910638c85ded",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/b0f1d738-145d-44a8-a2c1-e8e8e83faeb0_preview.jpg",
+      "local_image": "design-references/cron/images/calendar-week-1eecd48e.jpg"
+    },
+    {
+      "uuid": "30ff6f4c-e00a-4f9f-a41a-27fbefc018c4",
+      "page_url": "https://calendar.cron.com/",
+      "page_types": [],
+      "hex_colors": [
+        "0x2E2E2E",
+        "0xF9D3C4",
+        "0x3FA3DB",
+        "0xE4FBFB",
+        "0x939CA1"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "SF",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Dropdown",
+        "Dropdown Menu"
+      ],
+      "ux_patterns": [
+        "User Menu"
+      ],
+      "refero_url": "https://refero.design/pages/30ff6f4c-e00a-4f9f-a41a-27fbefc018c4",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/a26c810e-9c1c-46fa-8b8e-0f673c78b93a_preview.jpg",
+      "local_image": "design-references/cron/images/screen-30ff6f4c.jpg"
+    },
+    {
+      "uuid": "405abcbd-bef9-4277-bb71-dc96d8482951",
+      "page_url": "https://calendar.cron.com/search?q=fdgdfgdf",
+      "page_types": [],
+      "hex_colors": [
+        "0xFBD3C4",
+        "0xE4FBFB",
+        "0x121212",
+        "0xFBF0BE",
+        "0xF5F5F5"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Search Field"
+      ],
+      "ux_patterns": [
+        "Empty State",
+        "Searching"
+      ],
+      "refero_url": "https://refero.design/pages/405abcbd-bef9-4277-bb71-dc96d8482951",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/59939b94-1894-4e24-9876-4d613f4c4ac1_preview.jpg",
+      "local_image": "design-references/cron/images/search-405abcbd.jpg"
+    },
+    {
+      "uuid": "4376e9a7-ef7f-417b-8ac2-5a8c027f4b6d",
+      "page_url": "https://calendar.cron.com/day",
+      "page_types": [],
+      "hex_colors": [
+        "0x272727",
+        "0x42A3D9",
+        "0xF4F4F4",
+        "0xCF4F26",
+        "0x98A2A5"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Page Control & Pagination",
+        "Text Field",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Avatar",
+        "Side Sheet"
+      ],
+      "ux_patterns": [
+        "Date & Time",
+        "Calendar"
+      ],
+      "refero_url": "https://refero.design/pages/4376e9a7-ef7f-417b-8ac2-5a8c027f4b6d",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/178f8313-1cb3-4e5b-b434-0c03ff4dfb10_preview.jpg",
+      "local_image": "design-references/cron/images/screen-4376e9a7.jpg"
+    },
+    {
+      "uuid": "62783f67-4f43-4e8d-b182-7ad8dc3b0e21",
+      "page_url": "https://calendar.cron.com/event/create",
+      "page_types": [],
+      "hex_colors": [
+        "0x34A3E3",
+        "0x2C2C2C",
+        "0xF04F16",
+        "0xF4F4F4",
+        "0x9BA8AE"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "SF",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Dropdown",
+        "Dropdown Menu"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/62783f67-4f43-4e8d-b182-7ad8dc3b0e21",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/1ad64df3-f9c1-442b-8f91-ca9582624dbd_preview.jpg",
+      "local_image": "design-references/cron/images/screen-62783f67.jpg"
+    },
+    {
+      "uuid": "a3719293-a7d6-4f21-8329-e2225ca3bf6e",
+      "page_url": "https://calendar.cron.com/event/YmNhNTViMzYzZTQ0NGQ4Yzk0NjM4YjNmZDE2OGRlMmIvcmVmZXJvLmRlc2lnbi50ZWFtQGdtYWlsLmNvbS81NzEwMWY0Yy0yMjkzLTRkZmYtYTE3Ni00MTA1YjQ4NDg5YWU=",
+      "page_types": [],
+      "hex_colors": [
+        "0x222322",
+        "0x9C5843",
+        "0x3CA4DD",
+        "0x3B79B0",
+        "0xF4F5F4"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Switch & Toggle",
+        "Page Control & Pagination",
+        "Text Field",
+        "Search Field",
+        "Avatar",
+        "Side Sheet"
+      ],
+      "ux_patterns": [
+        "Date & Time",
+        "Calendar"
+      ],
+      "refero_url": "https://refero.design/pages/a3719293-a7d6-4f21-8329-e2225ca3bf6e",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/8b125c97-5f3d-4998-ab63-5ef4225ce38c_preview.jpg",
+      "local_image": "design-references/cron/images/screen-a3719293.jpg"
+    },
+    {
+      "uuid": "b22b1dd9-a853-491d-a018-88b63af9a2a4",
+      "page_url": "https://calendar.cron.com/event/ODgxZTlkMGZiNmVlNGRjYWE2MjQzMmU3YWZkYjA3YmUvcmVmZXJvLmRlc2lnbi50ZWFtQGdtYWlsLmNvbS81NzEwMWY0Yy0yMjkzLTRkZmYtYTE3Ni00MTA1YjQ4NDg5YWU=",
+      "page_types": [],
+      "hex_colors": [
+        "0x34A3E3",
+        "0xF54F10",
+        "0x1E1E1E",
+        "0xF4F4F4",
+        "0x9BA8AE"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "SF",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Page Control & Pagination",
+        "Text Field",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Avatar",
+        "Side Sheet"
+      ],
+      "ux_patterns": [
+        "Date & Time",
+        "Calendar"
+      ],
+      "refero_url": "https://refero.design/pages/b22b1dd9-a853-491d-a018-88b63af9a2a4",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/67ca5652-76f4-4fb3-b8d6-c01bd2f89733_preview.jpg",
+      "local_image": "design-references/cron/images/screen-b22b1dd9.jpg"
+    },
+    {
+      "uuid": "d23ecdaf-ae41-455e-a1a1-346128ac2c8d",
+      "page_url": "https://calendar.cron.com/",
+      "page_types": [],
+      "hex_colors": [
+        "0x3B3B3B",
+        "0xF5D3C5",
+        "0x3FA3DB",
+        "0xA56048",
+        "0xE3FAFB"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Text Field",
+        "Action Sheet"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/d23ecdaf-ae41-455e-a1a1-346128ac2c8d",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/df7bdff8-be62-4dcb-85a8-ac0bb02a535b_preview.jpg",
+      "local_image": "design-references/cron/images/screen-d23ecdaf.jpg"
+    },
+    {
+      "uuid": "ee12d0d0-646b-470a-bc99-8013c9391d5d",
+      "page_url": "https://calendar.cron.com/event/YmNhNTViMzYzZTQ0NGQ4Yzk0NjM4YjNmZDE2OGRlMmIvcmVmZXJvLmRlc2lnbi50ZWFtQGdtYWlsLmNvbS81NzEwMWY0Yy0yMjkzLTRkZmYtYTE3Ni00MTA1YjQ4NDg5YWU=",
+      "page_types": [],
+      "hex_colors": [
+        "0x4199CF",
+        "0xD34E25",
+        "0x282928",
+        "0xF4F4F4",
+        "0x9AA5A8"
+      ],
+      "fonts": [
+        "UI Sans Serif",
+        "UI Monospace"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Switch & Toggle",
+        "Page Control & Pagination",
+        "Text Field",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Avatar",
+        "Side Sheet"
+      ],
+      "ux_patterns": [
+        "Date & Time",
+        "Calendar"
+      ],
+      "refero_url": "https://refero.design/pages/ee12d0d0-646b-470a-bc99-8013c9391d5d",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/7682403d-274e-4359-bd67-1832355d92d9_preview.jpg",
+      "local_image": "design-references/cron/images/screen-ee12d0d0.jpg"
+    },
+    {
+      "uuid": "f04c53ce-7c0f-4899-83a3-3057337f4193",
+      "page_url": "https://calendar.cron.com/event/create",
+      "page_types": [],
+      "hex_colors": [
+        "0x2C2D2C",
+        "0x49C490",
+        "0xF24C1B",
+        "0xF4F4F4",
+        "0x979C9B"
+      ],
+      "fonts": [
+        "UI Sans Serif"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Switch & Toggle",
+        "Page Control & Pagination",
+        "Text Field",
+        "Date & Time Picker",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Avatar",
+        "Side Sheet"
+      ],
+      "ux_patterns": [
+        "Date & Time",
+        "Calendar"
+      ],
+      "refero_url": "https://refero.design/pages/f04c53ce-7c0f-4899-83a3-3057337f4193",
+      "preview_url": "https://images.refero.design/screenshots/cron.com/desktop/6c11f875-dc29-4f79-bdc6-4f0249050837_preview.jpg",
+      "local_image": "design-references/cron/images/screen-f04c53ce.jpg"
+    }
+  ]
+}
