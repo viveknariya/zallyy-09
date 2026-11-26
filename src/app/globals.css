@@ -13,6 +13,20 @@
   --muted: #6c6c6c;
 }
 
+/* Scoped theme tokens for /design-systems/tilda */
+[data-design-system="tilda"] {
+  --background: #ffffff;
+  --foreground: #111111;
+  --surface: #f7f7f7;
+  --surface-muted: #efefef;
+  --border: #e5e5e5;
+  --border-strong: #111111;
+  --accent: #fa8a64;
+  --accent-strong: #fb5e1d;
+  --accent-soft: #f5b39c;
+  --muted: #6c6c6c;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

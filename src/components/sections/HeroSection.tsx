@@ -20,10 +20,10 @@ export function HeroSection() {
             pricing tiers, auth flows, and workspace views.
           </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-            <Button href="/signup" variant="accent" size="lg">
+            <Button href="/design-systems/tilda/signup" variant="accent" size="lg">
               Create a Website <ArrowRight className="h-4 w-4" />
             </Button>
-            <Button href="/design-system" variant="outline" size="lg">
+            <Button href="/design-systems/tilda/components" variant="outline" size="lg">
               Explore Components
             </Button>
           </div>

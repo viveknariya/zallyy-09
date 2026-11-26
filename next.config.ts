@@ -1,7 +1,18 @@
 import type { NextConfig } from "next";
 
+const legacyTildaRoutes = [
+  { source: "/design-system", destination: "/design-systems/tilda/components" },
+  { source: "/colors", destination: "/design-systems/tilda/colors" },
+  { source: "/pricing", destination: "/design-systems/tilda/pricing" },
+  { source: "/projects", destination: "/design-systems/tilda/projects" },
+  { source: "/settings", destination: "/design-systems/tilda/settings" },
+  { source: "/help", destination: "/design-systems/tilda/help" },
+  { source: "/login", destination: "/design-systems/tilda/login" },
+  { source: "/signup", destination: "/design-systems/tilda/signup" },
+  { source: "/recover", destination: "/design-systems/tilda/recover" },
+];
+
 const nextConfig: NextConfig = {
-  /* config options here */
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {
@@ -11,6 +22,13 @@ const nextConfig: NextConfig = {
         as: "*.css",
       },
     },
+  },
+  async redirects() {
+    return legacyTildaRoutes.map((route) => ({
+      source: route.source,
+      destination: route.destination,
+      permanent: true,
+    }));
   },
 };
 

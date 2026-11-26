@@ -1,6 +1,13 @@
-import { Footer } from "@/components/layout/Footer";
-import { Navbar } from "@/components/layout/Navbar";
+import type { Metadata } from "next";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { Card } from "@/components/ui/Card";
+
+export const metadata: Metadata = {
+  title: "Tilda Colors & Gradients",
+  description:
+    "Curated color palettes and CSS gradients extracted from Tilda.cc Refero design references.",
+  alternates: { canonical: "/design-systems/tilda/colors" },
+};
 
 const gradients = [
   {
@@ -25,11 +32,18 @@ const gradients = [
   },
 ];
 
-export default function ColorsPage() {
+export default function TildaColorsPage() {
   return (
     <>
-      <Navbar />
-      <main className="flex-1 bg-background py-16">
+      <Breadcrumbs
+        items={[
+          { label: "Home", href: "/" },
+          { label: "Design Systems", href: "/design-systems" },
+          { label: "Tilda", href: "/design-systems/tilda" },
+          { label: "Colors", href: "/design-systems/tilda/colors" },
+        ]}
+      />
+      <div className="bg-background py-16">
         <div className="mx-auto max-w-6xl px-6">
           <h1 className="font-display text-4xl font-light text-foreground">
             Colors & Gradients
@@ -52,8 +66,7 @@ export default function ColorsPage() {
             ))}
           </div>
         </div>
-      </main>
-      <Footer />
+      </div>
     </>
   );
 }

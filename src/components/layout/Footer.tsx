@@ -4,26 +4,27 @@ const footerGroups = [
   {
     title: "Product",
     links: [
-      { href: "/", label: "Overview" },
-      { href: "/pricing", label: "Pricing" },
-      { href: "/projects", label: "Projects" },
-      { href: "/colors", label: "Colors & Gradients" },
+      { href: "/design-systems/tilda", label: "Overview" },
+      { href: "/design-systems/tilda/pricing", label: "Pricing" },
+      { href: "/design-systems/tilda/projects", label: "Projects" },
+      { href: "/design-systems/tilda/colors", label: "Colors & Gradients" },
     ],
   },
   {
     title: "Resources",
     links: [
-      { href: "/help", label: "Help Center" },
-      { href: "/design-system", label: "Component Library" },
-      { href: "/settings", label: "Settings" },
+      { href: "/design-systems/tilda/help", label: "Help Center" },
+      { href: "/design-systems/tilda/components", label: "Component Library" },
+      { href: "/design-systems/tilda/settings", label: "Settings" },
+      { href: "/design-systems", label: "All Design Systems" },
     ],
   },
   {
     title: "Account",
     links: [
-      { href: "/login", label: "Log In" },
-      { href: "/signup", label: "Sign Up" },
-      { href: "/recover", label: "Reset Password" },
+      { href: "/design-systems/tilda/login", label: "Log In" },
+      { href: "/design-systems/tilda/signup", label: "Sign Up" },
+      { href: "/design-systems/tilda/recover", label: "Reset Password" },
     ],
   },
 ];

@@ -20,10 +20,17 @@ const tildaMono = JetBrains_Mono({
   weight: ["400", "500"],
 });
 
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "http://localhost:3000";
+
 export const metadata: Metadata = {
-  title: "Tilda Starter — Editorial Website & App Template",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Design Systems — Curated UI Kits & Next.js Starter Templates",
+    template: "%s | Design Systems",
+  },
   description:
-    "Next.js App Router starter template inspired by Tilda.cc design references from Refero.",
+    "Explore curated website design systems, tokens, components, and Next.js App Router starter templates.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

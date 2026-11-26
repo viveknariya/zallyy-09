@@ -125,7 +125,7 @@ export function PricingSection() {
 
                 <div className="mt-8 w-full pt-2">
                   <Button
-                    href="/signup"
+                    href="/design-systems/tilda/signup"
                     variant={plan.variant}
                     className="w-full"
                   >

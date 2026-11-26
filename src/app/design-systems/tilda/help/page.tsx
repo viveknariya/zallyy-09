@@ -1,7 +1,14 @@
 import { BookOpen, Code2, Globe, HelpCircle } from "lucide-react";
-import { Footer } from "@/components/layout/Footer";
-import { Navbar } from "@/components/layout/Navbar";
+import type { Metadata } from "next";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { Card } from "@/components/ui/Card";
+
+export const metadata: Metadata = {
+  title: "Tilda Help & Documentation Pattern",
+  description:
+    "Support and documentation hub layout inspired by help.tilda.cc and answers.tilda.cc.",
+  alternates: { canonical: "/design-systems/tilda/help" },
+};
 
 const topics = [
   {
@@ -26,11 +33,18 @@ const topics = [
   },
 ];
 
-export default function HelpPage() {
+export default function TildaHelpPage() {
   return (
     <>
-      <Navbar />
-      <main className="flex-1 bg-background py-16">
+      <Breadcrumbs
+        items={[
+          { label: "Home", href: "/" },
+          { label: "Design Systems", href: "/design-systems" },
+          { label: "Tilda", href: "/design-systems/tilda" },
+          { label: "Help", href: "/design-systems/tilda/help" },
+        ]}
+      />
+      <div className="flex-1 bg-background py-16">
         <div className="mx-auto max-w-5xl px-6">
           <h1 className="font-display text-4xl font-light text-foreground">
             Help & Documentation
@@ -54,8 +68,7 @@ export default function HelpPage() {
             })}
           </div>
         </div>
-      </main>
-      <Footer />
+      </div>
     </>
   );
 }

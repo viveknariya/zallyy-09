@@ -17,7 +17,7 @@ const config = {
     cta: "Log In",
     footerText: "Don’t have an account?",
     footerLinkLabel: "Sign up",
-    footerHref: "/signup",
+    footerHref: "/design-systems/tilda/signup",
   },
   signup: {
     title: "Create your account",
@@ -25,7 +25,7 @@ const config = {
     cta: "Create Account",
     footerText: "Already have an account?",
     footerLinkLabel: "Log in",
-    footerHref: "/login",
+    footerHref: "/design-systems/tilda/login",
   },
   recover: {
     title: "Reset your password",
@@ -33,7 +33,7 @@ const config = {
     cta: "Send Reset Link",
     footerText: "Remembered your password?",
     footerLinkLabel: "Back to Log In",
-    footerHref: "/login",
+    footerHref: "/design-systems/tilda/login",
   },
 };
 
@@ -94,7 +94,7 @@ export function AuthCard({ mode }: AuthCardProps) {
             {mode === "login" && (
               <div className="flex justify-end">
                 <Link
-                  href="/recover"
+                  href="/design-systems/tilda/recover"
                   className="text-xs text-muted hover:text-foreground underline"
                 >
                   Forgot password?

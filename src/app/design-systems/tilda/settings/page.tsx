@@ -1,14 +1,28 @@
-import { Footer } from "@/components/layout/Footer";
-import { Navbar } from "@/components/layout/Navbar";
+import type { Metadata } from "next";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { Input } from "@/components/ui/Input";
 
-export default function SettingsPage() {
+export const metadata: Metadata = {
+  title: "Tilda Site Settings Pattern",
+  description:
+    "Clean bordered settings form pattern modeled after Tilda.cc project settings.",
+  alternates: { canonical: "/design-systems/tilda/settings" },
+};
+
+export default function TildaSettingsPage() {
   return (
     <>
-      <Navbar />
-      <main className="flex-1 bg-surface py-12">
+      <Breadcrumbs
+        items={[
+          { label: "Home", href: "/" },
+          { label: "Design Systems", href: "/design-systems" },
+          { label: "Tilda", href: "/design-systems/tilda" },
+          { label: "Settings", href: "/design-systems/tilda/settings" },
+        ]}
+      />
+      <div className="flex-1 bg-surface py-12">
         <div className="mx-auto max-w-3xl px-6 space-y-8">
           <div>
             <h1 className="font-display text-3xl font-normal text-foreground">
@@ -41,8 +55,7 @@ export default function SettingsPage() {
             </div>
           </Card>
         </div>
-      </main>
-      <Footer />
+      </div>
     </>
   );
 }
