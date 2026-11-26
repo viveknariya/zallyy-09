@@ -1,4 +1,4 @@
-import { ArrowRight, Calendar, Code2, CreditCard, Palette } from "lucide-react";
+import { ArrowRight, Calendar, Code2, CreditCard, Palette, Zap } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Badge } from "@/components/ui/Badge";
@@ -192,6 +192,35 @@ export default function HomePage() {
                     /design-systems/cron
                   </span>
                   <Button href="/design-systems/cron" variant="primary" size="sm">
+                    Open <ArrowRight className="h-3.5 w-3.5" />
+                  </Button>
+                </div>
+              </Card>
+
+              <Card variant="bordered" className="bg-background flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center justify-between">
+                    <div
+                      className="flex h-12 w-12 items-center justify-center rounded-full text-white"
+                      style={{ background: "#2AB54B" }}
+                    >
+                      <Zap className="h-5 w-5" />
+                    </div>
+                    <Badge tone="neutral">40 Reference Screens</Badge>
+                  </div>
+                  <h3 className="mt-6 font-display text-2xl font-normal text-foreground">
+                    Brilliant
+                  </h3>
+                  <p className="mt-2 text-sm leading-relaxed text-muted">
+                    Interactive STEM UI with Newsreader serif headings, #2AB54B
+                    tactile pills, midnight navy bands, and puzzle cards.
+                  </p>
+                </div>
+                <div className="mt-8 pt-4 border-t border-border flex items-center justify-between">
+                  <span className="font-mono text-xs text-muted">
+                    /design-systems/brilliant
+                  </span>
+                  <Button href="/design-systems/brilliant" variant="primary" size="sm">
                     Open <ArrowRight className="h-3.5 w-3.5" />
                   </Button>
                 </div>

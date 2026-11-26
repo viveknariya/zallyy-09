@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { JetBrains_Mono, Jost, Plus_Jakarta_Sans } from "next/font/google";
+import { JetBrains_Mono, Jost, Newsreader, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 
 const tildaDisplay = Jost({
@@ -20,6 +20,12 @@ const tildaMono = JetBrains_Mono({
   weight: ["400", "500"],
 });
 
+const brilliantSerif = Newsreader({
+  variable: "--font-brilliant-serif",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "http://localhost:3000";
 
@@ -37,7 +43,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${tildaDisplay.variable} ${tildaSans.variable} ${tildaMono.variable} h-full antialiased`}
+      className={`${tildaDisplay.variable} ${tildaSans.variable} ${tildaMono.variable} ${brilliantSerif.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
         {children}
