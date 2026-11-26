@@ -5,7 +5,7 @@ import { Card } from "@/components/ui/Card";
 export const metadata: Metadata = {
   title: "Tilda Colors & Gradients",
   description:
-    "Curated color palettes and CSS gradients extracted from Tilda.cc Refero design references.",
+    "Curated color palettes and CSS gradients inspired by Tilda.cc.",
   alternates: { canonical: "/design-systems/tilda/colors" },
 };
 
@@ -49,7 +49,7 @@ export default function TildaColorsPage() {
             Colors & Gradients
           </h1>
           <p className="mt-3 text-base text-muted">
-            Curated palettes extracted from Tilda.cc Refero design references.
+            Curated palettes and gradients inspired by Tilda.cc.
           </p>
 
           <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">

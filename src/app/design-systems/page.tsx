@@ -1,4 +1,4 @@
-import { ArrowRight, Palette } from "lucide-react";
+import { ArrowRight, Code2, Palette } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
@@ -74,6 +74,33 @@ export default function DesignSystemsIndexPage() {
               <div className="mt-8 pt-4 border-t border-border flex items-center justify-between">
                 <span className="font-mono text-xs text-muted">10 routes</span>
                 <Button href="/design-systems/tilda" variant="accent" size="sm">
+                  Explore <ArrowRight className="h-3.5 w-3.5" />
+                </Button>
+              </div>
+            </Card>
+
+            <Card variant="bordered" className="flex flex-col justify-between">
+              <div>
+                <div className="flex items-center justify-between">
+                  <div
+                    className="flex h-12 w-12 items-center justify-center rounded-full text-white"
+                    style={{ background: "linear-gradient(135deg, #6B57FF 0%, #167DFF 100%)" }}
+                  >
+                    <Code2 className="h-5 w-5" />
+                  </div>
+                  <Badge tone="dark">jetbrains.com</Badge>
+                </div>
+                <h2 className="mt-6 font-display text-2xl font-normal text-foreground">
+                  JetBrains Design System
+                </h2>
+                <p className="mt-2 text-sm leading-relaxed text-muted">
+                  Dark-first developer UI (#19191C), electric blue pill CTAs
+                  (#167DFF), IDE gradient badges, and JetBrains Mono.
+                </p>
+              </div>
+              <div className="mt-8 pt-4 border-t border-border flex items-center justify-between">
+                <span className="font-mono text-xs text-muted">8 routes</span>
+                <Button href="/design-systems/jetbrains" variant="primary" size="sm">
                   Explore <ArrowRight className="h-3.5 w-3.5" />
                 </Button>
               </div>

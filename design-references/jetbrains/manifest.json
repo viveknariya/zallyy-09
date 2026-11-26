@@ -1,0 +1,1019 @@
+{
+  "brand": "jetbrains",
+  "total": 39,
+  "fonts": [],
+  "top_colors": [],
+  "top_ui_elements": [
+    [
+      "Navigation Bar",
+      39
+    ],
+    [
+      "Footer",
+      38
+    ],
+    [
+      "Button",
+      33
+    ],
+    [
+      "Icon",
+      23
+    ],
+    [
+      "Cards & Tiles",
+      21
+    ],
+    [
+      "Dropdown",
+      15
+    ],
+    [
+      "Product Image",
+      14
+    ],
+    [
+      "Hero Image",
+      13
+    ],
+    [
+      "Illustration",
+      13
+    ],
+    [
+      "Text Field",
+      8
+    ],
+    [
+      "Tabs",
+      7
+    ],
+    [
+      "Avatar",
+      6
+    ],
+    [
+      "Photo",
+      5
+    ],
+    [
+      "Logo Wall",
+      5
+    ],
+    [
+      "Checkbox & Radio",
+      4
+    ],
+    [
+      "Sidebar & Drawer",
+      3
+    ],
+    [
+      "Currency",
+      3
+    ],
+    [
+      "Page Control & Pagination",
+      3
+    ],
+    [
+      "3d Illustration",
+      3
+    ],
+    [
+      "List",
+      3
+    ]
+  ],
+  "top_ux_patterns": [
+    [
+      "Testimonials",
+      8
+    ],
+    [
+      "FAQ",
+      5
+    ],
+    [
+      "Video Player",
+      3
+    ],
+    [
+      "Upload & Download",
+      2
+    ],
+    [
+      "Email Subscription",
+      2
+    ],
+    [
+      "Filter & Sorting",
+      1
+    ],
+    [
+      "Timeline & History",
+      1
+    ],
+    [
+      "Payment Method",
+      1
+    ],
+    [
+      "Bento Grid",
+      1
+    ]
+  ],
+  "screens": [
+    {
+      "uuid": "688d00fb-eda8-4683-b740-bcd300ddb76a",
+      "page_url": "https://www.jetbrains.com/company/people/youtrack/",
+      "page_types": [
+        "About"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Button",
+        "Navigation Bar",
+        "Footer",
+        "Photo",
+        "Avatar"
+      ],
+      "ux_patterns": [
+        "Testimonials"
+      ],
+      "refero_url": "https://refero.design/pages/688d00fb-eda8-4683-b740-bcd300ddb76a",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/c9ad9761-598f-4d1c-9c8a-878f55e58ac7_preview.jpg",
+      "local_image": "design-references/jetbrains/images/about-688d00fb.jpg"
+    },
+    {
+      "uuid": "7a9047f6-df38-463d-b157-bdac73505bdb",
+      "page_url": "https://www.jetbrains.com/datagrip/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Button",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Logo Wall",
+        "Hero Image",
+        "Product Image"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/7a9047f6-df38-463d-b157-bdac73505bdb",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/8db5e967-30c4-494a-887c-dc8d5a929ecd_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-7a9047f6.jpg"
+    },
+    {
+      "uuid": "7f6baad2-18e2-4ba9-bb5f-b8429c371e68",
+      "page_url": "https://www.jetbrains.com/company/contacts/#headquarters-international-sales",
+      "page_types": [
+        "Contacts"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Button",
+        "Navigation Bar",
+        "Footer",
+        "Illustration",
+        "Hero Image",
+        "Avatar"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/7f6baad2-18e2-4ba9-bb5f-b8429c371e68",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/e84dffbe-6cf0-42e8-a3db-52a4f68bcbae_preview.jpg",
+      "local_image": "design-references/jetbrains/images/contacts-7f6baad2.jpg"
+    },
+    {
+      "uuid": "837fc3b1-7928-4585-aae9-4ce614ff307f",
+      "page_url": "https://www.jetbrains.com/objc/whatsnew/",
+      "page_types": [
+        "Newsroom & Updates"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Navigation Bar",
+        "Sidebar & Drawer",
+        "Footer",
+        "Product Image"
+      ],
+      "ux_patterns": [
+        "Upload & Download"
+      ],
+      "refero_url": "https://refero.design/pages/837fc3b1-7928-4585-aae9-4ce614ff307f",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/5cef214a-2255-4a2a-b78c-6720cc1e12f4_preview.jpg",
+      "local_image": "design-references/jetbrains/images/newsroom-updates-837fc3b1.jpg"
+    },
+    {
+      "uuid": "8f1cb8cc-9c2f-47b8-bdf0-10264a7fc25a",
+      "page_url": "https://www.jetbrains.com/legal/docs/store/terms/",
+      "page_types": [
+        "Terms & Conditions"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Navigation Bar",
+        "Footer"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/8f1cb8cc-9c2f-47b8-bdf0-10264a7fc25a",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/3b953aef-0d2b-48be-892d-84251b7f93e1_preview.jpg",
+      "local_image": "design-references/jetbrains/images/terms-conditions-8f1cb8cc.jpg"
+    },
+    {
+      "uuid": "a3591fb1-d12a-4ebe-a8ed-91d142941d38",
+      "page_url": "https://www.jetbrains.com/store/#commercial",
+      "page_types": [
+        "Paywall & Subscription"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Tabs",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Currency"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/a3591fb1-d12a-4ebe-a8ed-91d142941d38",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/7175e05f-64cd-4c37-b06c-e5f3bccedfdb_preview.jpg",
+      "local_image": "design-references/jetbrains/images/store-pricing-a3591fb1.jpg"
+    },
+    {
+      "uuid": "aaf18b1b-81b1-4606-9ab7-698c0d29dc5d",
+      "page_url": "https://www.jetbrains.com/resources/newsletters/",
+      "page_types": [
+        "Newsroom & Updates"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Text Field",
+        "Navigation Bar",
+        "Footer",
+        "Illustration"
+      ],
+      "ux_patterns": [
+        "Email Subscription"
+      ],
+      "refero_url": "https://refero.design/pages/aaf18b1b-81b1-4606-9ab7-698c0d29dc5d",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/6d4181a7-891f-4a1a-9424-6f2621691ef5_preview.jpg",
+      "local_image": "design-references/jetbrains/images/newsroom-updates-aaf18b1b.jpg"
+    },
+    {
+      "uuid": "b7a4e4fe-1544-4561-ba59-2794eebac882",
+      "page_url": "https://www.jetbrains.com/company/customers/experience/",
+      "page_types": [
+        "Blog"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Checkbox & Radio",
+        "Navigation Bar",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Footer"
+      ],
+      "ux_patterns": [
+        "Filter & Sorting"
+      ],
+      "refero_url": "https://refero.design/pages/b7a4e4fe-1544-4561-ba59-2794eebac882",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/81d34e87-82a6-4c60-8175-71b8e8bc4c93_preview.jpg",
+      "local_image": "design-references/jetbrains/images/blog-b7a4e4fe.jpg"
+    },
+    {
+      "uuid": "d1703e01-f4c6-4f67-999b-116b36c41f62",
+      "page_url": "https://www.jetbrains.com/lp/mono/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Button",
+        "Tabs",
+        "Navigation Bar",
+        "Footer"
+      ],
+      "ux_patterns": [
+        "FAQ",
+        "Upload & Download"
+      ],
+      "refero_url": "https://refero.design/pages/d1703e01-f4c6-4f67-999b-116b36c41f62",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/7c557bde-6029-4b39-90c7-b8f64f531c7c_preview.jpg",
+      "local_image": "design-references/jetbrains/images/mono-lp-d1703e01.jpg"
+    },
+    {
+      "uuid": "e751bf2a-c0e2-4700-9d84-95e887fef8ef",
+      "page_url": "https://www.jetbrains.com/space/partners/technology/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Checkbox & Radio",
+        "Text Field",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Illustration"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/e751bf2a-c0e2-4700-9d84-95e887fef8ef",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/9d843a31-2d7b-4367-b5f0-9afbdcaea90a_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-e751bf2a.jpg"
+    },
+    {
+      "uuid": "1d38bea3-c78a-4ce2-8ef5-3471e3622aa7",
+      "page_url": "https://www.jetbrains.com/",
+      "page_types": [
+        "Product Page & Landing",
+        "Home Page"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Page Control & Pagination",
+        "Navigation Bar",
+        "Footer",
+        "Photo",
+        "Icon",
+        "Illustration",
+        "Logo Wall"
+      ],
+      "ux_patterns": [
+        "Testimonials"
+      ],
+      "refero_url": "https://refero.design/pages/1d38bea3-c78a-4ce2-8ef5-3471e3622aa7",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/49196ab5-b9ba-4658-ad8c-433c05cb91dc_preview.jpg",
+      "local_image": "design-references/jetbrains/images/home-page-1d38bea3.jpg"
+    },
+    {
+      "uuid": "2ff83492-e40e-432a-9f71-b1905051ab2a",
+      "page_url": "https://www.jetbrains.com/space/extensibility/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Dropdown",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "3d Illustration"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/2ff83492-e40e-432a-9f71-b1905051ab2a",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/c57cb4d1-6a77-4f9c-b078-e8fb61b10851_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-2ff83492.jpg"
+    },
+    {
+      "uuid": "36c5eba3-885f-40ca-9ed1-eb2697d04ffe",
+      "page_url": "https://www.jetbrains.com/cpp/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Hero Image",
+        "Avatar"
+      ],
+      "ux_patterns": [
+        "Testimonials"
+      ],
+      "refero_url": "https://refero.design/pages/36c5eba3-885f-40ca-9ed1-eb2697d04ffe",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/885aaa49-2d2c-4fd7-a598-e16ee9fafe70_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-36c5eba3.jpg"
+    },
+    {
+      "uuid": "3dd90a3b-036a-4dcd-a20c-5f710a7c3983",
+      "page_url": "https://www.jetbrains.com/rider/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Navigation Bar",
+        "Footer",
+        "Photo",
+        "Icon",
+        "Logo Wall",
+        "Product Image"
+      ],
+      "ux_patterns": [
+        "Testimonials"
+      ],
+      "refero_url": "https://refero.design/pages/3dd90a3b-036a-4dcd-a20c-5f710a7c3983",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/a3a8febd-1ab9-4128-bffe-26d0a1a4de91_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-3dd90a3b.jpg"
+    },
+    {
+      "uuid": "793724d4-e94d-410d-ae1a-e4f6d583d0cf",
+      "page_url": "https://www.jetbrains.com/space/roadmap/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Dropdown",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Product Image"
+      ],
+      "ux_patterns": [
+        "Timeline & History"
+      ],
+      "refero_url": "https://refero.design/pages/793724d4-e94d-410d-ae1a-e4f6d583d0cf",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/d0ab535b-ea6d-4d1a-9712-7e63b8799872_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-793724d4.jpg"
+    },
+    {
+      "uuid": "9d852813-ec62-47fb-9747-e164f254cee0",
+      "page_url": "https://www.jetbrains.com/all/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Illustration",
+        "Logo Wall",
+        "Hero Image"
+      ],
+      "ux_patterns": [
+        "FAQ",
+        "Email Subscription"
+      ],
+      "refero_url": "https://refero.design/pages/9d852813-ec62-47fb-9747-e164f254cee0",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/d47c574a-2d73-4a65-aeec-f14398eae23c_preview.jpg",
+      "local_image": "design-references/jetbrains/images/all-tools-9d852813.jpg"
+    },
+    {
+      "uuid": "ea3f288d-7a66-4708-ade4-e72c15e1dba5",
+      "page_url": "https://www.jetbrains.com/company/news/",
+      "page_types": [
+        "Newsroom & Updates"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Navigation Bar",
+        "Footer"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/ea3f288d-7a66-4708-ade4-e72c15e1dba5",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/499cc733-fe1d-4bca-8da3-8b38a390c3d1_preview.jpg",
+      "local_image": "design-references/jetbrains/images/newsroom-ea3f288d.jpg"
+    },
+    {
+      "uuid": "ebe07db3-ed37-4e76-bf7e-6ddd1b164309",
+      "page_url": "https://www.jetbrains.com/support/",
+      "page_types": [
+        "Support & Help"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Navigation Bar",
+        "Footer",
+        "Icon"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/ebe07db3-ed37-4e76-bf7e-6ddd1b164309",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/7b990595-24a1-4a7b-b578-e53704826201_preview.jpg",
+      "local_image": "design-references/jetbrains/images/support-ebe07db3.jpg"
+    },
+    {
+      "uuid": "f2bfda55-0bce-4086-9898-5fe407a2f8af",
+      "page_url": "https://www.jetbrains.com/qodana/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Navigation Bar",
+        "Footer",
+        "Hero Image",
+        "Product Image"
+      ],
+      "ux_patterns": [
+        "Video Player"
+      ],
+      "refero_url": "https://refero.design/pages/f2bfda55-0bce-4086-9898-5fe407a2f8af",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/a5402112-a217-468d-b91b-06973a2fa4a6_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-f2bfda55.jpg"
+    },
+    {
+      "uuid": "fc7e1ae1-cc6b-4e43-9ad5-6b24bf567cbb",
+      "page_url": "https://www.jetbrains.com/space/partners/channel/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "List",
+        "Button",
+        "Dropdown",
+        "Text Field",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Illustration"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/fc7e1ae1-cc6b-4e43-9ad5-6b24bf567cbb",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/3c21ae46-0154-4ed4-88d8-43dd73f88cd5_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-fc7e1ae1.jpg"
+    },
+    {
+      "uuid": "19b2e4ee-e366-403e-bb2d-4ba5e48147b6",
+      "page_url": "https://www.jetbrains.com/space/buy/?billing=yearly#cloud",
+      "page_types": [
+        "Paywall & Subscription"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Accordion & Collapse",
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Navigation Bar",
+        "Footer",
+        "Currency"
+      ],
+      "ux_patterns": [
+        "FAQ"
+      ],
+      "refero_url": "https://refero.design/pages/19b2e4ee-e366-403e-bb2d-4ba5e48147b6",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/25c4f071-014e-459a-b8e8-91af2cd82d7b_preview.jpg",
+      "local_image": "design-references/jetbrains/images/paywall-subscription-19b2e4ee.jpg"
+    },
+    {
+      "uuid": "639577ad-c607-49ec-a00d-5ca250cbcb0d",
+      "page_url": "https://www.jetbrains.com/academy/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Page Control & Pagination",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Hero Image",
+        "Product Image"
+      ],
+      "ux_patterns": [
+        "Testimonials"
+      ],
+      "refero_url": "https://refero.design/pages/639577ad-c607-49ec-a00d-5ca250cbcb0d",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/ae9186fe-2693-4045-ad6d-91347f4c6e99_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-639577ad.jpg"
+    },
+    {
+      "uuid": "7460b051-476c-4dca-bbce-bedc592e1087",
+      "page_url": "https://www.jetbrains.com/clion/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Navigation Bar",
+        "Footer",
+        "Photo",
+        "Icon",
+        "Logo Wall",
+        "Hero Image",
+        "Product Image"
+      ],
+      "ux_patterns": [
+        "Testimonials",
+        "Video Player"
+      ],
+      "refero_url": "https://refero.design/pages/7460b051-476c-4dca-bbce-bedc592e1087",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/1280b3c2-e258-4649-9f66-1217a6d21fb3_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-7460b051.jpg"
+    },
+    {
+      "uuid": "77a85b97-72ca-4713-8c9e-623c95038b37",
+      "page_url": "https://www.jetbrains.com/shop/checkout?code=3vfknfyv5bhdf8ur069o9ch06&requestQuote=false",
+      "page_types": [
+        "Checkout"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Button",
+        "Tabs",
+        "Checkbox & Radio",
+        "Text Field",
+        "Navigation Bar",
+        "Currency"
+      ],
+      "ux_patterns": [
+        "Payment Method"
+      ],
+      "refero_url": "https://refero.design/pages/77a85b97-72ca-4713-8c9e-623c95038b37",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/f0e783c7-3e32-40fb-9171-b7ec6c4e4f12_preview.jpg",
+      "local_image": "design-references/jetbrains/images/checkout-77a85b97.jpg"
+    },
+    {
+      "uuid": "7cd1897f-6948-4d8e-b9d4-5cea59c84bf1",
+      "page_url": "https://www.jetbrains.com/space/learn/",
+      "page_types": [
+        "Blog"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "List",
+        "Button",
+        "Dropdown",
+        "Switch & Toggle",
+        "Navigation Bar",
+        "Sidebar & Drawer",
+        "Footer",
+        "Icon",
+        "Avatar"
+      ],
+      "ux_patterns": [
+        "Testimonials",
+        "Video Player"
+      ],
+      "refero_url": "https://refero.design/pages/7cd1897f-6948-4d8e-b9d4-5cea59c84bf1",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/06170ccf-8fe1-465e-bc71-a9be2921dc67_preview.jpg",
+      "local_image": "design-references/jetbrains/images/blog-7cd1897f.jpg"
+    },
+    {
+      "uuid": "b678e21b-0134-4890-abd5-e224f4ca3885",
+      "page_url": "https://www.jetbrains.com/support/sales/#email-sales",
+      "page_types": [
+        "Contacts"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Dropdown",
+        "Tabs",
+        "Text Field",
+        "Navigation Bar",
+        "Footer",
+        "Illustration"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/b678e21b-0134-4890-abd5-e224f4ca3885",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/a42f1328-61d6-4d20-903b-9daf9f634946_preview.jpg",
+      "local_image": "design-references/jetbrains/images/contacts-b678e21b.jpg"
+    },
+    {
+      "uuid": "e51a9d9c-18fb-4d4a-8ffd-f691a25c699c",
+      "page_url": "https://www.jetbrains.com/opensource/kotlin/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Hero Image"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/e51a9d9c-18fb-4d4a-8ffd-f691a25c699c",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/17398636-8494-49ea-957a-57ea835bc3c9_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-e51a9d9c.jpg"
+    },
+    {
+      "uuid": "e62fef78-efdb-44a8-b020-140093adfe75",
+      "page_url": "https://www.jetbrains.com/shop/customer",
+      "page_types": [],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Navigation Bar",
+        "Footer"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/e62fef78-efdb-44a8-b020-140093adfe75",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/93d02505-469e-4d28-aed6-f8e16b06a833_preview.jpg",
+      "local_image": "design-references/jetbrains/images/screen-e62fef78.jpg"
+    },
+    {
+      "uuid": "f3db3f31-0644-450a-981a-10e820d61be3",
+      "page_url": "https://www.jetbrains.com/space/partners/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "List",
+        "Button",
+        "Dropdown",
+        "Navigation Bar",
+        "Footer",
+        "Illustration"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/f3db3f31-0644-450a-981a-10e820d61be3",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/97465458-ba4a-45ee-80ec-a1ae9e999eaa_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-f3db3f31.jpg"
+    },
+    {
+      "uuid": "f502e77c-fec9-4840-ab7f-45fba43b8509",
+      "page_url": "https://www.jetbrains.com/space/features/project-management.html",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Navigation Bar",
+        "Footer",
+        "Product Image"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/f502e77c-fec9-4840-ab7f-45fba43b8509",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/64f8bdb1-e1a7-4fa2-ac47-6a46ef7f29d7_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-f502e77c.jpg"
+    },
+    {
+      "uuid": "2d56f40e-a7a7-4b4b-a653-0437646c2665",
+      "page_url": "https://www.jetbrains.com/space/features/software-development.html",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Media Gallery",
+        "Button",
+        "Dropdown",
+        "Page Control & Pagination",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Product Image"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/2d56f40e-a7a7-4b4b-a653-0437646c2665",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/20b5228b-38fc-4e0e-9477-677bb1a01cec_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-2d56f40e.jpg"
+    },
+    {
+      "uuid": "3164a50f-644a-4906-90a5-8987a3da4b8f",
+      "page_url": "https://www.jetbrains.com/dataspell/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Illustration",
+        "Hero Image",
+        "Product Image"
+      ],
+      "ux_patterns": [
+        "FAQ"
+      ],
+      "refero_url": "https://refero.design/pages/3164a50f-644a-4906-90a5-8987a3da4b8f",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/e7545fe3-2665-4649-80c3-0269ffb3189b_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-3164a50f.jpg"
+    },
+    {
+      "uuid": "5e2b1f19-1355-4c75-b11d-2249712a1c34",
+      "page_url": "https://www.jetbrains.com/space/features/team-management.html",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Product Image"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/5e2b1f19-1355-4c75-b11d-2249712a1c34",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/1bf628f5-d2ef-4d9a-84a1-e44ce357da4f_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-5e2b1f19.jpg"
+    },
+    {
+      "uuid": "7db54273-3d9f-42ef-a6d7-4966ff6c72c5",
+      "page_url": "https://www.jetbrains.com/space/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Illustration",
+        "3d Illustration",
+        "Avatar",
+        "Product Image"
+      ],
+      "ux_patterns": [
+        "Testimonials",
+        "Bento Grid"
+      ],
+      "refero_url": "https://refero.design/pages/7db54273-3d9f-42ef-a6d7-4966ff6c72c5",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/d787f3e9-cb30-488e-8c17-76e0b8acd75e_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-7db54273.jpg"
+    },
+    {
+      "uuid": "803b529e-2a67-4d14-89de-5c178b9317a9",
+      "page_url": "https://www.jetbrains.com/space/partners/service/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Checkbox & Radio",
+        "Text Field",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Illustration"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/803b529e-2a67-4d14-89de-5c178b9317a9",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/8d9437ed-2f81-473e-a04b-16cbbb0e3087_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-803b529e.jpg"
+    },
+    {
+      "uuid": "c8488ae9-a7cc-41ab-becd-1588c893e144",
+      "page_url": "https://www.jetbrains.com/community/education/#students",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Accordion & Collapse",
+        "Cards & Tiles",
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Hero Image"
+      ],
+      "ux_patterns": [
+        "FAQ"
+      ],
+      "refero_url": "https://refero.design/pages/c8488ae9-a7cc-41ab-becd-1588c893e144",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/c8cd0fce-83db-4544-831a-b733133d85b0_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-c8488ae9.jpg"
+    },
+    {
+      "uuid": "e8cbeddd-3eb4-4b3f-8b3f-5b769d971e16",
+      "page_url": "https://www.jetbrains.com/datalore/enterprise/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Text Field",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Illustration",
+        "Hero Image",
+        "Product Image"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/e8cbeddd-3eb4-4b3f-8b3f-5b769d971e16",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/a6efc27b-94fe-4484-a51c-60da056f941c_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-e8cbeddd.jpg"
+    },
+    {
+      "uuid": "f5714bf4-9416-4809-b99b-0fb14112e79d",
+      "page_url": "https://www.jetbrains.com/company/people/",
+      "page_types": [
+        "About"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Button",
+        "Navigation Bar",
+        "Footer",
+        "Photo",
+        "Illustration",
+        "Hero Image",
+        "Avatar"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/f5714bf4-9416-4809-b99b-0fb14112e79d",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/ebe207fe-9a12-490f-a639-327a14271b3e_preview.jpg",
+      "local_image": "design-references/jetbrains/images/about-people-f5714bf4.jpg"
+    },
+    {
+      "uuid": "f77af5d5-0dc0-4230-bbc1-6857cac7d3bc",
+      "page_url": "https://www.jetbrains.com/riderflow/",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [],
+      "fonts": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "3d Illustration",
+        "Hero Image",
+        "Product Image"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/f77af5d5-0dc0-4230-bbc1-6857cac7d3bc",
+      "preview_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/2b081e07-ad06-4d37-8e7e-d862f2171451_preview.jpg",
+      "local_image": "design-references/jetbrains/images/product-page-landing-f77af5d5.jpg"
+    }
+  ]
+}

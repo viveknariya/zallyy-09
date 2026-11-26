@@ -16,6 +16,14 @@ const staticRoutes = [
   { path: "/design-systems/tilda/login", priority: 0.5 },
   { path: "/design-systems/tilda/signup", priority: 0.5 },
   { path: "/design-systems/tilda/recover", priority: 0.4 },
+  { path: "/design-systems/jetbrains", priority: 0.9 },
+  { path: "/design-systems/jetbrains/tools", priority: 0.8 },
+  { path: "/design-systems/jetbrains/pricing", priority: 0.8 },
+  { path: "/design-systems/jetbrains/mono", priority: 0.8 },
+  { path: "/design-systems/jetbrains/news", priority: 0.7 },
+  { path: "/design-systems/jetbrains/support", priority: 0.7 },
+  { path: "/design-systems/jetbrains/contacts", priority: 0.6 },
+  { path: "/design-systems/jetbrains/components", priority: 0.8 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

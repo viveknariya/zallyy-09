@@ -27,6 +27,20 @@
   --muted: #6c6c6c;
 }
 
+/* Scoped theme tokens for /design-systems/jetbrains */
+[data-design-system="jetbrains"] {
+  --background: #19191c;
+  --foreground: #ffffff;
+  --surface: #27282c;
+  --surface-muted: #303136;
+  --border: #3c3f41;
+  --border-strong: #6b7280;
+  --accent: #167dff;
+  --accent-strong: #087cfa;
+  --accent-soft: #6b57ff;
+  --muted: #a8adbd;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

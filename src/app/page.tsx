@@ -1,4 +1,4 @@
-import { ArrowRight, Layers, Palette } from "lucide-react";
+import { ArrowRight, Code2, Palette } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Badge } from "@/components/ui/Badge";
@@ -46,7 +46,7 @@ export default function HomePage() {
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted">
               Each design system lives at its own dedicated route with isolated
-              tokens, reusable components, and real Refero visual references.
+              tokens, reusable components, and production-ready starter pages.
             </p>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
               <Button href="/design-systems" variant="accent" size="lg">
@@ -85,7 +85,7 @@ export default function HomePage() {
                     <div className="flex h-12 w-12 items-center justify-center rounded-full bg-accent text-foreground">
                       <Palette className="h-5 w-5" />
                     </div>
-                    <Badge tone="accent">50 Refero Screens</Badge>
+                    <Badge tone="accent">50 Reference Screens</Badge>
                   </div>
                   <h3 className="mt-6 font-display text-2xl font-normal text-foreground">
                     Tilda Publishing
@@ -105,22 +105,32 @@ export default function HomePage() {
                 </div>
               </Card>
 
-              <Card variant="subtle" className="bg-background flex flex-col justify-between">
+              <Card variant="bordered" className="bg-background flex flex-col justify-between">
                 <div>
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-surface-muted text-muted">
-                    <Layers className="h-5 w-5" />
+                  <div className="flex items-center justify-between">
+                    <div
+                      className="flex h-12 w-12 items-center justify-center rounded-full text-white"
+                      style={{ background: "linear-gradient(135deg, #6B57FF 0%, #167DFF 100%)" }}
+                    >
+                      <Code2 className="h-5 w-5" />
+                    </div>
+                    <Badge tone="dark">39 Reference Screens</Badge>
                   </div>
                   <h3 className="mt-6 font-display text-2xl font-normal text-foreground">
-                    More Systems Coming
+                    JetBrains
                   </h3>
                   <p className="mt-2 text-sm leading-relaxed text-muted">
-                    Add new systems under <code className="font-mono text-xs">/design-systems/&lt;brand&gt;</code> with isolated CSS scopes and colocated SEO metadata.
+                    Dark-first developer UI (#19191C), electric blue pill CTAs
+                    (#167DFF), IDE gradient badges, and JetBrains Mono.
                   </p>
                 </div>
-                <div className="mt-8 pt-4 border-t border-border">
+                <div className="mt-8 pt-4 border-t border-border flex items-center justify-between">
                   <span className="font-mono text-xs text-muted">
-                    /design-systems/[brand]
+                    /design-systems/jetbrains
                   </span>
+                  <Button href="/design-systems/jetbrains" variant="primary" size="sm">
+                    Open <ArrowRight className="h-3.5 w-3.5" />
+                  </Button>
                 </div>
               </Card>
             </div>

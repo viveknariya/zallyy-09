@@ -22,7 +22,7 @@ const features = [
   },
   {
     icon: Layers,
-    title: "50 Refero References",
+    title: "50 Design References",
     description:
       "Backed by a local archive of Tilda.cc screenshots and extracted color/font metadata.",
   },
