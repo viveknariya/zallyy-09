@@ -30,7 +30,7 @@ export function Tabs({ items, activeId, onChange, className = "" }: TabsProps) {
             type="button"
             aria-selected={isActive}
             onClick={() => onChange(item.id)}
-            className={`px-6 py-3 text-sm font-medium transition-colors cursor-pointer border-b-2 -mb-px ${
+            className={`whitespace-nowrap px-5 py-3 text-sm font-medium transition-colors cursor-pointer border-b-2 -mb-px ${
               isActive
                 ? "border-foreground text-foreground"
                 : "border-transparent text-muted hover:text-foreground"

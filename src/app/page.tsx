@@ -1,234 +1,177 @@
-import { ArrowRight, Calendar, Code2, CreditCard, Palette, Zap } from "lucide-react";
+import { ArrowRight, Layers, Sparkles, Terminal } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
+import {
+  DirectorySkillCard,
+  DirectorySystemCard,
+} from "@/components/directory/DirectoryCards";
+import {
+  DirectoryFooter,
+  DirectoryHeader,
+} from "@/components/directory/DirectoryShell";
+import {
+  DIRECTORY_SKILLS,
+  DIRECTORY_SYSTEMS,
+} from "@/components/directory/directory-data";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 
 export const metadata: Metadata = {
-  title: "Design Systems — Curated UI Kits & Next.js Starter Templates",
+  title: "Design Systems & Skills — Curated UI Kits for Next.js",
   description:
-    "Browse curated website design systems, color palettes, typography scales, and Next.js App Router starter templates.",
+    "Explore curated Next.js App Router design systems and portable AI agent design skills with scoped tokens, component libraries, and GitHub skill repositories.",
   alternates: { canonical: "/" },
 };
+
+const ARCHITECTURE_PILLARS = [
+  {
+    num: "01",
+    title: "Scoped CSS Tokens",
+    body: "Every design system mounts its own [data-design-system] palette and font scale in globals.css without leaking across routes.",
+    icon: Layers,
+  },
+  {
+    num: "02",
+    title: "Component-First UI Kits",
+    body: "Each brand ships typed Server and Client primitives, interactive playgrounds, and full App Router route coverage.",
+    icon: Sparkles,
+  },
+  {
+    num: "03",
+    title: "Portable Design Skills",
+    body: "Every system includes a SKILL.md plus bidirectional by-class and by-component reference guides hosted on GitHub.",
+    icon: Terminal,
+  },
+];
 
 export default function HomePage() {
   return (
     <div className="min-h-full flex flex-col bg-background">
-      <header className="border-b border-border bg-background">
-        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
-          <Link
-            href="/"
-            className="font-display text-lg font-semibold tracking-tight text-foreground"
-          >
-            Design Systems
-          </Link>
-          <nav className="flex items-center gap-6">
-            <Link
-              href="/design-systems"
-              className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground/80 hover:text-foreground"
-            >
-              Catalog
-            </Link>
-            <a
-              href="https://github.com/viveknariya/zallyy-09"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground/80 hover:text-foreground"
-            >
-              GitHub
-            </a>
-            <Button href="/design-systems/tilda" variant="outline" size="sm">
-              Explore Tilda
-            </Button>
-          </nav>
-        </div>
-      </header>
+      <DirectoryHeader />
 
       <main className="flex-1">
-        <section className="border-b border-border py-20 md:py-28">
-          <div className="mx-auto max-w-6xl px-6 text-center">
-            <Badge tone="accent">Multi-System Directory</Badge>
-            <h1 className="mt-6 font-display text-4xl font-normal tracking-tight text-foreground sm:text-6xl leading-[1.1]">
-              Production design systems, ready for Next.js.
-            </h1>
-            <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted">
-              Each design system lives at its own dedicated route with isolated
-              tokens, reusable components, and production-ready starter pages.
-            </p>
-            <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-              <Button href="/design-systems" variant="accent" size="lg">
-                Browse All Systems <ArrowRight className="h-4 w-4" />
-              </Button>
-              <Button href="/design-systems/tilda" variant="outline" size="lg">
-                Open Tilda System
-              </Button>
+        {/* Hero */}
+        <section className="border-b border-border bg-background py-20 md:py-28">
+          <div className="mx-auto max-w-6xl px-6">
+            <div className="mx-auto max-w-3xl text-center">
+              <Badge tone="accent">Design Systems &amp; Skills</Badge>
+              <h1 className="mt-6 font-display text-4xl font-normal tracking-tight text-foreground sm:text-6xl leading-[1.1]">
+                Production design systems and skills, ready for Next.js.
+              </h1>
+              <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted">
+                Explore live interactive UI systems under{" "}
+                <span className="font-mono text-sm text-foreground">/design-systems</span>{" "}
+                alongside portable{" "}
+                <span className="font-mono text-sm text-foreground">SKILL.md</span>{" "}
+                design skills you can inspect and install directly from GitHub.
+              </p>
+              <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
+                <Button href="/design-systems" variant="accent" size="lg">
+                  Browse Design Systems <ArrowRight className="h-4 w-4" />
+                </Button>
+                <Button href="/design-skills" variant="outline" size="lg">
+                  Explore Design Skills
+                </Button>
+              </div>
             </div>
           </div>
         </section>
 
-        <section className="bg-surface py-16">
+        {/* Featured Design Systems */}
+        <section id="design-systems" className="border-b border-border bg-surface py-20">
           <div className="mx-auto max-w-6xl px-6">
-            <div className="flex items-end justify-between gap-4">
+            <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
               <div>
-                <h2 className="font-display text-3xl font-normal text-foreground">
-                  Featured Systems
+                <h2 className="font-display text-3xl font-normal tracking-tight text-foreground sm:text-4xl">
+                  Featured Design Systems
                 </h2>
-                <p className="mt-2 text-sm text-muted">
-                  Click a system to inspect its tokens, components, and starter pages.
+                <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted">
+                  Open any system to inspect its scoped tokens, interactive components, and full route demos.
                 </p>
               </div>
               <Link
                 href="/design-systems"
-                className="text-xs font-semibold uppercase tracking-[0.12em] text-foreground underline"
+                className="shrink-0 text-xs font-semibold uppercase tracking-[0.12em] text-foreground underline underline-offset-4 hover:text-accent-strong transition-colors"
               >
                 View All
               </Link>
             </div>
 
-            <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-              <Card variant="bordered" className="bg-background flex flex-col justify-between">
-                <div>
-                  <div className="flex items-center justify-between">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-accent text-foreground">
-                      <Palette className="h-5 w-5" />
-                    </div>
-                    <Badge tone="accent">50 Reference Screens</Badge>
-                  </div>
-                  <h3 className="mt-6 font-display text-2xl font-normal text-foreground">
-                    Tilda Publishing
-                  </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-muted">
-                    High-contrast editorial minimalism with warm coral accents
-                    (#FA8A64), sharp 2px ink borders, and Jost display type.
-                  </p>
-                </div>
-                <div className="mt-8 pt-4 border-t border-border flex items-center justify-between">
-                  <span className="font-mono text-xs text-muted">
-                    /design-systems/tilda
-                  </span>
-                  <Button href="/design-systems/tilda" variant="primary" size="sm">
-                    Open <ArrowRight className="h-3.5 w-3.5" />
-                  </Button>
-                </div>
-              </Card>
+            <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+              {DIRECTORY_SYSTEMS.map((sys) => (
+                <DirectorySystemCard key={sys.slug} system={sys} mode="landing" />
+              ))}
+            </div>
+          </div>
+        </section>
 
-              <Card variant="bordered" className="bg-background flex flex-col justify-between">
-                <div>
-                  <div className="flex items-center justify-between">
-                    <div
-                      className="flex h-12 w-12 items-center justify-center rounded-full text-white"
-                      style={{ background: "linear-gradient(135deg, #6B57FF 0%, #167DFF 100%)" }}
-                    >
-                      <Code2 className="h-5 w-5" />
-                    </div>
-                    <Badge tone="dark">39 Reference Screens</Badge>
-                  </div>
-                  <h3 className="mt-6 font-display text-2xl font-normal text-foreground">
-                    JetBrains
-                  </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-muted">
-                    Dark-first developer UI (#19191C), electric blue pill CTAs
-                    (#167DFF), IDE gradient badges, and JetBrains Mono.
-                  </p>
-                </div>
-                <div className="mt-8 pt-4 border-t border-border flex items-center justify-between">
-                  <span className="font-mono text-xs text-muted">
-                    /design-systems/jetbrains
-                  </span>
-                  <Button href="/design-systems/jetbrains" variant="primary" size="sm">
-                    Open <ArrowRight className="h-3.5 w-3.5" />
-                  </Button>
-                </div>
-              </Card>
+        {/* Featured Design Skills */}
+        <section id="design-skills" className="border-b border-border bg-background py-20">
+          <div className="mx-auto max-w-6xl px-6">
+            <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
+              <div>
+                <h2 className="font-display text-3xl font-normal tracking-tight text-foreground sm:text-4xl">
+                  Featured Design Skills
+                </h2>
+                <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted">
+                  Each design system pairs with a structured agent skill containing tokens, Do/Don&apos;t rules, and 23 component specs on GitHub.
+                </p>
+              </div>
+              <Link
+                href="/design-skills"
+                className="shrink-0 text-xs font-semibold uppercase tracking-[0.12em] text-foreground underline underline-offset-4 hover:text-accent-strong transition-colors"
+              >
+                View All
+              </Link>
+            </div>
 
-              <Card variant="bordered" className="bg-background flex flex-col justify-between">
-                <div>
-                  <div className="flex items-center justify-between">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-foreground text-background">
-                      <CreditCard className="h-5 w-5" />
-                    </div>
-                    <Badge tone="neutral">39 Reference Screens</Badge>
-                  </div>
-                  <h3 className="mt-6 font-display text-2xl font-normal text-foreground">
-                    Polar
-                  </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-muted">
-                    SaaS billing &amp; usage monetization UI with rounded-2xl cards,
-                    obsidian auth modals, and pill controls.
-                  </p>
-                </div>
-                <div className="mt-8 pt-4 border-t border-border flex items-center justify-between">
-                  <span className="font-mono text-xs text-muted">
-                    /design-systems/polar
-                  </span>
-                  <Button href="/design-systems/polar" variant="primary" size="sm">
-                    Open <ArrowRight className="h-3.5 w-3.5" />
-                  </Button>
-                </div>
-              </Card>
+            <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+              {DIRECTORY_SKILLS.map((skill) => (
+                <DirectorySkillCard key={skill.id} skill={skill} />
+              ))}
+            </div>
+          </div>
+        </section>
 
-              <Card variant="bordered" className="bg-background flex flex-col justify-between">
-                <div>
-                  <div className="flex items-center justify-between">
-                    <div
-                      className="flex h-12 w-12 items-center justify-center rounded-full text-white"
-                      style={{ background: "#FF5416" }}
-                    >
-                      <Calendar className="h-5 w-5" />
-                    </div>
-                    <Badge tone="neutral">30 Reference Screens</Badge>
-                  </div>
-                  <h3 className="mt-6 font-display text-2xl font-normal text-foreground">
-                    Cron
-                  </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-muted">
-                    Keyboard-first calendar grid (#18181A), vermilion #FF5416
-                    accents, keycap shortcuts, and event blocks.
-                  </p>
-                </div>
-                <div className="mt-8 pt-4 border-t border-border flex items-center justify-between">
-                  <span className="font-mono text-xs text-muted">
-                    /design-systems/cron
-                  </span>
-                  <Button href="/design-systems/cron" variant="primary" size="sm">
-                    Open <ArrowRight className="h-3.5 w-3.5" />
-                  </Button>
-                </div>
-              </Card>
+        {/* Architecture Overview */}
+        <section className="bg-surface py-20">
+          <div className="mx-auto max-w-6xl px-6">
+            <div>
+              <Badge tone="neutral">Architecture</Badge>
+              <h2 className="mt-4 font-display text-3xl font-normal tracking-tight text-foreground sm:text-4xl">
+                Built for Humans &amp; Coding Agents
+              </h2>
+            </div>
 
-              <Card variant="bordered" className="bg-background flex flex-col justify-between">
-                <div>
-                  <div className="flex items-center justify-between">
-                    <div
-                      className="flex h-12 w-12 items-center justify-center rounded-full text-white"
-                      style={{ background: "#2AB54B" }}
-                    >
-                      <Zap className="h-5 w-5" />
+            <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
+              {ARCHITECTURE_PILLARS.map((pillar) => {
+                const Icon = pillar.icon;
+                return (
+                  <Card key={pillar.num} variant="subtle" className="bg-background">
+                    <div className="flex items-center justify-between">
+                      <div className="flex h-10 w-10 items-center justify-center rounded-full bg-accent text-foreground">
+                        <Icon className="h-5 w-5" />
+                      </div>
+                      <span className="font-display text-2xl font-light text-muted">
+                        {pillar.num}
+                      </span>
                     </div>
-                    <Badge tone="neutral">40 Reference Screens</Badge>
-                  </div>
-                  <h3 className="mt-6 font-display text-2xl font-normal text-foreground">
-                    Brilliant
-                  </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-muted">
-                    Interactive STEM UI with Newsreader serif headings, #2AB54B
-                    tactile pills, midnight navy bands, and puzzle cards.
-                  </p>
-                </div>
-                <div className="mt-8 pt-4 border-t border-border flex items-center justify-between">
-                  <span className="font-mono text-xs text-muted">
-                    /design-systems/brilliant
-                  </span>
-                  <Button href="/design-systems/brilliant" variant="primary" size="sm">
-                    Open <ArrowRight className="h-3.5 w-3.5" />
-                  </Button>
-                </div>
-              </Card>
+                    <h3 className="mt-6 font-display text-xl font-medium text-foreground">
+                      {pillar.title}
+                    </h3>
+                    <p className="mt-2 text-sm leading-relaxed text-muted">
+                      {pillar.body}
+                    </p>
+                  </Card>
+                );
+              })}
             </div>
           </div>
         </section>
       </main>
+
+      <DirectoryFooter variant="background" />
     </div>
   );
 }

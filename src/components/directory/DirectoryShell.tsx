@@ -1,0 +1,200 @@
+import { Calendar, Code2, CreditCard, Palette, Zap } from "lucide-react";
+import Link from "next/link";
+import {
+  DIRECTORY_SKILLS,
+  DIRECTORY_SYSTEMS,
+  type DirectorySystem,
+  REPO_URL,
+} from "./directory-data";
+
+export function DirectoryIcon({ iconKey }: { iconKey: DirectorySystem["iconKey"] }) {
+  switch (iconKey) {
+    case "palette":
+      return <Palette className="h-5 w-5" />;
+    case "code":
+      return <Code2 className="h-5 w-5" />;
+    case "credit-card":
+      return <CreditCard className="h-5 w-5" />;
+    case "calendar":
+      return <Calendar className="h-5 w-5" />;
+    case "zap":
+      return <Zap className="h-5 w-5" />;
+  }
+}
+
+/**
+ * Top navigation header for the root directory landing page and catalog routes.
+ */
+export function DirectoryHeader() {
+  return (
+    <header className="sticky top-0 z-40 border-b border-border bg-background/95 backdrop-blur">
+      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
+        <Link
+          href="/"
+          className="font-display text-lg font-semibold tracking-tight text-foreground"
+        >
+          Design Systems
+        </Link>
+        <nav className="flex items-center gap-5 sm:gap-7" aria-label="Directory navigation">
+          <Link
+            href="/design-systems"
+            className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground/80 hover:text-foreground transition-colors"
+          >
+            Systems
+          </Link>
+          <Link
+            href="/design-skills"
+            className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground/80 hover:text-foreground transition-colors"
+          >
+            Skills
+          </Link>
+          <a
+            href={REPO_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground/80 hover:text-foreground transition-colors"
+          >
+            GitHub
+          </a>
+        </nav>
+      </div>
+    </header>
+  );
+}
+
+/**
+ * Complete editorial multi-column footer for the landing page, /design-systems, and /design-skills.
+ */
+export function DirectoryFooter({ variant = "surface" }: { variant?: "surface" | "background" }) {
+  const bgClass = variant === "background" ? "bg-background" : "bg-surface";
+
+  return (
+    <footer className={`mt-auto border-t border-border ${bgClass}`}>
+      <div className="mx-auto max-w-6xl px-6 py-14">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-4">
+          <div>
+            <Link
+              href="/"
+              className="font-display text-lg font-semibold text-foreground"
+            >
+              Design Systems
+            </Link>
+            <p className="mt-3 text-sm leading-relaxed text-muted">
+              Curated Next.js App Router design systems and portable AI agent
+              skills with scoped tokens, reusable components, and production
+              starter routes.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground">
+              Design Systems
+            </h3>
+            <ul className="mt-4 space-y-2.5">
+              <li>
+                <Link
+                  href="/design-systems"
+                  className="text-sm font-medium text-foreground hover:text-accent-strong transition-colors"
+                >
+                  All Design Systems
+                </Link>
+              </li>
+              {DIRECTORY_SYSTEMS.map((sys) => (
+                <li key={sys.slug}>
+                  <Link
+                    href={sys.href}
+                    className="text-sm text-muted hover:text-foreground transition-colors"
+                  >
+                    {sys.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground">
+              Design Skills
+            </h3>
+            <ul className="mt-4 space-y-2.5">
+              <li>
+                <Link
+                  href="/design-skills"
+                  className="text-sm font-medium text-foreground hover:text-accent-strong transition-colors"
+                >
+                  All Design Skills
+                </Link>
+              </li>
+              {DIRECTORY_SKILLS.map((skill) => (
+                <li key={skill.id}>
+                  <Link
+                    href={skill.detailHref}
+                    className="text-sm text-muted hover:text-foreground transition-colors"
+                  >
+                    {skill.id}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground">
+              Repository &amp; Specs
+            </h3>
+            <ul className="mt-4 space-y-2.5">
+              <li>
+                <a
+                  href={REPO_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-muted hover:text-foreground transition-colors"
+                >
+                  GitHub Repository
+                </a>
+              </li>
+              <li>
+                <a
+                  href={`${REPO_URL}/tree/main/.agents/skills`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-muted hover:text-foreground transition-colors"
+                >
+                  Skills Folder (.agents/skills)
+                </a>
+              </li>
+              <li>
+                <Link
+                  href="/sitemap.xml"
+                  className="text-sm text-muted hover:text-foreground transition-colors"
+                >
+                  XML Sitemap
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/robots.txt"
+                  className="text-sm text-muted hover:text-foreground transition-colors"
+                >
+                  Robots Policy
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-12 flex flex-col items-start justify-between gap-4 border-t border-border pt-6 text-xs text-muted sm:flex-row sm:items-center">
+          <p>Built with Next.js App Router, Tailwind CSS v4, and Bun.</p>
+          <a
+            href={REPO_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold text-foreground hover:text-accent-strong transition-colors"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
+}

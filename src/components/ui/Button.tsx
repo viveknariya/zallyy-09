@@ -18,6 +18,8 @@ type ButtonAsButton = BaseProps &
 
 type ButtonAsLink = BaseProps & {
   href: string;
+  target?: string;
+  rel?: string;
 };
 
 export type ButtonProps = ButtonAsButton | ButtonAsLink;
@@ -52,6 +54,24 @@ export function Button({
   const classes = `inline-flex items-center justify-center gap-2 transition-colors duration-150 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed ${variantClasses[variant]} ${sizeClasses[size]} ${className}`;
 
   if ("href" in props && props.href !== undefined) {
+    const isExternal =
+      props.href.startsWith("http://") ||
+      props.href.startsWith("https://") ||
+      props.target === "_blank";
+
+    if (isExternal) {
+      return (
+        <a
+          href={props.href}
+          target={props.target ?? "_blank"}
+          rel={props.rel ?? "noopener noreferrer"}
+          className={classes}
+        >
+          {children}
+        </a>
+      );
+    }
+
     return (
       <Link href={props.href} className={classes}>
         {children}

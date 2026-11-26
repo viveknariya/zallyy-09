@@ -43,14 +43,6 @@ export function Navbar() {
         </nav>
 
         <div className="hidden md:flex items-center gap-4">
-          <a
-            href="https://github.com/viveknariya/zallyy-09"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground/80 hover:text-foreground transition-colors"
-          >
-            GitHub
-          </a>
           <Link
             href="/design-systems/tilda/login"
             className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground hover:text-accent-strong transition-colors"

@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { DIRECTORY_SKILLS } from "@/components/directory/directory-data";
 
 const baseUrl =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "http://localhost:3000";
@@ -6,6 +7,11 @@ const baseUrl =
 const staticRoutes = [
   { path: "/", priority: 1.0 },
   { path: "/design-systems", priority: 0.9 },
+  { path: "/design-skills", priority: 0.9 },
+  ...DIRECTORY_SKILLS.map((skill) => ({
+    path: skill.detailHref,
+    priority: 0.8,
+  })),
   { path: "/design-systems/tilda", priority: 0.9 },
   { path: "/design-systems/tilda/components", priority: 0.8 },
   { path: "/design-systems/tilda/colors", priority: 0.8 },
