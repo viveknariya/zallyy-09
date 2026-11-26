@@ -41,6 +41,20 @@
   --muted: #a8adbd;
 }
 
+/* Scoped theme tokens for /design-systems/polar */
+[data-design-system="polar"] {
+  --background: #ffffff;
+  --foreground: #09090b;
+  --surface: #f7f7f8;
+  --surface-muted: #f4f4f5;
+  --border: #e4e4e7;
+  --border-strong: #09090b;
+  --accent: #0062ff;
+  --accent-strong: #0051d5;
+  --accent-soft: #dbeafe;
+  --muted: #71717a;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

@@ -24,6 +24,12 @@ const staticRoutes = [
   { path: "/design-systems/jetbrains/support", priority: 0.7 },
   { path: "/design-systems/jetbrains/contacts", priority: 0.6 },
   { path: "/design-systems/jetbrains/components", priority: 0.8 },
+  { path: "/design-systems/polar", priority: 0.9 },
+  { path: "/design-systems/polar/dashboard", priority: 0.8 },
+  { path: "/design-systems/polar/finance", priority: 0.8 },
+  { path: "/design-systems/polar/onboarding", priority: 0.7 },
+  { path: "/design-systems/polar/login", priority: 0.6 },
+  { path: "/design-systems/polar/components", priority: 0.8 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

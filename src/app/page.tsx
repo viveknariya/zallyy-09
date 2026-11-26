@@ -1,4 +1,4 @@
-import { ArrowRight, Code2, Palette } from "lucide-react";
+import { ArrowRight, Code2, CreditCard, Palette } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Badge } from "@/components/ui/Badge";
@@ -137,6 +137,32 @@ export default function HomePage() {
                     /design-systems/jetbrains
                   </span>
                   <Button href="/design-systems/jetbrains" variant="primary" size="sm">
+                    Open <ArrowRight className="h-3.5 w-3.5" />
+                  </Button>
+                </div>
+              </Card>
+
+              <Card variant="bordered" className="bg-background flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center justify-between">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-foreground text-background">
+                      <CreditCard className="h-5 w-5" />
+                    </div>
+                    <Badge tone="neutral">39 Reference Screens</Badge>
+                  </div>
+                  <h3 className="mt-6 font-display text-2xl font-normal text-foreground">
+                    Polar
+                  </h3>
+                  <p className="mt-2 text-sm leading-relaxed text-muted">
+                    SaaS billing &amp; usage monetization UI with rounded-2xl cards,
+                    obsidian auth modals, and pill controls.
+                  </p>
+                </div>
+                <div className="mt-8 pt-4 border-t border-border flex items-center justify-between">
+                  <span className="font-mono text-xs text-muted">
+                    /design-systems/polar
+                  </span>
+                  <Button href="/design-systems/polar" variant="primary" size="sm">
                     Open <ArrowRight className="h-3.5 w-3.5" />
                   </Button>
                 </div>

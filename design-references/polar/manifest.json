@@ -1,0 +1,1627 @@
+{
+  "brand": "polar",
+  "total": 39,
+  "fonts": [
+    "Geist Mono",
+    "Inter",
+    "None"
+  ],
+  "top_colors": [
+    [
+      "#FBFBFB",
+      13
+    ],
+    [
+      "#FAFAFA",
+      11
+    ],
+    [
+      "#4B4B4B",
+      7
+    ],
+    [
+      "#F9F9F9",
+      5
+    ],
+    [
+      "#FCFBFB",
+      3
+    ],
+    [
+      "#141313",
+      2
+    ],
+    [
+      "#979AA2",
+      2
+    ],
+    [
+      "#C9CCD3",
+      2
+    ],
+    [
+      "#E76869",
+      2
+    ],
+    [
+      "#241B28",
+      2
+    ],
+    [
+      "#060607",
+      2
+    ],
+    [
+      "#040508",
+      2
+    ],
+    [
+      "#7B7B7C",
+      2
+    ],
+    [
+      "#434448",
+      2
+    ],
+    [
+      "#878788",
+      2
+    ],
+    [
+      "#4D4D4D",
+      1
+    ],
+    [
+      "#141414",
+      1
+    ],
+    [
+      "#1C1C24",
+      1
+    ],
+    [
+      "#040404",
+      1
+    ],
+    [
+      "#68686A",
+      1
+    ],
+    [
+      "#0B0B0B",
+      1
+    ],
+    [
+      "#5DA7B3",
+      1
+    ],
+    [
+      "#161924",
+      1
+    ],
+    [
+      "#60636D",
+      1
+    ],
+    [
+      "#6E7179",
+      1
+    ]
+  ],
+  "top_ui_elements": [
+    [
+      "Button",
+      33
+    ],
+    [
+      "Icon",
+      27
+    ],
+    [
+      "Popover",
+      20
+    ],
+    [
+      "Text Field",
+      17
+    ],
+    [
+      "Cards & Tiles",
+      17
+    ],
+    [
+      "List",
+      16
+    ],
+    [
+      "Dropdown",
+      13
+    ],
+    [
+      "Dialog & Modal Window",
+      12
+    ],
+    [
+      "Search Field",
+      12
+    ],
+    [
+      "Sidebar & Drawer",
+      9
+    ],
+    [
+      "Navigation Bar",
+      8
+    ],
+    [
+      "Switch & Toggle",
+      8
+    ],
+    [
+      "Side Sheet",
+      7
+    ],
+    [
+      "Line & Bar Chart",
+      7
+    ],
+    [
+      "Step Indicator",
+      6
+    ],
+    [
+      "Code Snippet",
+      6
+    ],
+    [
+      "Accordion & Collapse",
+      6
+    ],
+    [
+      "Avatar",
+      5
+    ],
+    [
+      "Dropdown Menu",
+      5
+    ],
+    [
+      "Notifications & Toast",
+      5
+    ]
+  ],
+  "top_ux_patterns": [
+    [
+      "Select",
+      12
+    ],
+    [
+      "Empty State",
+      11
+    ],
+    [
+      "Stats",
+      9
+    ],
+    [
+      "Dark Mode",
+      7
+    ],
+    [
+      "Add & Create",
+      7
+    ],
+    [
+      "Upload & Download",
+      4
+    ],
+    [
+      "Share",
+      4
+    ],
+    [
+      "Article & Text",
+      3
+    ],
+    [
+      "Date & Time",
+      2
+    ],
+    [
+      "Billing & Plans",
+      2
+    ],
+    [
+      "Timeline & History",
+      2
+    ],
+    [
+      "Error",
+      2
+    ],
+    [
+      "Loading & Connecting",
+      2
+    ],
+    [
+      "Confirmation",
+      1
+    ],
+    [
+      "Delete",
+      1
+    ],
+    [
+      "Activity & Notification Feed",
+      1
+    ],
+    [
+      "Tutorial & Education",
+      1
+    ],
+    [
+      "Files",
+      1
+    ],
+    [
+      "Searching",
+      1
+    ],
+    [
+      "Testimonials",
+      1
+    ]
+  ],
+  "screens": [
+    {
+      "uuid": "12880246-c402-4690-b753-3678d9656040",
+      "page_url": "https://polar.sh/",
+      "page_types": [
+        "Log In"
+      ],
+      "hex_colors": [
+        "0x4D4D4D",
+        "0xFAFAFA",
+        "0x141414",
+        "0x1C1C24",
+        "0x040404"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Badge",
+        "Dialog & Modal Window",
+        "Icon",
+        "Popover"
+      ],
+      "ux_patterns": [
+        "Dark Mode"
+      ],
+      "refero_url": "https://refero.design/pages/12880246-c402-4690-b753-3678d9656040",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/12880246-c402-4690-b753-3678d9656040_preview.jpg",
+      "local_image": "design-references/polar/images/login-12880246.jpg"
+    },
+    {
+      "uuid": "29070cd6-998e-4900-b59c-a0103cc1f2fa",
+      "page_url": "https://polar.sh/onboarding/personal",
+      "page_types": [
+        "Account Setup"
+      ],
+      "hex_colors": [
+        "0xFAFAFA",
+        "0x68686A",
+        "0x0B0B0B",
+        "0x5DA7B3",
+        "0x141313"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Checkbox & Radio",
+        "Text Field",
+        "Date & Time Picker",
+        "Step Indicator",
+        "Code Snippet",
+        "Side Sheet"
+      ],
+      "ux_patterns": [
+        "Dark Mode",
+        "Date & Time"
+      ],
+      "refero_url": "https://refero.design/pages/29070cd6-998e-4900-b59c-a0103cc1f2fa",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/29070cd6-998e-4900-b59c-a0103cc1f2fa_preview.jpg",
+      "local_image": "design-references/polar/images/account-setup-29070cd6.jpg"
+    },
+    {
+      "uuid": "4206184e-a4d2-46e2-9aa4-5ec5c7cb22db",
+      "page_url": "https://polar.sh/legal/privacy-policy",
+      "page_types": [
+        "Privacy Policy"
+      ],
+      "hex_colors": [
+        "0x161924",
+        "0xFBFBFB",
+        "0x979AA2",
+        "0x60636D",
+        "0xC9CCD3"
+      ],
+      "fonts": [
+        "Inter",
+        null
+      ],
+      "ui_elements": [
+        "Table",
+        "Button",
+        "Navigation Bar",
+        "Footer"
+      ],
+      "ux_patterns": [
+        "Article & Text"
+      ],
+      "refero_url": "https://refero.design/pages/4206184e-a4d2-46e2-9aa4-5ec5c7cb22db",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/4206184e-a4d2-46e2-9aa4-5ec5c7cb22db_preview.jpg",
+      "local_image": "design-references/polar/images/privacy-policy-4206184e.jpg"
+    },
+    {
+      "uuid": "7078dab1-77e9-4744-8a70-2c13d5059e6b",
+      "page_url": "https://polar.sh/dashboard/refero-design/settings/billing",
+      "page_types": [
+        "Settings"
+      ],
+      "hex_colors": [
+        "0x6E7179",
+        "0xFAFAFA",
+        "0x95989F",
+        "0x151822",
+        "0x195DF4"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Accordion & Collapse",
+        "Cards & Tiles",
+        "List",
+        "Button",
+        "Dropdown",
+        "Switch & Toggle",
+        "Text Field",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Avatar"
+      ],
+      "ux_patterns": [
+        "Billing & Plans"
+      ],
+      "refero_url": "https://refero.design/pages/7078dab1-77e9-4744-8a70-2c13d5059e6b",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/7078dab1-77e9-4744-8a70-2c13d5059e6b_preview.jpg",
+      "local_image": "design-references/polar/images/settings-7078dab1.jpg"
+    },
+    {
+      "uuid": "85c29d59-c811-48f2-ba5d-ae28e37dc3a8",
+      "page_url": "https://polar.sh/dashboard/refero-design/products/new",
+      "page_types": [],
+      "hex_colors": [
+        "0x0C0D11",
+        "0x6D717B",
+        "0x999DA7",
+        "0xFCFBFB",
+        "0x4477DB"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "List",
+        "Button",
+        "Dropdown",
+        "Checkbox & Radio",
+        "Text Field",
+        "Tags & Chips",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "ux_patterns": [
+        "Select",
+        "Add & Create"
+      ],
+      "refero_url": "https://refero.design/pages/85c29d59-c811-48f2-ba5d-ae28e37dc3a8",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/85c29d59-c811-48f2-ba5d-ae28e37dc3a8_preview.jpg",
+      "local_image": "design-references/polar/images/screen-85c29d59.jpg"
+    },
+    {
+      "uuid": "ab201f41-3e03-4414-b976-91351cd3d186",
+      "page_url": "https://polar.sh/dashboard/refero-design/settings",
+      "page_types": [
+        "Settings"
+      ],
+      "hex_colors": [
+        "0x4B4B4B",
+        "0xFAFAFA",
+        "0x0E0F12",
+        "0x8A8E95",
+        "0xE6A6A9"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Dialog & Modal Window",
+        "Icon",
+        "Popover"
+      ],
+      "ux_patterns": [
+        "Confirmation",
+        "Delete"
+      ],
+      "refero_url": "https://refero.design/pages/ab201f41-3e03-4414-b976-91351cd3d186",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/ab201f41-3e03-4414-b976-91351cd3d186_preview.jpg",
+      "local_image": "design-references/polar/images/settings-ab201f41.jpg"
+    },
+    {
+      "uuid": "c0f3ac70-7b0a-4272-be14-f7af5fedaf50",
+      "page_url": "https://polar.sh/404",
+      "page_types": [
+        "404 Page"
+      ],
+      "hex_colors": [
+        "0x535861",
+        "0xFCFCFB",
+        "0x9A9FA6",
+        "0x040405",
+        "0x7C7C81"
+      ],
+      "fonts": [
+        "Inter"
+      ],
+      "ui_elements": [
+        "Button",
+        "Icon"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/c0f3ac70-7b0a-4272-be14-f7af5fedaf50",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/c0f3ac70-7b0a-4272-be14-f7af5fedaf50_preview.jpg",
+      "local_image": "design-references/polar/images/404-page-c0f3ac70.jpg"
+    },
+    {
+      "uuid": "c448fa60-4381-427b-a2ec-dd2c9c6ff0cd",
+      "page_url": "https://polar.sh/dashboard/refero-design/analytics/metrics/revenue",
+      "page_types": [
+        "Dashboard"
+      ],
+      "hex_colors": [
+        "0x4B4B4B",
+        "0x6F7279",
+        "0x91939B",
+        "0x070709",
+        "0xFBFBFB"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Accordion & Collapse",
+        "Cards & Tiles",
+        "List",
+        "Button",
+        "Text Field",
+        "Step Indicator",
+        "Dialog & Modal Window",
+        "Icon",
+        "Popover"
+      ],
+      "ux_patterns": [
+        "Select",
+        "Add & Create"
+      ],
+      "refero_url": "https://refero.design/pages/c448fa60-4381-427b-a2ec-dd2c9c6ff0cd",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/c448fa60-4381-427b-a2ec-dd2c9c6ff0cd_preview.jpg",
+      "local_image": "design-references/polar/images/analytics-modal-c448fa60.jpg"
+    },
+    {
+      "uuid": "d1c3cef6-8e88-450d-a162-928215017760",
+      "page_url": "https://polar.sh/dashboard/refero-design",
+      "page_types": [
+        "Dashboard",
+        "Home Page"
+      ],
+      "hex_colors": [
+        "0x6B6E75",
+        "0x99A2B8",
+        "0xF9F9F9",
+        "0x0E1017",
+        "0x3B65CD"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Dropdown Menu",
+        "Popover"
+      ],
+      "ux_patterns": [
+        "Empty State",
+        "Activity & Notification Feed"
+      ],
+      "refero_url": "https://refero.design/pages/d1c3cef6-8e88-450d-a162-928215017760",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/d1c3cef6-8e88-450d-a162-928215017760_preview.jpg",
+      "local_image": "design-references/polar/images/dashboard-overview-d1c3cef6.jpg"
+    },
+    {
+      "uuid": "df2beec5-54a2-4b4d-8607-12a11af12b63",
+      "page_url": "https://polar.sh/",
+      "page_types": [
+        "Sign Up"
+      ],
+      "hex_colors": [
+        "0x4B4B4B",
+        "0xFAFAFA",
+        "0x040507",
+        "0xA0A2AC",
+        "0x929499"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Button",
+        "Dialog & Modal Window",
+        "Icon",
+        "Popover"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/df2beec5-54a2-4b4d-8607-12a11af12b63",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/df2beec5-54a2-4b4d-8607-12a11af12b63_preview.jpg",
+      "local_image": "design-references/polar/images/sign-up-df2beec5.jpg"
+    },
+    {
+      "uuid": "2685d86f-5954-4973-a81f-7ceacc465c72",
+      "page_url": "https://polar.sh/dashboard/refero-design",
+      "page_types": [
+        "Dashboard"
+      ],
+      "hex_colors": [
+        "0xFBFBFB",
+        "0x4B4B4B",
+        "0xE76869",
+        "0x241B28",
+        "0x171A31"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Line & Bar Chart",
+        "Cards & Tiles",
+        "Button",
+        "Color Picker",
+        "Dialog & Modal Window",
+        "Notifications & Toast",
+        "Navigation Bar",
+        "Icon",
+        "Illustration",
+        "Popover"
+      ],
+      "ux_patterns": [
+        "Empty State",
+        "Stats",
+        "Upload & Download",
+        "Share",
+        "Select"
+      ],
+      "refero_url": "https://refero.design/pages/2685d86f-5954-4973-a81f-7ceacc465c72",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/2685d86f-5954-4973-a81f-7ceacc465c72_preview.jpg",
+      "local_image": "design-references/polar/images/dashboard-2685d86f.jpg"
+    },
+    {
+      "uuid": "4269d04f-5dde-43c2-accc-00891f146b1e",
+      "page_url": "https://polar.sh/onboarding/business",
+      "page_types": [
+        "Account Setup"
+      ],
+      "hex_colors": [
+        "0x175CF7",
+        "0x060607",
+        "0xFBFBFB",
+        "0x9CA5B0",
+        "0x4A9893"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "List",
+        "Search Field",
+        "Icon",
+        "Dropdown Menu",
+        "Popover"
+      ],
+      "ux_patterns": [
+        "Select"
+      ],
+      "refero_url": "https://refero.design/pages/4269d04f-5dde-43c2-accc-00891f146b1e",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/4269d04f-5dde-43c2-accc-00891f146b1e_preview.jpg",
+      "local_image": "design-references/polar/images/account-setup-4269d04f.jpg"
+    },
+    {
+      "uuid": "723951b2-781d-4d3a-81aa-8f7232194c7c",
+      "page_url": "https://polar.sh/legal/master-services-terms",
+      "page_types": [
+        "Terms & Conditions"
+      ],
+      "hex_colors": [
+        "0x151924",
+        "0xFBFBFB",
+        "0x979AA2",
+        "0x60646D",
+        "0xC9CCD3"
+      ],
+      "fonts": [
+        "Inter",
+        null
+      ],
+      "ui_elements": [
+        "Button",
+        "Navigation Bar",
+        "Footer"
+      ],
+      "ux_patterns": [
+        "Article & Text"
+      ],
+      "refero_url": "https://refero.design/pages/723951b2-781d-4d3a-81aa-8f7232194c7c",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/723951b2-781d-4d3a-81aa-8f7232194c7c_preview.jpg",
+      "local_image": "design-references/polar/images/terms-conditions-723951b2.jpg"
+    },
+    {
+      "uuid": "79903407-5d3a-4e9f-a9a8-37898374843f",
+      "page_url": "https://polar.sh/dashboard/refero-design",
+      "page_types": [
+        "Dashboard",
+        "Home Page"
+      ],
+      "hex_colors": [
+        "0x121213",
+        "0x6A6A6D",
+        "0xF7F7F7",
+        "0x3159BA",
+        "0xA9A9A9"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Line & Bar Chart",
+        "Cards & Tiles",
+        "List",
+        "Button",
+        "Switch & Toggle",
+        "Tooltip",
+        "Notifications & Toast",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "ux_patterns": [
+        "Empty State",
+        "Dark Mode",
+        "Stats",
+        "Timeline & History"
+      ],
+      "refero_url": "https://refero.design/pages/79903407-5d3a-4e9f-a9a8-37898374843f",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/79903407-5d3a-4e9f-a9a8-37898374843f_preview.jpg",
+      "local_image": "design-references/polar/images/dashboard-home-page-79903407.jpg"
+    },
+    {
+      "uuid": "7d56b9f0-1ddc-4b2e-b17b-0ded1fec94c5",
+      "page_url": "https://polar.sh/",
+      "page_types": [
+        "Sign Up"
+      ],
+      "hex_colors": [
+        "0x4B4B4C",
+        "0xF9F9F9",
+        "0x040508",
+        "0x8C8E94",
+        "0x6D727E"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Dialog & Modal Window",
+        "Icon",
+        "Popover"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/7d56b9f0-1ddc-4b2e-b17b-0ded1fec94c5",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/7d56b9f0-1ddc-4b2e-b17b-0ded1fec94c5_preview.jpg",
+      "local_image": "design-references/polar/images/sign-up-7d56b9f0.jpg"
+    },
+    {
+      "uuid": "9cd478e9-b327-4278-a48b-b6b1e3650725",
+      "page_url": "https://polar.sh/downloads",
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "hex_colors": [
+        "0x11131D",
+        "0x676B7C",
+        "0xFBFBFB",
+        "0x989AA3",
+        "0xB2608C"
+      ],
+      "fonts": [
+        "Inter",
+        null
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Navigation Bar",
+        "Footer",
+        "Icon"
+      ],
+      "ux_patterns": [
+        "Upload & Download"
+      ],
+      "refero_url": "https://refero.design/pages/9cd478e9-b327-4278-a48b-b6b1e3650725",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/9cd478e9-b327-4278-a48b-b6b1e3650725_preview.jpg",
+      "local_image": "design-references/polar/images/product-page-landing-9cd478e9.jpg"
+    },
+    {
+      "uuid": "b4976014-b22c-452f-bb0a-bfabe854f4af",
+      "page_url": "https://polar.sh/onboarding/business",
+      "page_types": [
+        "Account Setup"
+      ],
+      "hex_colors": [
+        "0x155CF8",
+        "0x101010",
+        "0xFAFAFA",
+        "0x5BA7B4",
+        "0x68686B"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "List",
+        "Search Field",
+        "Icon",
+        "Dropdown Menu",
+        "Popover"
+      ],
+      "ux_patterns": [
+        "Dark Mode",
+        "Select"
+      ],
+      "refero_url": "https://refero.design/pages/b4976014-b22c-452f-bb0a-bfabe854f4af",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/b4976014-b22c-452f-bb0a-bfabe854f4af_preview.jpg",
+      "local_image": "design-references/polar/images/account-setup-b4976014.jpg"
+    },
+    {
+      "uuid": "c4481517-9459-4b1c-86ae-a2f8caf5e777",
+      "page_url": "https://polar.sh/dashboard/refero-design",
+      "page_types": [
+        "Dashboard"
+      ],
+      "hex_colors": [
+        "0xFBFBFB",
+        "0x4B4B4B",
+        "0xE76869",
+        "0x241B28",
+        "0x171A32"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Line & Bar Chart",
+        "Cards & Tiles",
+        "Button",
+        "Color Picker",
+        "Dialog & Modal Window",
+        "Notifications & Toast",
+        "Navigation Bar",
+        "Icon",
+        "Illustration",
+        "Popover"
+      ],
+      "ux_patterns": [
+        "Empty State",
+        "Stats",
+        "Share",
+        "Select"
+      ],
+      "refero_url": "https://refero.design/pages/c4481517-9459-4b1c-86ae-a2f8caf5e777",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/c4481517-9459-4b1c-86ae-a2f8caf5e777_preview.jpg",
+      "local_image": "design-references/polar/images/dashboard-c4481517.jpg"
+    },
+    {
+      "uuid": "e6f9154d-8489-4c52-8f8d-a67bb1222f4f",
+      "page_url": "https://polar.sh/dashboard/refero-design",
+      "page_types": [
+        "Dashboard"
+      ],
+      "hex_colors": [
+        "0xE5756A",
+        "0x464F9D",
+        "0x232967",
+        "0xCFC4AF",
+        "0x56515D"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Line & Bar Chart",
+        "Cards & Tiles",
+        "Button",
+        "Color Picker",
+        "Dialog & Modal Window",
+        "Notifications & Toast",
+        "Navigation Bar",
+        "Icon",
+        "Illustration",
+        "Popover"
+      ],
+      "ux_patterns": [
+        "Empty State",
+        "Dark Mode",
+        "Stats",
+        "Share",
+        "Select"
+      ],
+      "refero_url": "https://refero.design/pages/e6f9154d-8489-4c52-8f8d-a67bb1222f4f",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/e6f9154d-8489-4c52-8f8d-a67bb1222f4f_preview.jpg",
+      "local_image": "design-references/polar/images/dashboard-e6f9154d.jpg"
+    },
+    {
+      "uuid": "3cd68873-6913-407b-9e1b-a44f17ab2d5f",
+      "page_url": "https://polar.sh/dashboard/refero-design/analytics/metrics/98325cc2-31f3-42ab-a93c-2aa71718df94",
+      "page_types": [
+        "Dashboard"
+      ],
+      "hex_colors": [
+        "0xFAFAFA",
+        "0x161A24",
+        "0x97A2BB",
+        "0x6D7178",
+        "0x3B68D2"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Line & Bar Chart",
+        "Cards & Tiles",
+        "List",
+        "Button",
+        "Dropdown",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Avatar"
+      ],
+      "ux_patterns": [
+        "Empty State",
+        "Stats"
+      ],
+      "refero_url": "https://refero.design/pages/3cd68873-6913-407b-9e1b-a44f17ab2d5f",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/3cd68873-6913-407b-9e1b-a44f17ab2d5f_preview.jpg",
+      "local_image": "design-references/polar/images/dashboard-3cd68873.jpg"
+    },
+    {
+      "uuid": "62645d65-e875-4af5-a45a-7dae54a87278",
+      "page_url": "https://polar.sh/dashboard/refero-design/finance/income",
+      "page_types": [
+        "Wallet & Balance"
+      ],
+      "hex_colors": [
+        "0xFAFAFA",
+        "0x0D1016",
+        "0x979BA3",
+        "0x6C707A",
+        "0xC49632"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Table",
+        "Accordion & Collapse",
+        "Cards & Tiles",
+        "List",
+        "Button",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Avatar",
+        "Currency"
+      ],
+      "ux_patterns": [
+        "Empty State",
+        "Stats"
+      ],
+      "refero_url": "https://refero.design/pages/62645d65-e875-4af5-a45a-7dae54a87278",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/62645d65-e875-4af5-a45a-7dae54a87278_preview.jpg",
+      "local_image": "design-references/polar/images/finance-wallet-62645d65.jpg"
+    },
+    {
+      "uuid": "a16dc0ba-4ff9-4295-a739-5ea0b6780bdd",
+      "page_url": "https://polar.sh/",
+      "page_types": [
+        "Product Page & Landing",
+        "Home Page"
+      ],
+      "hex_colors": [
+        "0x0F1420",
+        "0xFBFBFB",
+        "0x94979F",
+        "0x6A6E78",
+        "0xC8CBD2"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "List",
+        "Dropdown Menu",
+        "Popover"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/a16dc0ba-4ff9-4295-a739-5ea0b6780bdd",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/a16dc0ba-4ff9-4295-a739-5ea0b6780bdd_preview.jpg",
+      "local_image": "design-references/polar/images/home-page-a16dc0ba.jpg"
+    },
+    {
+      "uuid": "a64f31af-daab-494a-9660-99bddb72838a",
+      "page_url": "https://polar.sh/dashboard/refero-design/onboarding/integrate?productId=900ae5cc-54ca-406a-8a63-13a3a10efa25",
+      "page_types": [
+        "Integration Page"
+      ],
+      "hex_colors": [
+        "0x060607",
+        "0xF9F9F9",
+        "0x5D975A",
+        "0x535761",
+        "0x97A0A4"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Switch & Toggle",
+        "Full-Screen Overlay",
+        "Icon",
+        "Code Snippet"
+      ],
+      "ux_patterns": [
+        "Article & Text",
+        "Select",
+        "Tutorial & Education"
+      ],
+      "refero_url": "https://refero.design/pages/a64f31af-daab-494a-9660-99bddb72838a",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/a64f31af-daab-494a-9660-99bddb72838a_preview.jpg",
+      "local_image": "design-references/polar/images/integration-a64f31af.jpg"
+    },
+    {
+      "uuid": "ad269293-5695-4343-b9f5-8c8240e5ebee",
+      "page_url": "https://polar.sh/dashboard/refero-design/products/new",
+      "page_types": [],
+      "hex_colors": [
+        "0x090909",
+        "0x707071",
+        "0xF8F8F8",
+        "0x1B5CF0",
+        "0x141313"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Switch & Toggle",
+        "Text Field",
+        "Popover",
+        "Side Sheet"
+      ],
+      "ux_patterns": [
+        "Dark Mode",
+        "Add & Create"
+      ],
+      "refero_url": "https://refero.design/pages/ad269293-5695-4343-b9f5-8c8240e5ebee",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/ad269293-5695-4343-b9f5-8c8240e5ebee_preview.jpg",
+      "local_image": "design-references/polar/images/screen-ad269293.jpg"
+    },
+    {
+      "uuid": "ce1b71da-deba-4fe6-b47f-c137706cd233",
+      "page_url": "https://polar.sh/dashboard/refero-design/products/new",
+      "page_types": [],
+      "hex_colors": [
+        "0x7B7B7C",
+        "0xFAFAFA",
+        "0x111216",
+        "0x434448",
+        "0x648FDD"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Text Field",
+        "Popover",
+        "Side Sheet"
+      ],
+      "ux_patterns": [
+        "Error",
+        "Upload & Download",
+        "Add & Create"
+      ],
+      "refero_url": "https://refero.design/pages/ce1b71da-deba-4fe6-b47f-c137706cd233",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/ce1b71da-deba-4fe6-b47f-c137706cd233_preview.jpg",
+      "local_image": "design-references/polar/images/screen-ce1b71da.jpg"
+    },
+    {
+      "uuid": "ce4e79e1-e0ab-42b8-9298-86ad71d2ec3a",
+      "page_url": "https://polar.sh/dashboard/refero-design/settings/billing",
+      "page_types": [
+        "Settings"
+      ],
+      "hex_colors": [
+        "0x121212",
+        "0x6C6C6E",
+        "0x195CF3",
+        "0xF4F5F5",
+        "0xA4A5A4"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Accordion & Collapse",
+        "Cards & Tiles",
+        "List",
+        "Button",
+        "Dropdown",
+        "Switch & Toggle",
+        "Text Field",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Avatar"
+      ],
+      "ux_patterns": [
+        "Dark Mode",
+        "Billing & Plans"
+      ],
+      "refero_url": "https://refero.design/pages/ce4e79e1-e0ab-42b8-9298-86ad71d2ec3a",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/ce4e79e1-e0ab-42b8-9298-86ad71d2ec3a_preview.jpg",
+      "local_image": "design-references/polar/images/settings-ce4e79e1.jpg"
+    },
+    {
+      "uuid": "df12dbe6-66c6-4442-83c1-69a90d2dd11d",
+      "page_url": "https://polar.sh/dashboard/refero-design/products/new",
+      "page_types": [],
+      "hex_colors": [
+        "0x7B7B7C",
+        "0xF9F9F9",
+        "0x101216",
+        "0x569FF4",
+        "0x434448"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Text Field",
+        "Progress Bar",
+        "Popover",
+        "Side Sheet"
+      ],
+      "ux_patterns": [
+        "Loading & Connecting",
+        "Error",
+        "Files",
+        "Upload & Download",
+        "Add & Create"
+      ],
+      "refero_url": "https://refero.design/pages/df12dbe6-66c6-4442-83c1-69a90d2dd11d",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/df12dbe6-66c6-4442-83c1-69a90d2dd11d_preview.jpg",
+      "local_image": "design-references/polar/images/screen-df12dbe6.jpg"
+    },
+    {
+      "uuid": "f4c4707b-c42c-435d-80fa-0477335d598b",
+      "page_url": "https://polar.sh/dashboard/refero-design/analytics/metrics/cancellations",
+      "page_types": [
+        "Dashboard"
+      ],
+      "hex_colors": [
+        "0x4B4B4B",
+        "0x070708",
+        "0x9B9EA6",
+        "0xFCFBFB",
+        "0x171B25"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Accordion & Collapse",
+        "Cards & Tiles",
+        "List",
+        "Button",
+        "Text Field",
+        "Step Indicator",
+        "Dialog & Modal Window",
+        "Icon",
+        "Popover"
+      ],
+      "ux_patterns": [
+        "Select",
+        "Add & Create"
+      ],
+      "refero_url": "https://refero.design/pages/f4c4707b-c42c-435d-80fa-0477335d598b",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/f4c4707b-c42c-435d-80fa-0477335d598b_preview.jpg",
+      "local_image": "design-references/polar/images/dashboard-f4c4707b.jpg"
+    },
+    {
+      "uuid": "feb5b9d9-fbb6-4bf6-a8aa-9f01642dad15",
+      "page_url": "https://polar.sh/dashboard/refero-design/products/b65c5f54-134d-4a95-a346-4f2b8756dabf",
+      "page_types": [
+        "Dashboard"
+      ],
+      "hex_colors": [
+        "0x0D0F13",
+        "0xFAFAFA",
+        "0x979CA2",
+        "0x6D717A",
+        "0x37B783"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Table",
+        "Accordion & Collapse",
+        "List",
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "ux_patterns": [
+        "Empty State",
+        "Stats"
+      ],
+      "refero_url": "https://refero.design/pages/feb5b9d9-fbb6-4bf6-a8aa-9f01642dad15",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/feb5b9d9-fbb6-4bf6-a8aa-9f01642dad15_preview.jpg",
+      "local_image": "design-references/polar/images/dashboard-feb5b9d9.jpg"
+    },
+    {
+      "uuid": "15238e4b-b5c2-4aef-a9ec-a11c5de652ef",
+      "page_url": "https://polar.sh/dashboard/refero-design",
+      "page_types": [
+        "Dashboard",
+        "Home Page"
+      ],
+      "hex_colors": [
+        "0xFBFBFB",
+        "0x7B7B7B",
+        "0x161920",
+        "0x3C3C3C",
+        "0x464A56"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "List",
+        "Dialog & Modal Window",
+        "Search Field",
+        "Icon",
+        "Popover"
+      ],
+      "ux_patterns": [
+        "Searching"
+      ],
+      "refero_url": "https://refero.design/pages/15238e4b-b5c2-4aef-a9ec-a11c5de652ef",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/15238e4b-b5c2-4aef-a9ec-a11c5de652ef_preview.jpg",
+      "local_image": "design-references/polar/images/dashboard-home-page-15238e4b.jpg"
+    },
+    {
+      "uuid": "92f9e27b-e7c1-498f-b06b-730c5a400eab",
+      "page_url": "https://polar.sh/onboarding/personal",
+      "page_types": [
+        "Account Setup"
+      ],
+      "hex_colors": [
+        "0x181D29",
+        "0x878788",
+        "0xFBFBFB",
+        "0x617576",
+        "0x3A66D4"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Checkbox & Radio",
+        "Text Field",
+        "Date & Time Picker",
+        "Step Indicator",
+        "Code Snippet",
+        "Side Sheet"
+      ],
+      "ux_patterns": [
+        "Loading & Connecting",
+        "Date & Time"
+      ],
+      "refero_url": "https://refero.design/pages/92f9e27b-e7c1-498f-b06b-730c5a400eab",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/92f9e27b-e7c1-498f-b06b-730c5a400eab_preview.jpg",
+      "local_image": "design-references/polar/images/account-setup-92f9e27b.jpg"
+    },
+    {
+      "uuid": "9d3a5b54-aefe-450d-954d-c9a04293b623",
+      "page_url": "https://polar.sh/dashboard/refero-design/products/new",
+      "page_types": [],
+      "hex_colors": [
+        "0x0D0E13",
+        "0x6E717B",
+        "0x979AA3",
+        "0xFCFBFB",
+        "0xF4F4F4"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "List",
+        "Button",
+        "Dropdown",
+        "Checkbox & Radio",
+        "Text Field",
+        "Tags & Chips",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "ux_patterns": [
+        "Empty State",
+        "Select",
+        "Add & Create"
+      ],
+      "refero_url": "https://refero.design/pages/9d3a5b54-aefe-450d-954d-c9a04293b623",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/9d3a5b54-aefe-450d-954d-c9a04293b623_preview.jpg",
+      "local_image": "design-references/polar/images/screen-9d3a5b54.jpg"
+    },
+    {
+      "uuid": "a36858d3-0533-4bf5-a901-abddac566c7e",
+      "page_url": "https://polar.sh/",
+      "page_types": [
+        "Product Page & Landing",
+        "Home Page"
+      ],
+      "hex_colors": [
+        "0x0C0D0E",
+        "0x58595D",
+        "0x939497",
+        "0x446EAD",
+        "0x7C7C7C"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Navigation Bar",
+        "Footer",
+        "Illustration",
+        "Logo Wall",
+        "Avatar",
+        "Product Image",
+        "Code Snippet"
+      ],
+      "ux_patterns": [
+        "Testimonials",
+        "Video Player",
+        "Product Features"
+      ],
+      "refero_url": "https://refero.design/pages/a36858d3-0533-4bf5-a901-abddac566c7e",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/a36858d3-0533-4bf5-a901-abddac566c7e_preview.jpg",
+      "local_image": "design-references/polar/images/product-page-landing-home-page-a36858d3.jpg"
+    },
+    {
+      "uuid": "c872cb8c-d78f-44d5-a6e3-ddf72388ebf9",
+      "page_url": "https://polar.sh/onboarding/business",
+      "page_types": [
+        "Account Setup"
+      ],
+      "hex_colors": [
+        "0x07080A",
+        "0xFBFBFB",
+        "0x9DA5AF",
+        "0x48948D",
+        "0x4766B9"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Switch & Toggle",
+        "Text Field",
+        "Step Indicator",
+        "Code Snippet",
+        "Side Sheet"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/c872cb8c-d78f-44d5-a6e3-ddf72388ebf9",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/c872cb8c-d78f-44d5-a6e3-ddf72388ebf9_preview.jpg",
+      "local_image": "design-references/polar/images/account-setup-c872cb8c.jpg"
+    },
+    {
+      "uuid": "e273578c-dd40-4cac-9ff6-ea0411fdf652",
+      "page_url": "https://polar.sh/onboarding/personal",
+      "page_types": [
+        "Account Setup"
+      ],
+      "hex_colors": [
+        "0x878788",
+        "0x175CF8",
+        "0x1C2027",
+        "0xFBFBFB",
+        "0xC8CED4"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "List",
+        "Icon",
+        "Dropdown Menu",
+        "Popover"
+      ],
+      "ux_patterns": [
+        "Location & Address",
+        "Select"
+      ],
+      "refero_url": "https://refero.design/pages/e273578c-dd40-4cac-9ff6-ea0411fdf652",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/e273578c-dd40-4cac-9ff6-ea0411fdf652_preview.jpg",
+      "local_image": "design-references/polar/images/account-setup-e273578c.jpg"
+    },
+    {
+      "uuid": "eb4fd4aa-2db6-4c6c-9157-649164212588",
+      "page_url": "https://polar.sh/",
+      "page_types": [
+        "Log In"
+      ],
+      "hex_colors": [
+        "0x4B4B4B",
+        "0xF9F9F9",
+        "0x040508",
+        "0x8E8F93",
+        "0xA1A3AD"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Badge",
+        "Dialog & Modal Window",
+        "Icon",
+        "Popover"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/eb4fd4aa-2db6-4c6c-9157-649164212588",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/eb4fd4aa-2db6-4c6c-9157-649164212588_preview.jpg",
+      "local_image": "design-references/polar/images/log-in-eb4fd4aa.jpg"
+    },
+    {
+      "uuid": "ebae4d52-7e53-462b-a5a4-93bf93b18b24",
+      "page_url": "https://polar.sh/dashboard/refero-design",
+      "page_types": [
+        "Dashboard",
+        "Home Page"
+      ],
+      "hex_colors": [
+        "0x12141C",
+        "0x96A0B8",
+        "0xFAFAFA",
+        "0x6E727C",
+        "0x3B66CF"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Line & Bar Chart",
+        "Cards & Tiles",
+        "List",
+        "Button",
+        "Switch & Toggle",
+        "Tooltip",
+        "Notifications & Toast",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "ux_patterns": [
+        "Empty State",
+        "Stats",
+        "Timeline & History"
+      ],
+      "refero_url": "https://refero.design/pages/ebae4d52-7e53-462b-a5a4-93bf93b18b24",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/ebae4d52-7e53-462b-a5a4-93bf93b18b24_preview.jpg",
+      "local_image": "design-references/polar/images/dashboard-home-page-ebae4d52.jpg"
+    },
+    {
+      "uuid": "ed2afb27-6391-49b3-801c-33eb9f73692c",
+      "page_url": "https://polar.sh/dashboard/refero-design",
+      "page_types": [
+        "Dashboard"
+      ],
+      "hex_colors": [
+        "0x474749",
+        "0xDC666E",
+        "0xEE8E62",
+        "0x16182E",
+        "0x3E4288"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Line & Bar Chart",
+        "Cards & Tiles",
+        "Button",
+        "Color Picker",
+        "Dialog & Modal Window",
+        "Navigation Bar",
+        "Icon",
+        "Illustration",
+        "Popover"
+      ],
+      "ux_patterns": [
+        "Empty State",
+        "Stats",
+        "Share",
+        "Select"
+      ],
+      "refero_url": "https://refero.design/pages/ed2afb27-6391-49b3-801c-33eb9f73692c",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/ed2afb27-6391-49b3-801c-33eb9f73692c_preview.jpg",
+      "local_image": "design-references/polar/images/dashboard-ed2afb27.jpg"
+    },
+    {
+      "uuid": "f3b1f72f-bffa-4703-bb06-76cd481f8bf4",
+      "page_url": "https://polar.sh/onboarding/business",
+      "page_types": [
+        "Account Setup"
+      ],
+      "hex_colors": [
+        "0x08080B",
+        "0x9CA6B0",
+        "0xFBFBFB",
+        "0x4A9590",
+        "0x4766BB"
+      ],
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        null
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Switch & Toggle",
+        "Text Field",
+        "Step Indicator",
+        "Code Snippet",
+        "Side Sheet"
+      ],
+      "ux_patterns": [],
+      "refero_url": "https://refero.design/pages/f3b1f72f-bffa-4703-bb06-76cd481f8bf4",
+      "preview_url": "https://images.refero.design/screenshots/polar.sh/desktop/f3b1f72f-bffa-4703-bb06-76cd481f8bf4_preview.jpg",
+      "local_image": "design-references/polar/images/account-setup-f3b1f72f.jpg"
+    }
+  ]
+}
