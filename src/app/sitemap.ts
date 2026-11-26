@@ -33,9 +33,6 @@ const staticRoutes = [
   { path: "/design-systems/tilda/setup", priority: 0.6 },
   { path: "/design-systems/tilda/settings", priority: 0.6 },
   { path: "/design-systems/tilda/help", priority: 0.7 },
-  { path: "/design-systems/tilda/login", priority: 0.5 },
-  { path: "/design-systems/tilda/signup", priority: 0.5 },
-  { path: "/design-systems/tilda/recover", priority: 0.4 },
   { path: "/design-systems/tilda/privacy", priority: 0.4 },
   { path: "/design-systems/tilda/terms", priority: 0.4 },
   { path: "/design-systems/jetbrains", priority: 0.9 },
@@ -52,8 +49,6 @@ const staticRoutes = [
   { path: "/design-systems/polar/onboarding", priority: 0.7 },
   { path: "/design-systems/polar/integrate", priority: 0.7 },
   { path: "/design-systems/polar/settings", priority: 0.6 },
-  { path: "/design-systems/polar/login", priority: 0.6 },
-  { path: "/design-systems/polar/signup", priority: 0.6 },
   { path: "/design-systems/polar/privacy", priority: 0.4 },
   { path: "/design-systems/polar/terms", priority: 0.4 },
   { path: "/design-systems/polar/components", priority: 0.8 },
@@ -72,9 +67,6 @@ const staticRoutes = [
   { path: "/design-systems/brilliant/checkout", priority: 0.7 },
   { path: "/design-systems/brilliant/cancel", priority: 0.5 },
   { path: "/design-systems/brilliant/settings", priority: 0.6 },
-  { path: "/design-systems/brilliant/login", priority: 0.5 },
-  { path: "/design-systems/brilliant/signup", priority: 0.5 },
-  { path: "/design-systems/brilliant/reset-password", priority: 0.4 },
   { path: "/design-systems/brilliant/educators", priority: 0.8 },
   { path: "/design-systems/brilliant/blog", priority: 0.7 },
   { path: "/design-systems/brilliant/blog/post", priority: 0.6 },
@@ -87,10 +79,8 @@ const staticRoutes = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date();
   return staticRoutes.map((route) => ({
     url: `${SITE_URL}${route.path}`,
-    lastModified,
     changeFrequency: "weekly",
     priority: route.priority,
   }));

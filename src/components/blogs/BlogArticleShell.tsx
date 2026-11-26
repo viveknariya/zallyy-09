@@ -10,6 +10,7 @@ import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { BlogToc, type BlogTocItem } from "./BlogToc";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
 
 export interface RelatedArticleItem {
   href: string;
@@ -22,26 +23,41 @@ interface BlogArticleShellProps {
   breadcrumbs: BreadcrumbItem[];
   title: string;
   excerpt: string;
+  publishedAt: string;
   tocItems: BlogTocItem[];
   relatedArticles: RelatedArticleItem[];
   children: ReactNode;
 }
 
 /**
- * High-contrast Tilda editorial shell for technical blog articles (no author metadata).
+ * Shared editorial shell with visible publication information and Article JSON-LD.
  */
 export function BlogArticleShell({
   breadcrumbs,
   title,
   excerpt,
+  publishedAt,
   tocItems,
   relatedArticles,
   children,
 }: BlogArticleShellProps) {
+  const articleUrl = `${SITE_URL}${breadcrumbs.at(-1)?.href ?? "/blogs"}`;
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: title,
+    description: excerpt,
+    datePublished: publishedAt,
+    dateModified: publishedAt,
+    author: { "@type": "Organization", name: `${SITE_NAME} Editorial Team`, url: SITE_URL },
+    publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
+    mainEntityOfPage: articleUrl,
+  };
   return (
     <div className="min-h-full flex flex-col bg-background">
       <DirectoryHeader />
       <Breadcrumbs items={breadcrumbs} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
 
       <header className="border-b border-border bg-surface py-14 md:py-16">
         <div className="mx-auto max-w-6xl px-6">
@@ -51,6 +67,9 @@ export function BlogArticleShell({
             </h1>
             <p className="mt-5 text-base leading-relaxed text-muted sm:text-lg">
               {excerpt}
+            </p>
+            <p className="mt-4 text-xs text-muted">
+              By {SITE_NAME} Editorial Team · Published <time dateTime={publishedAt}>{publishedAt}</time>
             </p>
           </div>
         </div>

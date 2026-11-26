@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     url: `/blogs/${SLUG}`,
     type: "article",
   },
+  twitter: { card: "summary", title: TITLE, description: DESCRIPTION },
 };
 
 export default function ZeroUpfrontSoftwareBlogPage() {
@@ -32,6 +33,7 @@ export default function ZeroUpfrontSoftwareBlogPage() {
       ]}
       title={TITLE}
       excerpt={DESCRIPTION}
+      publishedAt="2026-11-09"
       tocItems={[
         {
           id: "zero-upfront-financial-commitment",

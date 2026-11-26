@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     url: `/blogs/${SLUG}`,
     type: "article",
   },
+  twitter: { card: "summary", title: TITLE, description: DESCRIPTION },
 };
 
 export default function CloneSiteWorkflowBlogPage() {
@@ -34,6 +35,7 @@ export default function CloneSiteWorkflowBlogPage() {
       ]}
       title={TITLE}
       excerpt={DESCRIPTION}
+      publishedAt="2026-11-09"
       tocItems={[
         { id: "prototype-in-uxpilot", title: "Prototype in UXpilot", number: 1 },
         {

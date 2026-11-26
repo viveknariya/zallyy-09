@@ -10,7 +10,7 @@ import {
 const SLUG = "how-to-do-seo-with-codex-and-agentic-seo-skill";
 const TITLE = "Trustworthy SEO Audits with Codex & Agentic Skills";
 const DESCRIPTION =
-  "How to replace vague AI SEO advice with deterministic evidence checks: schema verification, canonical audits, and automated crawler reporting.";
+  "How we used GPT-5 and the SEO skill in Codex: run $seo, review the audit findings, and work through its prioritized action plan.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     url: `/blogs/${SLUG}`,
     type: "article",
   },
+  twitter: { card: "summary", title: TITLE, description: DESCRIPTION },
 };
 
 export default function CodexSeoAuditBlogPage() {
@@ -34,20 +35,21 @@ export default function CodexSeoAuditBlogPage() {
       ]}
       title={TITLE}
       excerpt={DESCRIPTION}
+      publishedAt="2026-11-08"
       tocItems={[
         {
           id: "separate-reasoning-from-evidence",
-          title: "Separate Reasoning from Evidence",
+          title: "Model, Skill, and Scope",
           number: 1,
         },
         {
           id: "run-evidence-based-audits",
-          title: "Run Evidence-Based Audits in Codex",
+          title: "Run the SEO Skill",
           number: 2,
         },
         {
           id: "verify-before-you-ship",
-          title: "Verify Before You Ship",
+          title: "Review Findings and Act",
           number: 3,
         },
       ]}
@@ -67,72 +69,66 @@ export default function CodexSeoAuditBlogPage() {
       ]}
     >
       <p className="text-lg leading-relaxed text-foreground">
-        Never ask an AI coding assistant to &ldquo;make this site rank.&rdquo;
-        LLMs hallucinate scores, invent keyword density metrics, and offer
-        generic marketing advice. Trustworthy technical SEO requires{" "}
-        <strong className="font-semibold text-foreground">
-          deterministic evidence
-        </strong>
-        .
+        We used GPT-5 in Codex with the <BlogInlineCode>seo</BlogInlineCode>
+        skill to audit the zallyy.com project. The process was simple: run the
+        skill, review its evidence-backed findings, then work through the action
+        plan.
       </p>
 
       <p>
-        Here is how we run high-accuracy, zero-hallucination SEO audits using
-        Codex CLI and open-source verification skills.
+        This is the basic workflow another project can follow, without needing
+        a transcript of the tooling details.
       </p>
 
       <BlogSection
         id="separate-reasoning-from-evidence"
         number="01"
-        eyebrow="Deterministic Auditing"
-        title="1. Separate Reasoning from Evidence"
+        eyebrow="Our Setup"
+        title="1. Choose the Model and Skill"
       >
         <p>
-          Use deterministic scripts to inspect actual HTTP status codes,
-          metadata tags, canonical declarations, and Core Web Vitals telemetry.
-          Let headless scripts gather raw factual data rather than asking an
-          LLM to guess.
+          The model for this audit was GPT-5. The skill was
+          <BlogInlineCode>seo</BlogInlineCode>, which provides a structured
+          process for checking technical SEO, metadata, content, and crawlability.
         </p>
       </BlogSection>
 
       <BlogSection
         id="run-evidence-based-audits"
         number="02"
-        eyebrow="Schema Verification"
-        title="2. Run Evidence-Based Audits in Codex"
+        eyebrow="Start the Audit"
+        title="2. Run $seo"
       >
         <p>
-          Execute the audit runner against your local development server or
-          staging deployment:
-        </p>
-        <BlogCodeBlock
-          label="terminal — audit"
-          runtime="Python 3.12"
-          command="$ audit_runner.py --target https://zallyy.com --verify"
-        />
-        <p>
-          Codex cross-references JSON-LD structured data directly against
-          official Schema.org specifications, flags missing OpenGraph
-          dimensions, identifies broken internal anchors, and verifies canonical
-          tag consistency across all App Router routes.
+          We invoked <BlogInlineCode>$seo</BlogInlineCode> in Codex and asked
+          it to audit the current project. The skill reviewed the site and
+          created a full audit report plus a prioritized action plan.
         </p>
       </BlogSection>
 
       <BlogSection
         id="verify-before-you-ship"
         number="03"
-        eyebrow="Hardening & Validation"
-        title="3. Verify Before You Ship"
+        eyebrow="From Findings to Fixes"
+        title="3. Review the Audit, Then Follow the Plan"
       >
         <p>
-          Fix issues directly in Next.js App Router metadata exports (
-          <BlogInlineCode>generateMetadata</BlogInlineCode>), generate dynamic
-          XML sitemaps, and re-run the crawl locally.
+          The report highlighted metadata inheritance, missing structured data,
+          short article content, and sitemap improvements. It also marked
+          checks blocked by DNS or the build environment as limitations rather
+          than confirmed site issues.
+        </p>
+        <p>
+          We then followed the action plan: corrected social metadata, added
+          article publication details and structured data, removed account
+          routes from the sitemap, and stopped assigning every sitemap entry a
+          new modification date. Review the evidence, prioritize the fixes, and
+          work through them in order.
         </p>
 
         <BlogTakeaway
-          label="Verification Protocol"
-          quote="Don't guess SEO ranking. Verify code, validate structured JSON-LD schemas, and let automated scripts prove compliance."
+          label="The Workflow"
+          quote="Choose the model, run the SEO skill, review its findings, and use the action plan to make improvements."
         />
       </BlogSection>
     </BlogArticleShell>
