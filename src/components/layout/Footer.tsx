@@ -70,7 +70,17 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col items-start justify-between gap-4 border-t border-border pt-6 text-xs text-muted sm:flex-row sm:items-center">
           <p>Built with Next.js App Router, Tailwind CSS, and Bun.</p>
-          <p>Design inspiration: tilda.cc</p>
+          <div className="flex items-center gap-6">
+            <a
+              href="https://github.com/viveknariya/zallyy-09"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-foreground hover:text-accent-strong transition-colors"
+            >
+              GitHub Repository
+            </a>
+            <p>Design inspiration: tilda.cc</p>
+          </div>
         </div>
       </div>
     </footer>
