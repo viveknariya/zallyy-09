@@ -1,11 +1,30 @@
 import { Calendar, Code2, CreditCard, Palette, Zap } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
+import { SITE_DOMAIN, SITE_NAME, SITE_TAGLINE } from "@/lib/site";
 import {
   DIRECTORY_SKILLS,
   DIRECTORY_SYSTEMS,
   type DirectorySystem,
   REPO_URL,
 } from "./directory-data";
+
+function BrandLockup({ size = 28 }: { size?: 24 | 28 }) {
+  const sizeClass = size === 24 ? "h-6 w-6" : "h-7 w-7";
+  return (
+    <span className="inline-flex items-center gap-2.5">
+      <Image
+        src="/logo.svg"
+        alt=""
+        width={size}
+        height={size}
+        aria-hidden="true"
+        className={sizeClass}
+      />
+      <span>{SITE_NAME}</span>
+    </span>
+  );
+}
 
 export function DirectoryIcon({ iconKey }: { iconKey: DirectorySystem["iconKey"] }) {
   switch (iconKey) {
@@ -33,7 +52,7 @@ export function DirectoryHeader() {
           href="/"
           className="font-display text-lg font-semibold tracking-tight text-foreground"
         >
-          Design Systems
+          <BrandLockup size={28} />
         </Link>
         <nav className="flex items-center gap-5 sm:gap-7" aria-label="Directory navigation">
           <Link
@@ -75,14 +94,13 @@ export function DirectoryFooter({ variant = "surface" }: { variant?: "surface" |
           <div>
             <Link
               href="/"
-              className="font-display text-lg font-semibold text-foreground"
+              className="font-display text-lg font-semibold tracking-tight text-foreground"
             >
-              Design Systems
+              <BrandLockup size={24} />
             </Link>
             <p className="mt-3 text-sm leading-relaxed text-muted">
-              Curated Next.js App Router design systems and portable AI agent
-              skills with scoped tokens, reusable components, and production
-              starter routes.
+              {SITE_TAGLINE} crafting production web applications, scoped
+              Next.js design systems, and portable AI agent skills.
             </p>
           </div>
 
@@ -184,7 +202,10 @@ export function DirectoryFooter({ variant = "surface" }: { variant?: "surface" |
         </div>
 
         <div className="mt-12 flex flex-col items-start justify-between gap-4 border-t border-border pt-6 text-xs text-muted sm:flex-row sm:items-center">
-          <p>Built with Next.js App Router, Tailwind CSS v4, and Bun.</p>
+          <p>
+            {SITE_NAME} · {SITE_TAGLINE} —{" "}
+            <span className="font-mono text-foreground">{SITE_DOMAIN}</span>
+          </p>
           <a
             href={REPO_URL}
             target="_blank"

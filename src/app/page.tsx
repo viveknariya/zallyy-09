@@ -16,11 +16,12 @@ import {
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
+import { SITE_DOMAIN, SITE_NAME, SITE_TAGLINE } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Design Systems & Skills — Curated UI Kits for Next.js",
+  title: `${SITE_NAME} — ${SITE_TAGLINE}`,
   description:
-    "Explore curated Next.js App Router design systems and portable AI agent design skills with scoped tokens, component libraries, and GitHub skill repositories.",
+    "zallyy (zallyy.com) is a software development agency building production Next.js applications, curated design systems, and portable AI agent skills.",
   alternates: { canonical: "/" },
 };
 
@@ -55,16 +56,19 @@ export default function HomePage() {
         <section className="border-b border-border bg-background py-20 md:py-28">
           <div className="mx-auto max-w-6xl px-6">
             <div className="mx-auto max-w-3xl text-center">
-              <Badge tone="accent">Design Systems &amp; Skills</Badge>
+              <Badge tone="accent">{SITE_TAGLINE}</Badge>
               <h1 className="mt-6 font-display text-4xl font-normal tracking-tight text-foreground sm:text-6xl leading-[1.1]">
-                Production design systems and skills, ready for Next.js.
+                Software systems &amp; interfaces built for production.
               </h1>
               <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted">
-                Explore live interactive UI systems under{" "}
-                <span className="font-mono text-sm text-foreground">/design-systems</span>{" "}
-                alongside portable{" "}
+                <span className="font-semibold text-foreground">{SITE_NAME}</span>{" "}
+                (<span className="font-mono text-sm text-foreground">{SITE_DOMAIN}</span>)
+                is a software development agency shipping production web platforms,
+                curated UI systems under{" "}
+                <span className="font-mono text-sm text-foreground">/design-systems</span>,
+                and portable{" "}
                 <span className="font-mono text-sm text-foreground">SKILL.md</span>{" "}
-                design skills you can inspect and install directly from GitHub.
+                agent specs.
               </p>
               <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
                 <Button href="/design-systems" variant="accent" size="lg">

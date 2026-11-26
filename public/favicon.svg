@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">zallyy</title>
+<desc id="desc">A black circular wheel with a smooth outer ring, nine evenly spaced tapered spokes, and a solid central hub.</desc>
+<g fill="none" stroke="#000" stroke-width="22" >
+  <circle cx="256" cy="256" r="218" />
+</g>
+<g>
+  <polygon points="263.50,211.00 248.50,211.00 256.00,52.00" fill="#000"/><polygon points="290.67,226.35 279.18,216.71 387.13,99.73" fill="#000"/><polygon points="301.62,255.57 299.01,240.80 456.90,220.58" fill="#000"/><polygon points="291.22,285.00 298.72,272.00 432.67,358.00" fill="#000"/><polygon points="264.34,300.85 278.44,295.72 325.77,447.70" fill="#000"/><polygon points="233.56,295.72 247.66,300.85 186.23,447.70" fill="#000"/><polygon points="213.28,272.00 220.78,285.00 79.33,358.00" fill="#000"/><polygon points="212.99,240.80 210.38,255.57 55.10,220.58" fill="#000"/><polygon points="232.82,216.71 221.33,226.35 124.87,99.73" fill="#000"/>
+  <circle cx="256" cy="256" r="47" fill="#000"/>
+</g>
+</svg>

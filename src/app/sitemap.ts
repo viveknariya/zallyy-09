@@ -1,8 +1,6 @@
 import type { MetadataRoute } from "next";
 import { DIRECTORY_SKILLS } from "@/components/directory/directory-data";
-
-const baseUrl =
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "http://localhost:3000";
+import { SITE_URL } from "@/lib/site";
 
 const staticRoutes = [
   { path: "/", priority: 1.0 },
@@ -81,7 +79,7 @@ const staticRoutes = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
   return staticRoutes.map((route) => ({
-    url: `${baseUrl}${route.path}`,
+    url: `${SITE_URL}${route.path}`,
     lastModified,
     changeFrequency: "weekly",
     priority: route.priority,

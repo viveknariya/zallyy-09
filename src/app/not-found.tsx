@@ -1,11 +1,13 @@
-import { Footer } from "@/components/layout/Footer";
-import { Navbar } from "@/components/layout/Navbar";
+import {
+  DirectoryFooter,
+  DirectoryHeader,
+} from "@/components/directory/DirectoryShell";
 import { Button } from "@/components/ui/Button";
 
 export default function NotFound() {
   return (
-    <>
-      <Navbar />
+    <div className="min-h-full flex flex-col bg-background">
+      <DirectoryHeader />
       <main className="flex-1 flex items-center justify-center bg-background px-6 py-24 text-center">
         <div className="max-w-md">
           <p className="font-display text-7xl font-light text-accent-strong">404</p>
@@ -22,7 +24,7 @@ export default function NotFound() {
           </div>
         </div>
       </main>
-      <Footer />
-    </>
+      <DirectoryFooter variant="surface" />
+    </div>
   );
 }

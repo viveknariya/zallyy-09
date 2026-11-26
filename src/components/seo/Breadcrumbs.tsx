@@ -1,5 +1,6 @@
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
+import { SITE_URL } from "@/lib/site";
 
 export interface BreadcrumbItem {
   label: string;
@@ -15,10 +16,6 @@ interface BreadcrumbsProps {
  * Accessible breadcrumb bar paired with schema.org BreadcrumbList JSON-LD for SEO.
  */
 export function Breadcrumbs({ items, className = "" }: BreadcrumbsProps) {
-  const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "http://localhost:3000";
-
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -26,7 +23,7 @@ export function Breadcrumbs({ items, className = "" }: BreadcrumbsProps) {
       "@type": "ListItem",
       position: idx + 1,
       name: item.label,
-      item: `${siteUrl}${item.href}`,
+      item: `${SITE_URL}${item.href}`,
     })),
   };
 

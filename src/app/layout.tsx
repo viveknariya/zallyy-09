@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono, Jost, Newsreader, Plus_Jakarta_Sans } from "next/font/google";
+import { SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const tildaDisplay = Jost({
@@ -26,17 +27,39 @@ const brilliantSerif = Newsreader({
   weight: ["400", "500", "600", "700"],
 });
 
-const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "http://localhost:3000";
-
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(SITE_URL),
+  applicationName: SITE_NAME,
   title: {
-    default: "Design Systems — Curated UI Kits & Next.js Starter Templates",
-    template: "%s | Design Systems",
+    default: `${SITE_NAME} — ${SITE_TAGLINE}`,
+    template: `%s | ${SITE_NAME}`,
   },
   description:
-    "Explore curated website design systems, tokens, components, and Next.js App Router starter templates.",
+    "zallyy is a software development agency building production web applications, design systems, and Next.js engineering tooling.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/icon-96x96.png", type: "image/png", sizes: "96x96" },
+      { url: "/icon-192x192.png", type: "image/png", sizes: "192x192" },
+    ],
+    apple: [{ url: "/icon-192x192.png", sizes: "192x192", type: "image/png" }],
+  },
+  manifest: "/site.webmanifest",
+  openGraph: {
+    type: "website",
+    siteName: SITE_NAME,
+    url: "/",
+    title: `${SITE_NAME} — ${SITE_TAGLINE}`,
+    description:
+      "zallyy is a software development agency building production web applications, design systems, and Next.js engineering tooling.",
+  },
+  twitter: {
+    card: "summary",
+    title: `${SITE_NAME} — ${SITE_TAGLINE}`,
+    description:
+      "zallyy is a software development agency building production web applications, design systems, and Next.js engineering tooling.",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
