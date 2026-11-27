@@ -66,7 +66,7 @@ export function TildaDashboard() {
         <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
           <Tabs items={viewTabs} activeId={activeTab} onChange={setActiveTab} />
 
-          <div className="relative flex flex-wrap items-center gap-3">
+          <div className="flex flex-wrap items-center gap-3">
             <div className="inline-flex border border-border bg-background divide-x divide-border">
               {ranges.map((item) => {
                 const isSelected = item.id === range;
@@ -87,17 +87,19 @@ export function TildaDashboard() {
               })}
             </div>
 
-            <button
-              type="button"
-              onClick={() => setCalendarOpen((prev) => !prev)}
-              className="inline-flex items-center gap-2 border border-border bg-background px-4 py-2 text-xs font-mono text-foreground hover:border-foreground transition-colors cursor-pointer"
-            >
-              <CalendarIcon className="h-3.5 w-3.5 text-muted" />
-              <span>20.09.2026 – {String(selectedEndDay).padStart(2, "0")}.10.2026</span>
-            </button>
+            <div className="relative">
+              <button
+                type="button"
+                aria-expanded={calendarOpen}
+                onClick={() => setCalendarOpen((prev) => !prev)}
+                className="inline-flex items-center gap-2 border border-border bg-background px-4 py-2 text-xs font-mono text-foreground hover:border-foreground transition-colors cursor-pointer"
+              >
+                <CalendarIcon className="h-3.5 w-3.5 text-muted" />
+                <span>20.09.2026 – {String(selectedEndDay).padStart(2, "0")}.10.2026</span>
+              </button>
 
-            {calendarOpen && (
-              <div className="absolute right-0 top-12 z-30 w-[min(calc(100vw-3rem),540px)] border-2 border-foreground bg-background p-5">
+              {calendarOpen && (
+                <div className="absolute left-0 top-full z-30 mt-2 w-[min(calc(100vw-3rem),540px)] border-2 border-foreground bg-background p-5 sm:left-auto sm:right-0">
                 <div className="flex items-center justify-between border-b border-border pb-3">
                   <button
                     type="button"
@@ -172,7 +174,8 @@ export function TildaDashboard() {
                   ))}
                 </div>
               </div>
-            )}
+              )}
+            </div>
           </div>
         </div>
 

@@ -78,16 +78,16 @@ export function TildaNavbar() {
               key={item.href}
               href={item.href}
               onClick={() => setOpen(false)}
-              className="py-2.5 text-xs font-semibold uppercase tracking-[0.14em] text-foreground"
+              className="flex min-h-12 items-center text-xs font-semibold uppercase tracking-[0.14em] text-foreground"
             >
               {item.label}
             </Link>
           ))}
           <div className="mt-2 pt-3 border-t border-border flex items-center gap-3">
-            <Button href="/design-systems/tilda/login" variant="ghost" size="sm">
+            <Button href="/design-systems/tilda/login" variant="ghost" size="md">
               Log In
             </Button>
-            <Button href="/design-systems/tilda/signup" variant="outline" size="sm">
+            <Button href="/design-systems/tilda/signup" variant="outline" size="md">
               Sign Up
             </Button>
           </div>

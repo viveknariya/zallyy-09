@@ -5,7 +5,6 @@ const legacyTildaRoutes = [
   { source: "/blog/:slug", destination: "/blogs/:slug" },
   { source: "/design-system", destination: "/design-systems/tilda/components" },
   { source: "/colors", destination: "/design-systems/tilda/colors" },
-  { source: "/pricing", destination: "/design-systems/tilda/pricing" },
   { source: "/projects", destination: "/design-systems/tilda/projects" },
   { source: "/settings", destination: "/design-systems/tilda/settings" },
   { source: "/help", destination: "/design-systems/tilda/help" },

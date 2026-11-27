@@ -93,6 +93,7 @@ export function TildaPricing({
 }) {
   const [billing, setBilling] = useState("annual");
   const HeadingTag = headingLevel;
+  const CardHeadingTag = headingLevel === "h1" ? "h2" : "h3";
 
   return (
     <section className="bg-background py-20">
@@ -122,9 +123,9 @@ export function TildaPricing({
                     <Icon className="h-8 w-8 stroke-[1.5]" />
                   </div>
 
-                  <h3 className="mt-6 font-display text-2xl font-normal text-foreground">
+                  <CardHeadingTag className="mt-6 font-display text-2xl font-normal text-foreground">
                     {plan.name}
-                  </h3>
+                  </CardHeadingTag>
                   <p className="mt-1 text-sm font-semibold text-foreground">
                     {plan.subtitle}
                   </p>

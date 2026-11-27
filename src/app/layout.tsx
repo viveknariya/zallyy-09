@@ -35,7 +35,20 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "zallyy is a software development agency building production web applications, design systems, and Next.js engineering tooling.",
+    "zallyy is a US-focused software development agency building affordable websites, custom software, and business workflow automation for small and medium businesses—backed by open Next.js design systems and AI skills.",
+  openGraph: {
+    type: "website",
+    siteName: SITE_NAME,
+    title: `${SITE_NAME} — ${SITE_TAGLINE}`,
+    description:
+      "Affordable website development, custom software, and workflow automation for US small and medium businesses. Build before you pay.",
+  },
+  twitter: {
+    card: "summary",
+    title: `${SITE_NAME} — ${SITE_TAGLINE}`,
+    description:
+      "Affordable website development, custom software, and workflow automation for US small and medium businesses.",
+  },
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
@@ -46,8 +59,6 @@ export const metadata: Metadata = {
     apple: [{ url: "/icon-192x192.png", sizes: "192x192", type: "image/png" }],
   },
   manifest: "/site.webmanifest",
-  openGraph: { type: "website", siteName: SITE_NAME },
-  twitter: { card: "summary" },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

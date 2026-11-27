@@ -1,7 +1,8 @@
 import { Calendar, Code2, CreditCard, Palette, Zap } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { SITE_DOMAIN, SITE_NAME, SITE_TAGLINE } from "@/lib/site";
+import { Button } from "@/components/ui/Button";
+import { SITE_CONTACT_EMAIL, SITE_DOMAIN, SITE_NAME, SITE_TAGLINE } from "@/lib/site";
 import {
   DIRECTORY_SKILLS,
   DIRECTORY_SYSTEMS,
@@ -42,45 +43,48 @@ export function DirectoryIcon({ iconKey }: { iconKey: DirectorySystem["iconKey"]
 }
 
 /**
- * Top navigation header for the root directory landing page and catalog routes.
+ * Top navigation header for the agency landing page, commercial service routes, and developer catalog.
  */
 export function DirectoryHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-background/95 backdrop-blur">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
+      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-6">
         <Link
           href="/"
-          className="font-display text-lg font-semibold tracking-tight text-foreground"
+          className="font-display text-lg font-semibold tracking-tight text-foreground shrink-0"
         >
           <BrandLockup size={28} />
         </Link>
-        <nav className="flex items-center gap-5 sm:gap-7" aria-label="Directory navigation">
+        <nav
+          className="flex items-center gap-4 sm:gap-6"
+          aria-label="Primary navigation"
+        >
           <Link
-            href="/design-systems"
+            href="/services"
             className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground/80 hover:text-foreground transition-colors"
           >
-            Systems
+            Services
           </Link>
           <Link
-            href="/design-skills"
+            href="/pricing"
             className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground/80 hover:text-foreground transition-colors"
           >
-            Skills
+            Pricing
           </Link>
           <Link
             href="/blogs"
-            className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground/80 hover:text-foreground transition-colors"
+            className="hidden sm:inline-block text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground/80 hover:text-foreground transition-colors"
           >
             Blogs
           </Link>
-          <a
-            href={REPO_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground/80 hover:text-foreground transition-colors"
+          <Button
+            href="/pricing#request-quote"
+            variant="outline"
+            size="sm"
+            className="shrink-0"
           >
-            GitHub
-          </a>
+            Get Quote
+          </Button>
         </nav>
       </div>
     </header>
@@ -88,7 +92,7 @@ export function DirectoryHeader() {
 }
 
 /**
- * Complete editorial multi-column footer for the landing page, /design-systems, and /design-skills.
+ * Complete editorial multi-column footer connecting agency services, pricing, design systems, and skills.
  */
 export function DirectoryFooter({ variant = "surface" }: { variant?: "surface" | "background" }) {
   const bgClass = variant === "background" ? "bg-background" : "bg-surface";
@@ -96,7 +100,8 @@ export function DirectoryFooter({ variant = "surface" }: { variant?: "surface" |
   return (
     <footer className={`mt-auto border-t border-border ${bgClass}`}>
       <div className="mx-auto max-w-6xl px-6 py-14">
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-5">
+        {/* Row 1 (1-2-2-2): Brand + Services, Pricing, Blogs */}
+        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <Link
               href="/"
@@ -105,10 +110,135 @@ export function DirectoryFooter({ variant = "surface" }: { variant?: "surface" |
               <BrandLockup size={24} />
             </Link>
             <p className="mt-3 text-sm leading-relaxed text-muted">
-              {SITE_TAGLINE} crafting production web applications, scoped
-              Next.js design systems, and portable AI agent skills.
+              {SITE_TAGLINE} for US small and medium businesses—backed by open
+              Next.js design systems and portable AI skills.
             </p>
           </div>
+
+          <div>
+            <h3 className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground">
+              Services
+            </h3>
+            <ul className="mt-4 space-y-2.5">
+              <li>
+                <Link
+                  href="/services"
+                  className="text-sm font-medium text-foreground hover:text-accent-strong transition-colors"
+                >
+                  All Services
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services/website-development"
+                  className="text-sm text-muted hover:text-foreground transition-colors"
+                >
+                  Website Development
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services/software-development"
+                  className="text-sm text-muted hover:text-foreground transition-colors"
+                >
+                  Software Development
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services/automation-development"
+                  className="text-sm text-muted hover:text-foreground transition-colors"
+                >
+                  Automation Development
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground">
+              Pricing &amp; Contact
+            </h3>
+            <ul className="mt-4 space-y-2.5">
+              <li>
+                <Link
+                  href="/pricing"
+                  className="text-sm font-medium text-foreground hover:text-accent-strong transition-colors"
+                >
+                  Custom Pricing
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/pricing#request-quote"
+                  className="text-sm text-muted hover:text-foreground transition-colors"
+                >
+                  Scope Estimator
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/#faq"
+                  className="text-sm text-muted hover:text-foreground transition-colors"
+                >
+                  Common Questions
+                </Link>
+              </li>
+              <li>
+                <a
+                  href={`mailto:${SITE_CONTACT_EMAIL}`}
+                  className="font-mono text-xs text-muted hover:text-foreground transition-colors"
+                >
+                  {SITE_CONTACT_EMAIL}
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground">
+              Blogs
+            </h3>
+            <ul className="mt-4 space-y-2.5">
+              <li>
+                <Link
+                  href="/blogs"
+                  className="text-sm font-medium text-foreground hover:text-accent-strong transition-colors"
+                >
+                  All Articles
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/blogs/how-to-clone-site-using-antigravity-and-uxpilot"
+                  className="text-sm text-muted hover:text-foreground transition-colors"
+                >
+                  Clone Sites with Antigravity &amp; UXpilot
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/blogs/zero-upfront-software-development"
+                  className="text-sm text-muted hover:text-foreground transition-colors"
+                >
+                  Zero-Upfront Engineering Model
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/blogs/how-to-do-seo-with-codex-and-agentic-seo-skill"
+                  className="text-sm text-muted hover:text-foreground transition-colors"
+                >
+                  SEO Audits with Codex Skills
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Row 2 (1-2-2-2): Empty Col 1 + Design Systems, Design Skills, Repository & Specs */}
+        <div className="mt-10 grid grid-cols-1 gap-10 border-t border-border pt-10 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="hidden lg:block" aria-hidden="true" />
 
           <div>
             <h3 className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground">
@@ -159,46 +289,6 @@ export function DirectoryFooter({ variant = "surface" }: { variant?: "surface" |
                   </Link>
                 </li>
               ))}
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground">
-              Blogs
-            </h3>
-            <ul className="mt-4 space-y-2.5">
-              <li>
-                <Link
-                  href="/blogs"
-                  className="text-sm font-medium text-foreground hover:text-accent-strong transition-colors"
-                >
-                  All Articles
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/blogs/how-to-clone-site-using-antigravity-and-uxpilot"
-                  className="text-sm text-muted hover:text-foreground transition-colors"
-                >
-                  Clone Sites with Antigravity &amp; UXpilot
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/blogs/zero-upfront-software-development"
-                  className="text-sm text-muted hover:text-foreground transition-colors"
-                >
-                  Zero-Upfront Engineering Model
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/blogs/how-to-do-seo-with-codex-and-agentic-seo-skill"
-                  className="text-sm text-muted hover:text-foreground transition-colors"
-                >
-                  SEO Audits with Codex Skills
-                </Link>
-              </li>
             </ul>
           </div>
 

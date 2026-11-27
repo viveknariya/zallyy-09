@@ -56,7 +56,7 @@ export function TildaHero() {
           <a
             href="#tilda-features"
             aria-label="Scroll to features"
-            className="mt-10 inline-flex h-9 w-9 items-center justify-center text-foreground/70 hover:text-foreground transition-colors"
+            className="mt-10 inline-flex h-12 w-12 items-center justify-center text-foreground/70 hover:text-foreground transition-colors"
           >
             <ChevronDown className="h-5 w-5" />
           </a>
@@ -93,7 +93,7 @@ export function TildaHero() {
               </p>
             </div>
             <div>
-              <p className="font-display text-2xl font-normal text-foreground">17</p>
+              <p className="font-display text-2xl font-normal text-foreground">18</p>
               <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-muted">
                 Page Types
               </p>

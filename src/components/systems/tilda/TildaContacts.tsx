@@ -69,7 +69,7 @@ const stageTabs = [
 export function TildaContacts() {
   const [stage, setStage] = useState("all");
   const [query, setQuery] = useState("");
-  const [selected, setSelected] = useState<ContactRecord | null>(contactsData[0]);
+  const [selected, setSelected] = useState<ContactRecord | null>(null);
 
   useEffect(() => {
     if (!selected) return;

@@ -54,10 +54,20 @@ export function Button({
   const classes = `inline-flex items-center justify-center gap-2 transition-colors duration-150 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed ${variantClasses[variant]} ${sizeClasses[size]} ${className}`;
 
   if ("href" in props && props.href !== undefined) {
+    const isMailOrTel =
+      props.href.startsWith("mailto:") || props.href.startsWith("tel:");
     const isExternal =
       props.href.startsWith("http://") ||
       props.href.startsWith("https://") ||
       props.target === "_blank";
+
+    if (isMailOrTel) {
+      return (
+        <a href={props.href} className={classes}>
+          {children}
+        </a>
+      );
+    }
 
     if (isExternal) {
       return (
