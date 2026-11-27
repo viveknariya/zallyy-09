@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { TildaProjects } from "@/components/systems/tilda/TildaProjects";
+import { buildTildaMetadata } from "../_metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildTildaMetadata({
   title: "Tilda Projects & CRM Leads",
   description:
     "Workspace projects grid and recent CRM leads table modeled after tilda.cc/projects.",
-  alternates: { canonical: "/design-systems/tilda/projects" },
-};
+  path: "/design-systems/tilda/projects",
+});
 
 export default function TildaProjectsPage() {
   return (

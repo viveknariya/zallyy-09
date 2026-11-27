@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { TildaPricing } from "@/components/systems/tilda/TildaPricing";
+import { buildTildaMetadata } from "../_metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildTildaMetadata({
   title: "Tilda Pricing & Compare Plans",
   description:
     "Three-tier pricing layout with annual/monthly underline tabs, bordered cards, and Compare Plans matrix modeled after tilda.cc/pricing.",
-  alternates: { canonical: "/design-systems/tilda/pricing" },
-};
+  path: "/design-systems/tilda/pricing",
+});
 
 export default function TildaPricingPage() {
   return (
@@ -20,7 +20,7 @@ export default function TildaPricingPage() {
           { label: "Pricing", href: "/design-systems/tilda/pricing" },
         ]}
       />
-      <TildaPricing showComparison />
+      <TildaPricing showComparison headingLevel="h1" />
     </>
   );
 }

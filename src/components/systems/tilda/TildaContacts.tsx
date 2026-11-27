@@ -1,7 +1,7 @@
 "use client";
 
 import { Plus, Search, X } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { Tabs } from "@/components/ui/Tabs";
@@ -71,6 +71,15 @@ export function TildaContacts() {
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState<ContactRecord | null>(contactsData[0]);
 
+  useEffect(() => {
+    if (!selected) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setSelected(null);
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [selected]);
+
   const filtered = contactsData.filter((c) => {
     const matchesStage = stage === "all" || c.stage === stage;
     const q = query.trim().toLowerCase();
@@ -135,8 +144,15 @@ export function TildaContacts() {
               {filtered.map((contact) => (
                 <tr
                   key={contact.id}
+                  tabIndex={0}
                   onClick={() => setSelected(contact)}
-                  className="hover:bg-surface/60 cursor-pointer"
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter" || e.key === " ") {
+                      e.preventDefault();
+                      setSelected(contact);
+                    }
+                  }}
+                  className="hover:bg-surface/60 cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-foreground"
                 >
                   <td className="px-6 py-4 font-medium text-foreground">
                     {contact.name}
@@ -168,9 +184,13 @@ export function TildaContacts() {
           role="dialog"
           aria-modal="true"
           aria-labelledby="contact-modal-title"
+          onClick={() => setSelected(null)}
           className="fixed inset-0 z-50 flex items-center justify-center bg-foreground/40 p-6"
         >
-          <div className="w-full max-w-lg border-2 border-foreground bg-background">
+          <div
+            onClick={(e) => e.stopPropagation()}
+            className="w-full max-w-lg border-2 border-foreground bg-background"
+          >
             <div className="flex items-center justify-between border-b border-border px-8 py-5">
               <h2
                 id="contact-modal-title"
@@ -182,7 +202,7 @@ export function TildaContacts() {
                 type="button"
                 aria-label="Close contact card"
                 onClick={() => setSelected(null)}
-                className="p-1 text-muted hover:text-foreground cursor-pointer"
+                className="-mr-2 flex h-11 w-11 items-center justify-center text-muted hover:text-foreground cursor-pointer"
               >
                 <X className="h-5 w-5" />
               </button>
@@ -192,7 +212,7 @@ export function TildaContacts() {
               <button
                 type="button"
                 onClick={() => setSelected(null)}
-                className="text-xs font-semibold text-accent-strong hover:underline cursor-pointer"
+                className="inline-flex min-h-10 items-center text-xs font-semibold text-accent-strong hover:underline cursor-pointer"
               >
                 ← Go back to contacts
               </button>
@@ -208,11 +228,21 @@ export function TildaContacts() {
                   </p>
                   <p>
                     <span className="text-muted">Email:</span>{" "}
-                    <span className="font-mono text-xs text-foreground">{selected.email}</span>
+                    <a
+                      href={`mailto:${selected.email}`}
+                      className="font-mono text-xs text-foreground underline decoration-accent underline-offset-4 hover:text-accent-strong"
+                    >
+                      {selected.email}
+                    </a>
                   </p>
                   <p>
                     <span className="text-muted">Phone:</span>{" "}
-                    <span className="font-mono text-xs text-foreground">{selected.phone}</span>
+                    <a
+                      href={`tel:${selected.phone.replace(/\s+/g, "")}`}
+                      className="font-mono text-xs text-foreground underline decoration-accent underline-offset-4 hover:text-accent-strong"
+                    >
+                      {selected.phone}
+                    </a>
                   </p>
                   <p>
                     <span className="text-muted">Created:</span>{" "}

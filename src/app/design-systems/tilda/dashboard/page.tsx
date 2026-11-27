@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { TildaDashboard } from "@/components/systems/tilda/TildaDashboard";
+import { buildTildaMetadata } from "../_metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildTildaMetadata({
   title: "Tilda Analytics Dashboard",
   description:
     "Website and CRM statistics dashboard with KPI metric cards, timeframe tabs, dual-month date range picker, and bar chart.",
-  alternates: { canonical: "/design-systems/tilda/dashboard" },
-};
+  path: "/design-systems/tilda/dashboard",
+});
 
 export default function TildaDashboardPage() {
   return (

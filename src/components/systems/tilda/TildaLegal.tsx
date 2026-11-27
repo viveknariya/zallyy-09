@@ -41,7 +41,12 @@ export function TildaLegal({
           {contactEmail && (
             <p className="text-sm text-muted">
               Legal &amp; privacy questions:{" "}
-              <span className="font-mono text-accent-strong">{contactEmail}</span>
+              <a
+                href={`mailto:${contactEmail}`}
+                className="font-mono text-accent-strong hover:underline"
+              >
+                {contactEmail}
+              </a>
             </p>
           )}
         </div>

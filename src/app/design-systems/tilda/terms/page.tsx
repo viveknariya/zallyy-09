@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { TildaLegal } from "@/components/systems/tilda/TildaLegal";
+import { buildTildaMetadata } from "../_metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildTildaMetadata({
   title: "Tilda Terms & Conditions",
   description:
     "Editorial Terms of Service Agreement layout modeled after tilda.cc/terms.",
-  alternates: { canonical: "/design-systems/tilda/terms" },
-};
+  path: "/design-systems/tilda/terms",
+});
 
 const termsSections = [
   {

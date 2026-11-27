@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { TildaAccount } from "@/components/systems/tilda/TildaAccount";
+import { buildTildaMetadata } from "../_metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildTildaMetadata({
   title: "Tilda Profile & Referral Program",
   description:
     "Profile form, subscription status, and 3-step numbered referral program cards modeled after tilda.cc/identity.",
-  alternates: { canonical: "/design-systems/tilda/account" },
-};
+  path: "/design-systems/tilda/account",
+});
 
 export default function TildaAccountPage() {
   return (

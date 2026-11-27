@@ -1,13 +1,14 @@
-import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { TildaAuthCard } from "@/components/systems/tilda/TildaAuthCard";
+import { buildTildaMetadata } from "../_metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildTildaMetadata({
   title: "Tilda Sign Up Pattern",
   description:
     "Minimalist registration screen pattern modeled after tilda.cc/registration/.",
-  alternates: { canonical: "/design-systems/tilda/signup" },
-};
+  path: "/design-systems/tilda/signup",
+  noIndex: true,
+});
 
 export default function TildaSignUpPage() {
   return (

@@ -162,6 +162,7 @@ export function TildaSettings() {
                 <button
                   type="button"
                   role="switch"
+                  aria-label="Force HTTPS Redirect"
                   aria-checked={httpsRedirect}
                   onClick={() => setHttpsRedirect((v) => !v)}
                   className={`flex h-6 w-11 items-center rounded-full border border-foreground px-0.5 transition-colors cursor-pointer ${
@@ -184,6 +185,7 @@ export function TildaSettings() {
                 <button
                   type="button"
                   role="switch"
+                  aria-label="Cookie Consent Banner"
                   aria-checked={cookieBanner}
                   onClick={() => setCookieBanner((v) => !v)}
                   className={`flex h-6 w-11 items-center rounded-full border border-foreground px-0.5 transition-colors cursor-pointer ${

@@ -91,6 +91,8 @@ export function TildaComponentsShowcase() {
                 <button
                   key={num}
                   type="button"
+                  aria-label={`Page ${num}`}
+                  aria-current={page === num ? "page" : undefined}
                   onClick={() => setPage(num)}
                   className={`px-3.5 py-2 text-xs font-semibold transition-colors cursor-pointer ${
                     page === num
@@ -124,6 +126,7 @@ export function TildaComponentsShowcase() {
               <button
                 type="button"
                 role="switch"
+                aria-label="Enable SSL Redirect"
                 aria-checked={toggleOn}
                 onClick={() => setToggleOn((v) => !v)}
                 className={`flex h-6 w-11 items-center rounded-full border border-foreground px-0.5 transition-colors cursor-pointer ${

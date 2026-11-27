@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { TildaMediaKit } from "@/components/systems/tilda/TildaMediaKit";
+import { buildTildaMetadata } from "../_metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildTildaMetadata({
   title: "Tilda Media Kit",
   description:
     "Brand media kit with anchor navigation, logo specimens, typography rules, color tokens, and press contacts.",
-  alternates: { canonical: "/design-systems/tilda/media-kit" },
-};
+  path: "/design-systems/tilda/media-kit",
+});
 
 export default function TildaMediaKitPage() {
   return (

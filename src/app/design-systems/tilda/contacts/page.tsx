@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { TildaContacts } from "@/components/systems/tilda/TildaContacts";
+import { buildTildaMetadata } from "../_metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildTildaMetadata({
   title: "Tilda CRM Contacts",
   description:
     "CRM contacts table with stage tabs, live search, and crisp 2px framed Contact Card modal.",
-  alternates: { canonical: "/design-systems/tilda/contacts" },
-};
+  path: "/design-systems/tilda/contacts",
+});
 
 export default function TildaContactsPage() {
   return (

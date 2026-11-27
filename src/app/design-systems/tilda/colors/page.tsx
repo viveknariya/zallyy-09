@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { TildaColors } from "@/components/systems/tilda/TildaColors";
+import { buildTildaMetadata } from "../_metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildTildaMetadata({
   title: "Tilda Colors & Gradients",
   description:
     "Curated color palettes and CSS gradients inspired by tilda.cc/colors.",
-  alternates: { canonical: "/design-systems/tilda/colors" },
-};
+  path: "/design-systems/tilda/colors",
+});
 
 export default function TildaColorsPage() {
   return (

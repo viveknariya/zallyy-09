@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { TildaSetup } from "@/components/systems/tilda/TildaSetup";
+import { buildTildaMetadata } from "../_metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildTildaMetadata({
   title: "Tilda Account Setup & Onboarding",
   description:
     "Three-step workspace, subdomain, and template setup flow modeled after tilda.cc/identity.",
-  alternates: { canonical: "/design-systems/tilda/setup" },
-};
+  path: "/design-systems/tilda/setup",
+});
 
 export default function TildaSetupPage() {
   return (

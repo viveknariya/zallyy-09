@@ -1,13 +1,14 @@
-import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { TildaAuthCard } from "@/components/systems/tilda/TildaAuthCard";
+import { buildTildaMetadata } from "../_metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildTildaMetadata({
   title: "Tilda Reset Password Pattern",
   description:
     "Password recovery screen pattern modeled after tilda.cc/login/recover/.",
-  alternates: { canonical: "/design-systems/tilda/recover" },
-};
+  path: "/design-systems/tilda/recover",
+  noIndex: true,
+});
 
 export default function TildaRecoverPage() {
   return (

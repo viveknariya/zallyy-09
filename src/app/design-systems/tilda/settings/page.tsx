@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { TildaSettings } from "@/components/systems/tilda/TildaSettings";
+import { buildTildaMetadata } from "../_metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildTildaMetadata({
   title: "Tilda Site Settings Pattern",
   description:
     "Multi-tab site settings form (General, Fonts, Analytics, Payments, Privacy) modeled after tilda.cc/projects/settings.",
-  alternates: { canonical: "/design-systems/tilda/settings" },
-};
+  path: "/design-systems/tilda/settings",
+});
 
 export default function TildaSettingsPage() {
   return (

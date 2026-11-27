@@ -128,9 +128,12 @@ export function TildaMediaKit() {
           </h2>
           <p className="text-sm text-muted">
             For media inquiries and interviews, contact{" "}
-            <span className="font-mono text-foreground underline decoration-accent underline-offset-4">
+            <a
+              href="mailto:press@tilda.cc"
+              className="font-mono text-foreground underline decoration-accent underline-offset-4 hover:text-accent-strong"
+            >
               press@tilda.cc
-            </span>
+            </a>
             .
           </p>
         </section>

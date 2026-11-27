@@ -97,12 +97,12 @@ export function TildaDashboard() {
             </button>
 
             {calendarOpen && (
-              <div className="absolute right-0 top-12 z-30 w-full min-w-[320px] sm:w-[540px] border-2 border-foreground bg-background p-5">
+              <div className="absolute right-0 top-12 z-30 w-[min(calc(100vw-3rem),540px)] border-2 border-foreground bg-background p-5">
                 <div className="flex items-center justify-between border-b border-border pb-3">
                   <button
                     type="button"
                     aria-label="Previous month"
-                    className="flex h-7 w-7 items-center justify-center border border-border text-foreground hover:border-foreground cursor-pointer"
+                    className="flex h-9 w-9 items-center justify-center border border-border text-foreground hover:border-foreground cursor-pointer"
                   >
                     <ChevronLeft className="h-4 w-4" />
                   </button>
@@ -112,7 +112,7 @@ export function TildaDashboard() {
                   <button
                     type="button"
                     aria-label="Next month"
-                    className="flex h-7 w-7 items-center justify-center border border-border text-foreground hover:border-foreground cursor-pointer"
+                    className="flex h-9 w-9 items-center justify-center border border-border text-foreground hover:border-foreground cursor-pointer"
                   >
                     <ChevronRight className="h-4 w-4" />
                   </button>
@@ -153,7 +153,7 @@ export function TildaDashboard() {
                                   setSelectedEndDay(day);
                                 }
                               }}
-                              className={`mx-auto flex h-7 w-7 items-center justify-center transition-colors ${
+                              className={`mx-auto flex h-9 w-9 items-center justify-center transition-colors ${
                                 isOutside
                                   ? "text-muted/30"
                                   : isStart || isEnd

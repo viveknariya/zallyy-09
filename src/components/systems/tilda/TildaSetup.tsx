@@ -55,7 +55,7 @@ export function TildaSetup() {
         </div>
 
         {/* Step Indicator */}
-        <div className="grid grid-cols-3 border border-border bg-background divide-x divide-border">
+        <div className="grid grid-cols-1 border border-border bg-background divide-y divide-border sm:grid-cols-3 sm:divide-y-0 sm:divide-x">
           {[
             { num: 1, label: "Workspace" },
             { num: 2, label: "Template" },

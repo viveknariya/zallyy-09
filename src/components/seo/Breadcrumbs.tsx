@@ -35,7 +35,7 @@ export function Breadcrumbs({ items, className = "" }: BreadcrumbsProps) {
       />
       <nav
         aria-label="Breadcrumb"
-        className="mx-auto flex max-w-6xl items-center gap-2 px-6 py-3 text-xs text-muted"
+        className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-2 gap-y-1 px-6 py-3 text-xs text-muted"
       >
         {items.map((item, idx) => {
           const isLast = idx === items.length - 1;

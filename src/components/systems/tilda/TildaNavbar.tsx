@@ -60,25 +60,30 @@ export function TildaNavbar() {
           type="button"
           onClick={() => setOpen((prev) => !prev)}
           aria-label="Toggle navigation menu"
-          className="md:hidden p-2 text-foreground cursor-pointer"
+          aria-expanded={open}
+          aria-controls="tilda-mobile-menu"
+          className="md:hidden -mr-3 flex h-12 w-12 items-center justify-center text-foreground cursor-pointer"
         >
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>
       </div>
 
       {open && (
-        <div className="md:hidden border-t border-border bg-background px-6 py-5 flex flex-col gap-4">
+        <div
+          id="tilda-mobile-menu"
+          className="md:hidden border-t border-border bg-background px-6 py-4 flex flex-col gap-1"
+        >
           {navLinks.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               onClick={() => setOpen(false)}
-              className="text-xs font-semibold uppercase tracking-[0.14em] text-foreground"
+              className="py-2.5 text-xs font-semibold uppercase tracking-[0.14em] text-foreground"
             >
               {item.label}
             </Link>
           ))}
-          <div className="pt-3 border-t border-border flex items-center gap-3">
+          <div className="mt-2 pt-3 border-t border-border flex items-center gap-3">
             <Button href="/design-systems/tilda/login" variant="ghost" size="sm">
               Log In
             </Button>

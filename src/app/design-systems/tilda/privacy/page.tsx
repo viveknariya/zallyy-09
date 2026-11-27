@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { TildaLegal } from "@/components/systems/tilda/TildaLegal";
+import { buildTildaMetadata } from "../_metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildTildaMetadata({
   title: "Tilda Privacy Policy",
   description:
     "Clean editorial Privacy Policy document layout modeled after tilda.cc/privacy.",
-  alternates: { canonical: "/design-systems/tilda/privacy" },
-};
+  path: "/design-systems/tilda/privacy",
+});
 
 const privacySections = [
   {

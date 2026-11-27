@@ -84,17 +84,24 @@ function CompareCell({ value }: { value: string | boolean }) {
 /**
  * Pricing section and Compare Plans matrix modeled after tilda.cc/pricing and tilda.cc/pricing-compare.
  */
-export function TildaPricing({ showComparison = false }: { showComparison?: boolean }) {
+export function TildaPricing({
+  showComparison = false,
+  headingLevel = "h2",
+}: {
+  showComparison?: boolean;
+  headingLevel?: "h1" | "h2";
+}) {
   const [billing, setBilling] = useState("annual");
+  const HeadingTag = headingLevel;
 
   return (
     <section className="bg-background py-20">
       <div className="mx-auto max-w-6xl px-6 space-y-20">
         <div>
           <div className="text-center">
-            <h2 className="font-display text-4xl font-light tracking-tight text-foreground sm:text-5xl">
+            <HeadingTag className="font-display text-4xl font-light tracking-tight text-foreground sm:text-5xl">
               Pricing: Plans for everyone
-            </h2>
+            </HeadingTag>
             <div className="mt-8 flex justify-center">
               <Tabs items={billingTabs} activeId={billing} onChange={setBilling} />
             </div>
