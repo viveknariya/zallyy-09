@@ -1,4 +1,4 @@
-import { Calendar, Code2, CreditCard, Palette, Zap } from "lucide-react";
+import { Calendar, Code2, CreditCard, Palette, Sparkles, Zap } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
@@ -39,6 +39,8 @@ export function DirectoryIcon({ iconKey }: { iconKey: DirectorySystem["iconKey"]
       return <Calendar className="h-5 w-5" />;
     case "zap":
       return <Zap className="h-5 w-5" />;
+    case "sparkles":
+      return <Sparkles className="h-5 w-5" />;
   }
 }
 

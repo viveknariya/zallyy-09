@@ -143,7 +143,7 @@ export default function HomePage() {
                     Open Proof
                   </p>
                   <p className="mt-1 font-display text-lg font-medium text-foreground">
-                    5 Production UI Systems
+                    6 Production UI Systems
                   </p>
                 </div>
               </div>

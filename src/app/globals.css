@@ -89,6 +89,30 @@
   --brilliant-violet: #6d28d9;
 }
 
+/* Scoped theme tokens for /design-systems/fresha */
+[data-design-system="fresha"] {
+  --background: #ffffff;
+  --foreground: #0d0d0d;
+  --surface: #f2f2f2;
+  --surface-muted: #e5e5e5;
+  --border: #e5e5e5;
+  --border-strong: #d3d3d3;
+  --accent: #6950f3;
+  --accent-strong: #533ad4;
+  --accent-soft: #eeebff;
+  --muted: #767676;
+  --fresha-star: #ffc00a;
+  --fresha-lime: #c5ff00;
+  --fresha-rose: #ef6997;
+  --fresha-orchid: #e85cba;
+  --fresha-violet: #b84cdc;
+  --fresha-lavender: #d5d3ff;
+  --fresha-pink: #f9b6f8;
+  --fresha-ink-dark: #14151a;
+  --font-tilda-display: var(--font-tilda-sans);
+  font-family: var(--font-tilda-sans), system-ui, -apple-system, sans-serif;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

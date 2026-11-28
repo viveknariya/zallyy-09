@@ -10,7 +10,7 @@ export interface DirectorySystem {
   screensCount: number;
   routesCount: number;
   description: string;
-  iconKey: "palette" | "code" | "credit-card" | "calendar" | "zap";
+  iconKey: "palette" | "code" | "credit-card" | "calendar" | "zap" | "sparkles";
   badgeTone: "accent" | "dark" | "neutral";
   iconStyle: { background: string; colorClass: string };
 }
@@ -106,6 +106,20 @@ export const DIRECTORY_SYSTEMS: DirectorySystem[] = [
     badgeTone: "neutral",
     iconStyle: { background: "#2AB54B", colorClass: "text-white" },
   },
+  {
+    slug: "fresha",
+    name: "Fresha",
+    catalogTitle: "Fresha Design System",
+    domain: "fresha.com",
+    href: "/design-systems/fresha",
+    screensCount: 219,
+    routesCount: 25,
+    description:
+      "Beauty & wellness booking UI with luminous lavender/pink fields, search capsules, #6950F3 violet accents, and acid-lime business scenes.",
+    iconKey: "sparkles",
+    badgeTone: "neutral",
+    iconStyle: { background: "#6950F3", colorClass: "text-white" },
+  },
 ];
 
 export const DIRECTORY_SKILLS: DirectorySkill[] = [
@@ -196,5 +210,22 @@ export const DIRECTORY_SKILLS: DirectorySkill[] = [
     iconKey: "zap",
     badgeTone: "neutral",
     iconStyle: { background: "#2AB54B", colorClass: "text-white" },
+  },
+  {
+    id: "fresha-design-system",
+    name: "Fresha Design Skill",
+    systemSlug: "fresha",
+    detailHref: "/design-skills/fresha-design-system",
+    systemHref: "/design-systems/fresha",
+    componentsHref: "/design-systems/fresha/components",
+    repoUrl: `${SKILLS_REPO_BASE}/fresha-design-system`,
+    skillFileUrl: `${REPO_URL}/blob/main/.agents/skills/fresha-design-system/SKILL.md`,
+    localPath: ".agents/skills/fresha-design-system",
+    summary:
+      "Marketplace booking rules: luminous lavender/pink gradients, search capsules, 3:2 venue cards, #6950F3 accents, and 23 component specs.",
+    highlights: "SKILL.md · by-class · by-component",
+    iconKey: "sparkles",
+    badgeTone: "neutral",
+    iconStyle: { background: "#6950F3", colorClass: "text-white" },
   },
 ];
